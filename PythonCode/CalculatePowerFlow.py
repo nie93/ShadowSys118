@@ -153,7 +153,7 @@ BASE_VOLTAGE = 138000
 LOAD_BUS_NUM = [34, 36, 43, 44, 45]
 TRANSFORMER_TAP_RATIO_STEP = 0.007
 TRANSFORMER_BUS_NUM = [37, 38]
-GEN_BUS_NUM = [46]
+GEN_BUS_NUM = [46, 49]
 SHUNT_BUS_NUM = [34, 44]
 
 # endregion
@@ -181,10 +181,10 @@ if __name__ == '__main__':
     MainFolderPath = r"""C:\Users\niezj\Documents\dom\ShadowSys118"""
     CaseFileName = r"""IEEE_118_Bus.sav"""
     OutputsFileName = r"""Outputs.csv"""
-    LoadIncrementPercentage = float(135)
-    StateTxTapV = int(2)
-    StateSn1CapBkrV = int(1)
-    StateSn2CapBkrV = int(1)
+    LoadIncrementPercentage = float(0)
+    StateTxTapV = int(0)
+    StateSn1CapBkrV = int(0)
+    StateSn2CapBkrV = int(0)
     StateSn1BusBkrV = int(1)
     StateSn2BusBkrV = int(1)
 
@@ -233,35 +233,39 @@ if __name__ == '__main__':
         # Get the generator outputs
         Pgen = get_gen_active_power(GEN_BUS_NUM)
         Qgen = get_gen_reactive_power(GEN_BUS_NUM)
-        MeasGnMwV = Pgen[0]
-        MeasGnMvrV = Qgen[0]
+        MeasGn1MwV = Pgen[0]
+        MeasGn1MvrV = Qgen[0]
+        MeasGn2MwV = Pgen[1]
+        MeasGn2MvrV = Qgen[1]
 
         # endregion
 
         # region [ Create new line in Output.csv file ]
         # Get a Measurement frame
-        _meas = []
+        _frame = []
 
         # Save Configuration Values
-        _meas.append(StateTxTapV)       #0 -> PPA:
-        _meas.append(StateSn1CapBkrV)	#1 -> PPA:
-        _meas.append(StateSn2CapBkrV)	#2 -> PPA:
-        _meas.append(StateSn1BusBkrV)	#3 -> PPA:
-        _meas.append(StateSn2BusBkrV)	#4 -> PPA:
+        _frame.append(StateTxTapV)      #0 -> PPA:
+        _frame.append(StateSn1CapBkrV)	#1 -> PPA:
+        _frame.append(StateSn2CapBkrV)	#2 -> PPA:
+        _frame.append(StateSn1BusBkrV)	#3 -> PPA:
+        _frame.append(StateSn2BusBkrV)	#4 -> PPA:
 
         # Save Calculated Values
-        _meas.append(BASE_VOLTAGE * MeasTxVoltV[0])	#5 -> PPA:
-        _meas.append(BASE_VOLTAGE * MeasSn1VoltV)   #6 -> PPA:
-        _meas.append(BASE_VOLTAGE * MeasSn2VoltV)   #7 -> PPA:
-        _meas.append(MeasTxMwV)	    #8 -> PPA:
-        _meas.append(MeasTxMvrV)	#9 -> PPA:
-        _meas.append(MeasGnMwV)	    #10 -> PPA:
-        _meas.append(MeasGnMvrV)	#11 -> PPA:
+        _frame.append(BASE_VOLTAGE * MeasTxVoltV[0])	#5 -> PPA:
+        _frame.append(BASE_VOLTAGE * MeasSn1VoltV)   #6 -> PPA:
+        _frame.append(BASE_VOLTAGE * MeasSn2VoltV)   #7 -> PPA:
+        _frame.append(MeasTxMwV)	    #8 -> PPA:
+        _frame.append(MeasTxMvrV)	#9 -> PPA:
+        _frame.append(MeasGn1MwV)	#10 -> PPA:
+        _frame.append(MeasGn1MvrV)	#11 -> PPA:
+        _frame.append(MeasGn2MwV)	#10 -> PPA:
+        _frame.append(MeasGn2MvrV)	#11 -> PPA:
 
         # Save measurement values to Outputs.csv
         outputs_csvfile = open(OutputsFilePath, 'a')
         wcsv = csv.writer(outputs_csvfile, delimiter=',', lineterminator='\n')
-        wcsv.writerow(_meas)
+        wcsv.writerow(_frame)
         outputs_csvfile.close()
         # endregion
 
