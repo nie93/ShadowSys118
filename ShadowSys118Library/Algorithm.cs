@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Xml.Serialization;
@@ -140,50 +141,47 @@ namespace ShadowSys118
                 default:
                     break;
             }
-            
+
             #endregion
 
 
             #region [ Run Power Flow Calculation using PSS/E ]
             // Call Python script to run power flow calculation
             PythonScripts Python = new PythonScripts();
-            Python.RunPythonCmd(Path.Combine(PythonCodeFolderPath, "CalculatePowerFlow.py"),
-                                MainFolderPath,
-                                CaseFileName,
-                                CsvOutputsFileName,
-                                inputData.LoadIncrementPercentage,
-                                frame.ControlTransformers[0].TapV,
-                                frame.ControlCapacitorBanks[0].CapBkrV,
-                                frame.ControlCapacitorBanks[1].CapBkrV,
-                                frame.ControlCapacitorBanks[0].BusBkrV,
-                                frame.ControlCapacitorBanks[1].BusBkrV
-                                );
-
+            List<string> outputFrameList = new List<string>();
+            outputFrameList = Python.RunPythonCmd(Path.Combine(PythonCodeFolderPath, "CalculatePowerFlow.py"),
+                                                  MainFolderPath,
+                                                  CaseFileName,
+                                                  CsvOutputsFileName,
+                                                  inputData.LoadIncrementPercentage,
+                                                  frame.ControlTransformers[0].TapV,
+                                                  frame.ControlCapacitorBanks[0].CapBkrV,
+                                                  frame.ControlCapacitorBanks[1].CapBkrV,
+                                                  frame.ControlCapacitorBanks[0].BusBkrV,
+                                                  frame.ControlCapacitorBanks[1].BusBkrV);
+            
             frame.SerializeToXml(PrevSysConfigFrameFilePath);
 
             #endregion
 
-
-
             #region [ Output Calculated Values to Metadata ]
-            // Read Measurement Values from CSV file
-            CsvLineAdapter CsvLineReader = new CsvLineAdapter();
-            CsvLineReader.ReadCsvLastLine(CsvOutputsFilePath);            
-            output.OutputData.StateTxTapV = Convert.ToInt16(CsvLineReader.LineArray[0]);
-            output.OutputData.StateSn1CapBkrV = Convert.ToInt16(CsvLineReader.LineArray[1]);
-            output.OutputData.StateSn2CapBkrV = Convert.ToInt16(CsvLineReader.LineArray[2]);
-            output.OutputData.StateSn1BusBkrV = Convert.ToInt16(CsvLineReader.LineArray[3]);
-            output.OutputData.StateSn2BusBkrV = Convert.ToInt16(CsvLineReader.LineArray[4]);
-            output.OutputData.MeasTxVoltV = Convert.ToDouble(CsvLineReader.LineArray[5]);
-            output.OutputData.MeasSn1VoltV = Convert.ToDouble(CsvLineReader.LineArray[6]);
-            output.OutputData.MeasSn2VoltV = Convert.ToDouble(CsvLineReader.LineArray[7]);
-            output.OutputData.MeasTxMwV = Convert.ToDouble(CsvLineReader.LineArray[8]);
-            output.OutputData.MeasTxMvrV = Convert.ToDouble(CsvLineReader.LineArray[9]);
-            output.OutputData.MeasGn1MwV = Convert.ToDouble(CsvLineReader.LineArray[10]);
-            output.OutputData.MeasGn1MvrV = Convert.ToDouble(CsvLineReader.LineArray[11]);
-            output.OutputData.MeasGn2MwV = Convert.ToDouble(CsvLineReader.LineArray[12]);
-            output.OutputData.MeasGn2MvrV = Convert.ToDouble(CsvLineReader.LineArray[13]);
 
+            // Read Measurement Values from python outputs
+            output.OutputData.StateTxTapV = Convert.ToInt16(outputFrameList[0]);
+            output.OutputData.StateSn1CapBkrV = Convert.ToInt16(outputFrameList[1]);
+            output.OutputData.StateSn2CapBkrV = Convert.ToInt16(outputFrameList[2]);
+            output.OutputData.StateSn1BusBkrV = Convert.ToInt16(outputFrameList[3]);
+            output.OutputData.StateSn2BusBkrV = Convert.ToInt16(outputFrameList[4]);
+            output.OutputData.MeasTxVoltV = Convert.ToDouble(outputFrameList[5]);
+            output.OutputData.MeasSn1VoltV = Convert.ToDouble(outputFrameList[6]);
+            output.OutputData.MeasSn2VoltV = Convert.ToDouble(outputFrameList[7]);
+            output.OutputData.MeasTxMwV = Convert.ToDouble(outputFrameList[8]);
+            output.OutputData.MeasTxMvrV = Convert.ToDouble(outputFrameList[9]);
+            output.OutputData.MeasGn1MwV = Convert.ToDouble(outputFrameList[10]);
+            output.OutputData.MeasGn1MvrV = Convert.ToDouble(outputFrameList[11]);
+            output.OutputData.MeasGn2MwV = Convert.ToDouble(outputFrameList[12]);
+            output.OutputData.MeasGn2MvrV = Convert.ToDouble(outputFrameList[13]);
+            
             #endregion
 
 

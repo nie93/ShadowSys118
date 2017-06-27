@@ -11,7 +11,7 @@ namespace ShadowSys118.PythonScript
 {
     public class PythonScripts
     {
-        public void RunPythonCmd(string cmd, string mainfolderpath, string casename, string outfilename, double scal, int txtapv, int sn1capbkrv, int sn2capbkrv, int sn1busbkrv, int sn2busbkrv)
+        public List<string> RunPythonCmd(string cmd, string mainfolderpath, string casename, string outfilename, double scal, int txtapv, int sn1capbkrv, int sn2capbkrv, int sn1busbkrv, int sn2busbkrv)
         {
             ProcessStartInfo start = new ProcessStartInfo();
             start.FileName = @"C:\Python27\pythonw.exe";
@@ -23,8 +23,13 @@ namespace ShadowSys118.PythonScript
             {
                 using (StreamReader reader = process.StandardOutput)
                 {
-                    string result = reader.ReadToEnd();
-                    Console.Write(result);
+                    var list = new List<string>();
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        list.Add(line);
+                    }
+                    return list;
                 }
             }
         }        

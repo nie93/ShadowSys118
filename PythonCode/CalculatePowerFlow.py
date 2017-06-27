@@ -260,12 +260,16 @@ if __name__ == '__main__':
         _frame.append(MeasGn2MwV)	#10 -> PPA:60
         _frame.append(MeasGn2MvrV)	#11 -> PPA:61
 
-        # Save measurement values to Outputs.csv
-        outputs_csvfile = open(OutputsFilePath, 'a')
-        wcsv = csv.writer(outputs_csvfile, delimiter=',', lineterminator='\n')
-        wcsv.writerow(_frame)
-        outputs_csvfile.close()
+        return_argv = '\n'.join(map(str,_frame))
+        print(return_argv)
+
+        # # Save measurement values to Outputs.csv
+        # outputs_csvfile = open(OutputsFilePath, 'a')
+        # wcsv = csv.writer(outputs_csvfile, delimiter=',', lineterminator='\n')
+        # wcsv.writerow(_frame)
+        # outputs_csvfile.close()
         # endregion
+
 
     else:
         print("*** System collapsed, power flow solution not found. ***")

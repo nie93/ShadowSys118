@@ -558,3 +558,154 @@ ShadowSys118Service Initializing
 [6/27/2017 6:22:47 PM] [Signal Received] ActSn2Close
 
 
+[6/27/2017 19:22:14] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-27 23:22:14.417 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.6172 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[6/27/2017 19:22:16] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/27/2017 19:22:20] Attempting connection to tcp://localhost:6190...
+
+[6/27/2017 19:22:20] Attempting command channel connection to publisher...
+
+[6/27/2017 19:22:20] Connection established.
+
+[6/27/2017 19:22:20] Data subscriber command channel connection to publisher was established.
+
+[6/27/2017 19:22:20] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/27/2017 19:22:20] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 14.01 milliseconds...
+
+[6/27/2017 19:22:20] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/27/2017 19:23:27] [Signal Received] ActTxRaise
+
+
+[6/27/2017 19:23:30] [Signal Received] ActTxRaise
+
+
+[6/27/2017 19:23:33] [Signal Received] ActTxRaise
+
+
+[6/27/2017 19:23:36] [Signal Received] ActTxLower
+
+
+[6/27/2017 19:23:38] [Signal Received] ActTxLower
+
+
+[6/27/2017 19:23:40] [Signal Received] ActTxLower
+
+
+[6/27/2017 19:24:42] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-27 23:24:42.151 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.4102 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[6/27/2017 19:24:43] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/27/2017 19:24:43] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/27/2017 19:24:47] Attempting connection to tcp://localhost:6190...
+
+[6/27/2017 19:24:47] Attempting command channel connection to publisher...
+
+[6/27/2017 19:24:47] Connection established.
+
+[6/27/2017 19:24:47] Data subscriber command channel connection to publisher was established.
+
+[6/27/2017 19:24:47] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/27/2017 19:24:47] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 24.02 milliseconds...
+
+[6/27/2017 19:24:47] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/27/2017 19:26:01] [Signal Received] ActTxRaise
+
+
+[6/27/2017 19:26:04] [Signal Received] ActTxRaise
+
+
+[6/27/2017 19:26:07] [Signal Received] ActTxRaise
+
+
+[6/27/2017 19:26:11] [Signal Received] ActTxLower
+
+
+[6/27/2017 19:26:13] [Signal Received] ActTxLower
+
+
+[6/27/2017 19:26:15] [Signal Received] ActTxLower
+
+
+[6/27/2017 19:26:37] [Signal Received] ActSn1Close
+
+
+[6/27/2017 19:26:43] [Signal Received] ActSn1Trip
+
+
+[6/27/2017 19:26:51] [Signal Received] ActSn2Close
+
+
+[6/27/2017 19:26:56] [Signal Received] ActSn2Trip
+
+
+[6/27/2017 19:27:05] [Signal Received] ActSn1Close
+
+
+[6/27/2017 19:27:09] [Signal Received] ActSn2Close
+
+
