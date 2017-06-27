@@ -44,7 +44,19 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapters\CsvLineAdapter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PythonScript\PythonScripts.cs" />
+    <Compile Include="VcControlDevice\VcCapacitorBank.cs" />
+    <Compile Include="VcControlDevice\VcLtcStatus.cs" />
+    <Compile Include="VcControlDevice\VcSubstationAlarmDevice.cs" />
+    <Compile Include="VcControlDevice\VcSubstationInfomation.cs" />
+    <Compile Include="VcControlDevice\VcTransformer.cs" />
+    <Compile Include="VcControlDevice\VoltVarController.cs" />
+    <Compile Include="VcMessages\BellyUps.cs" />
+    <Compile Include="VcMessages\ProgLogMessages.cs" />
+    <Compile Include="VcSubRoutines\ReadCurrentControl.cs" />
+    <Compile Include="VcSubRoutines\SubRoutine.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ShadowSys118Library.ico" />

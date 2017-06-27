@@ -1,0 +1,7 @@
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\Model\UserDefinedTypes.ecaidl
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\Model\UserDefinedMappings.ecamap
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\ShadowSys118Library.dll
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\ShadowSys118Library.pdb
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118Library\obj\Debug\ShadowSys118Library.csprojResolveAssemblyReference.cache
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118Library\obj\Debug\ShadowSys118Library.dll
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118Library\obj\Debug\ShadowSys118Library.pdb

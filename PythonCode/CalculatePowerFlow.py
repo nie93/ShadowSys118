@@ -162,31 +162,29 @@ if __name__ == '__main__':
 
     # region [ C# Environment Inputs ]
 
-    # OperationMode = int(sys.argv[1])  # Operation Mode (0: STAT, 1: LVC, 2: SCAL)
-    # MainFolderPath = sys.argv[2]  # C:\Users\niezj\Documents\dom\ShadowSys
-    # CaseFileName = sys.argv[3]  # 2019SUM_2013Series_Updated_forLocalVoltageControl.sav
-    # OutputsFileName = sys.argv[4]  # Outputs.csv
-    # LoadIncrementPercentage = float(sys.argv[5])  # 21
-    # TapVTx4 = int(sys.argv[6])  # 0
-    # TapVTx5 = int(sys.argv[7])  # 0
-    # CapBkrVCap1 = int(sys.argv[8])  # 0
-    # CapBkrVCap2 = int(sys.argv[9])  # 0
-    # BusBkrVCap1 = int(sys.argv[10])  # 0
-    # BusBkrVCap2 = int(sys.argv[11])  # 0
+    MainFolderPath = sys.argv[1]   # C:\Users\niezj\Documents\dom\ShadowSys118\
+    CaseFileName = sys.argv[2]     # IEEE_118_Bus.sav
+    OutputsFileName = sys.argv[3]  # Outputs.csv
+    LoadIncrementPercentage = float(sys.argv[4])  # 21
+    StateTxTapV = int(sys.argv[5])      # 0
+    StateSn1CapBkrV = int(sys.argv[6])  # 0
+    StateSn2CapBkrV = int(sys.argv[7])  # 0
+    StateSn1BusBkrV = int(sys.argv[8])  # 0
+    StateSn2BusBkrV = int(sys.argv[9])  # 0
 
     # endregion
 
     # region [ Local Environment Testing ]
 
-    MainFolderPath = r"""C:\Users\niezj\Documents\dom\ShadowSys118"""
-    CaseFileName = r"""IEEE_118_Bus.sav"""
-    OutputsFileName = r"""Outputs.csv"""
-    LoadIncrementPercentage = float(0)
-    StateTxTapV = int(0)
-    StateSn1CapBkrV = int(0)
-    StateSn2CapBkrV = int(0)
-    StateSn1BusBkrV = int(1)
-    StateSn2BusBkrV = int(1)
+    # MainFolderPath = r"""C:\Users\niezj\Documents\dom\ShadowSys118"""
+    # CaseFileName = r"""IEEE_118_Bus.sav"""
+    # OutputsFileName = r"""Outputs.csv"""
+    # LoadIncrementPercentage = float(0)
+    # StateTxTapV = int(0)
+    # StateSn1CapBkrV = int(0)
+    # StateSn2CapBkrV = int(0)
+    # StateSn1BusBkrV = int(1)
+    # StateSn2BusBkrV = int(1)
 
     # endregion
 
@@ -245,22 +243,22 @@ if __name__ == '__main__':
         _frame = []
 
         # Save Configuration Values
-        _frame.append(StateTxTapV)      #0 -> PPA:
-        _frame.append(StateSn1CapBkrV)	#1 -> PPA:
-        _frame.append(StateSn2CapBkrV)	#2 -> PPA:
-        _frame.append(StateSn1BusBkrV)	#3 -> PPA:
-        _frame.append(StateSn2BusBkrV)	#4 -> PPA:
+        _frame.append(StateTxTapV)      #0 -> PPA:48
+        _frame.append(StateSn1CapBkrV)	#1 -> PPA:49
+        _frame.append(StateSn2CapBkrV)	#2 -> PPA:50
+        _frame.append(StateSn1BusBkrV)	#3 -> PPA:51
+        _frame.append(StateSn2BusBkrV)	#4 -> PPA:52
 
         # Save Calculated Values
-        _frame.append(BASE_VOLTAGE * MeasTxVoltV[0])	#5 -> PPA:
-        _frame.append(BASE_VOLTAGE * MeasSn1VoltV)   #6 -> PPA:
-        _frame.append(BASE_VOLTAGE * MeasSn2VoltV)   #7 -> PPA:
-        _frame.append(MeasTxMwV)	    #8 -> PPA:
-        _frame.append(MeasTxMvrV)	#9 -> PPA:
-        _frame.append(MeasGn1MwV)	#10 -> PPA:
-        _frame.append(MeasGn1MvrV)	#11 -> PPA:
-        _frame.append(MeasGn2MwV)	#10 -> PPA:
-        _frame.append(MeasGn2MvrV)	#11 -> PPA:
+        _frame.append(BASE_VOLTAGE * MeasTxVoltV[0]) #5 -> PPA:53
+        _frame.append(BASE_VOLTAGE * MeasSn1VoltV)   #6 -> PPA:54
+        _frame.append(BASE_VOLTAGE * MeasSn2VoltV)   #7 -> PPA:55
+        _frame.append(MeasTxMwV)	#8 -> PPA:56
+        _frame.append(MeasTxMvrV)	#9 -> PPA:57
+        _frame.append(MeasGn1MwV)	#10 -> PPA:58
+        _frame.append(MeasGn1MvrV)	#11 -> PPA:59
+        _frame.append(MeasGn2MwV)	#10 -> PPA:60
+        _frame.append(MeasGn2MvrV)	#11 -> PPA:61
 
         # Save measurement values to Outputs.csv
         outputs_csvfile = open(OutputsFilePath, 'a')

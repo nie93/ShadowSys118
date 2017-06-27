@@ -1,0 +1,3 @@
+LastStartTime=2017-06-27 18:50:01.290
+LastStopTime=2017-06-27 18:50:01.290
+LastRunningTime=2017-06-27 18:50:51.312

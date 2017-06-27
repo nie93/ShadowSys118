@@ -1,0 +1,10 @@
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\TestHarness\Model\UserDefinedTypes.ecaidl
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\TestHarness\Model\UserDefinedMappings.ecamap
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\TestHarness\ShadowSys118TestHarness.exe.config
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\TestHarness\ShadowSys118TestHarness.exe
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\TestHarness\ShadowSys118TestHarness.pdb
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118TestHarness\obj\Debug\ShadowSys118TestHarness.csprojResolveAssemblyReference.cache
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118TestHarness\obj\Debug\ShadowSys118.Properties.Resources.resources
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118TestHarness\obj\Debug\ShadowSys118TestHarness.csproj.GenerateResource.Cache
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118TestHarness\obj\Debug\ShadowSys118TestHarness.exe
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118TestHarness\obj\Debug\ShadowSys118TestHarness.pdb

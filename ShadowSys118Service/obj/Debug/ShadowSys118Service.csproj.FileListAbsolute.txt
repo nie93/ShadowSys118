@@ -1,0 +1,12 @@
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\Service\Model\UserDefinedTypes.ecaidl
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\Service\Model\UserDefinedMappings.ecamap
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\Service\ShadowSys118Service.exe.config
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\Service\ShadowSys118Service.exe
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\Service\ShadowSys118Service.pdb
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118Service\obj\Debug\ShadowSys118Service.csprojResolveAssemblyReference.cache
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118Service\obj\Debug\ShadowSys118Service.DebugHost.resources
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118Service\obj\Debug\ShadowSys118Service.Properties.Resources.resources
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118Service\obj\Debug\ShadowSys118Service.ServiceHost.resources
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118Service\obj\Debug\ShadowSys118Service.csproj.GenerateResource.Cache
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118Service\obj\Debug\ShadowSys118Service.exe
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118Service\obj\Debug\ShadowSys118Service.pdb

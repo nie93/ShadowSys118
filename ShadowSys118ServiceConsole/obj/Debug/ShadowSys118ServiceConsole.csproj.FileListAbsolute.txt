@@ -1,0 +1,8 @@
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\ServiceConsole\ShadowSys118ServiceConsole.exe.config
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\ServiceConsole\ShadowSys118ServiceConsole.exe
+C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\Debug\ServiceConsole\ShadowSys118ServiceConsole.pdb
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118ServiceConsole\obj\Debug\ShadowSys118ServiceConsole.csprojResolveAssemblyReference.cache
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118ServiceConsole\obj\Debug\ShadowSys118Service.ServiceClient.resources
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118ServiceConsole\obj\Debug\ShadowSys118ServiceConsole.csproj.GenerateResource.Cache
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118ServiceConsole\obj\Debug\ShadowSys118ServiceConsole.exe
+C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSys118ServiceConsole\obj\Debug\ShadowSys118ServiceConsole.pdb

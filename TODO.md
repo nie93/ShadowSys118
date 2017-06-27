@@ -3,6 +3,8 @@
 Zhijie Nie, 2017-06-27
 
 ## Program Development
+* (C#) Implement `VoltVarController` class to ShadowSys118
+
 
 
 ## Documentation
