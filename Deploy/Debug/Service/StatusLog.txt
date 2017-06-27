@@ -1,10 +1,10 @@
-[6/27/2017 14:50:01] 
+[6/27/2017 17:41:39] 
 
 *******************************************************************************
 
 ShadowSys118Service Initializing
 
-     System Time: 2017-06-27 18:50:01.476 UTC
+     System Time: 2017-06-27 21:41:39.916 UTC
 
     Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
 
@@ -14,7 +14,7 @@ ShadowSys118Service Initializing
 
     Product Name: Windows 8.1
 
-  Working Memory: 37.5234 MiB
+  Working Memory: 37.5312 MiB
 
   Execution Mode: 32-bit
 
@@ -28,104 +28,533 @@ ShadowSys118Service Initializing
 
 *******************************************************************************
 
-[6/27/2017 14:50:02] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+[6/27/2017 17:41:41] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
 
 
-[6/27/2017 14:50:06] Attempting connection to tcp://localhost:6190...
+[6/27/2017 17:41:45] Attempting connection to tcp://localhost:6190...
 
-[6/27/2017 14:50:06] Attempting command channel connection to publisher...
+[6/27/2017 17:41:45] Attempting command channel connection to publisher...
 
-[6/27/2017 14:50:06] Connection established.
+[6/27/2017 17:41:45] Connection established.
 
-[6/27/2017 14:50:06] Data subscriber command channel connection to publisher was established.
+[6/27/2017 17:41:45] Data subscriber command channel connection to publisher was established.
 
-[6/27/2017 14:50:06] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+[6/27/2017 17:41:45] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
 
-[6/27/2017 14:50:06] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 20.01 milliseconds...
+[6/27/2017 17:41:45] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 31.02 milliseconds...
 
-[6/27/2017 14:50:06] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+[6/27/2017 17:41:45] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
 
-[6/27/2017 14:50:32] Concentrator Status:
-     Data concentration is: Enabled
-    Total process run time: 29.94 seconds
-    Measurement wait delay: 3 seconds (lag time)
-     Local clock tolerance: 1 seconds (lead time)
-   Maximum time resolution: 0 ticks
-      Down-sampling method: LastReceived
-    Local clock time (UTC): 27-Jun-2017 18:50:32.672
-  Using clock as real-time: False
-      Local clock accuracy: -0.0030 second deviation from latest time
-     Ignore bad timestamps: False
-    Allow sorts by arrival: True
- Use preemptive publishing: True
-  Time reasonability check: Enabled
-  Process by received time: False
-     Received measurements: 552
-    Processed measurements: 552
-    Discarded measurements: 0
- Down-sampled measurements: 433
-    Published measurements: 45
-     Expected measurements: 0 (0 / frame)
-Last discarded measurement: <none>
-  Average publication time: 373.4866 milliseconds
-  Pre-lag-time publication: 0.0000%
- Down-sampling application: 78.4420%
- User function utilization: 74.6973% of available time used
-Published measurement loss: 0.0000%
-    Total sorts by arrival: 0
- Measurement time accuracy: 100.0000%
-   Missed sorts by timeout: 0
-      Loss due to timeouts: 0.0000%
-     Using precision timer: True
-       Wait handle timeout: 600 milliseconds
-   Wait handle expirations: 0
-    Total published frames: 45
-        Defined frame rate: 2 frames/sec, 5000000.00 ticks/frame
- Estimated mean frame rate: 1.67 frames/sec
-       Processing interval: 500.00 milliseconds
-     Timer reference count: 1 concentrator for the 2fps @ 500.00ms timer
-   Total frame rate timers: 1
-        Queued frame count: 7
-      Last published frame: 27-Jun-2017 18:50:29.000
-   Last sorted measurement: PPA:41
+[6/27/2017 17:45:15] Received notification from publisher that configuration has changed.
 
-Subscriber Status:
-         Subscription mode: Unsynchronized
-             Authenticated: False
-                Subscribed: True
-             Security mode: None
-         Compression modes: None
-      Data monitor enabled: True
-              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
-No data reconnect interval: 10.000 seconds
-    Data gap recovery mode: Disabled
+[6/27/2017 17:50:02] 
 
-              Command Channel Status              
-              ----------------------              
-              Client state: Connected
-           Connection time: 26 seconds
-            Receive buffer: 32768
-        Transport protocol: Tcp
-        Text encoding used: US-ASCII
-           Queued payloads: 0
-       Data source defined: False
-    Initialization timeout: 15,000 milliseconds
-       Adapter initialized: True
-         Operational state: Running
-         Connect on demand: False
-    Processed measurements: 552
-    Total adapter run time: 29.92 seconds
-       Temporal processing: Unsupported
-   Item reporting interval: Every 100,000 items
-                Adapter ID: 0
-         Connection string: 2 key/value pairs
+*******************************************************************************
 
-                   Server = localhost:6190                                    
-                Interface = 0.0.0.0                                           
+ShadowSys118Service Initializing
 
-    Connection established: True
-   Asynchronous connection: True
+     System Time: 2017-06-27 21:50:02.121 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.6172 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[6/27/2017 17:50:03] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
 
 
+[6/27/2017 17:50:03] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/27/2017 17:50:07] Attempting connection to tcp://localhost:6190...
+
+[6/27/2017 17:50:07] Attempting command channel connection to publisher...
+
+[6/27/2017 17:50:07] Connection established.
+
+[6/27/2017 17:50:07] Data subscriber command channel connection to publisher was established.
+
+[6/27/2017 17:50:07] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/27/2017 17:50:07] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 10.01 milliseconds...
+
+[6/27/2017 17:50:07] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/27/2017 17:50:20] Remote client disconnected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/27/2017 17:50:46] [Signal Received] ActTxRaise
+
+
+[6/27/2017 17:50:48] [Signal Received] ActTxRaise
+
+
+[6/27/2017 17:50:51] [Signal Received] ActTxRaise
+
+
+[6/27/2017 17:50:54] [Signal Received] ActTxLower
+
+
+[6/27/2017 17:50:56] [Signal Received] ActTxLower
+
+
+[6/27/2017 17:50:59] [Signal Received] ActTxLower
+
+
+[6/27/2017 17:53:58] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-27 21:53:58.731 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.6445 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[6/27/2017 17:54:00] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/27/2017 17:54:00] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/27/2017 17:54:03] Remote client disconnected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/27/2017 17:54:04] Attempting connection to tcp://localhost:6190...
+
+[6/27/2017 17:54:04] Attempting command channel connection to publisher...
+
+[6/27/2017 17:54:04] Connection established.
+
+[6/27/2017 17:54:04] Data subscriber command channel connection to publisher was established.
+
+[6/27/2017 17:54:04] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/27/2017 17:54:04] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 14.01 milliseconds...
+
+[6/27/2017 17:54:04] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/27/2017 17:54:09] [Signal Received] ActSn2Close
+
+
+[6/27/2017 17:54:14] [Signal Received] ActSn2Trip
+
+
+[6/27/2017 17:54:24] [Signal Received] ActSn1Close
+
+
+[6/27/2017 17:54:28] [Signal Received] ActSn2Close
+
+
+[6/27/2017 17:54:39] [Signal Received] ActSn1Trip
+
+
+[6/27/2017 17:54:39] [Signal Received] ActSn2Trip
+
+
+[6/27/2017 17:55:54] [Signal Received] ActTxRaise
+
+
+[6/27/2017 17:55:57] [Signal Received] ActTxRaise
+
+
+[6/27/2017 17:56:00] [Signal Received] ActTxRaise
+
+
+[6/27/2017 17:56:04] [Signal Received] ActTxLower
+
+
+[6/27/2017 17:56:05] [Signal Received] ActTxLower
+
+
+[6/27/2017 17:56:07] [Signal Received] ActTxLower
+
+
+[6/27/2017 17:59:36] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-27 21:59:36.931 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.7656 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[6/27/2017 17:59:38] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/27/2017 17:59:42] Attempting connection to tcp://localhost:6190...
+
+[6/27/2017 17:59:42] Attempting command channel connection to publisher...
+
+[6/27/2017 17:59:42] Connection established.
+
+[6/27/2017 17:59:42] Data subscriber command channel connection to publisher was established.
+
+[6/27/2017 17:59:42] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/27/2017 17:59:42] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 32 milliseconds...
+
+[6/27/2017 17:59:42] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/27/2017 17:59:49] [Signal Received] ActSn1Trip
+
+
+[6/27/2017 17:59:49] [Signal Received] ActSn2Trip
+
+
+[6/27/2017 18:00:53] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-27 22:00:53.289 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.6211 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[6/27/2017 18:00:54] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/27/2017 18:00:58] Attempting connection to tcp://localhost:6190...
+
+[6/27/2017 18:00:58] Attempting command channel connection to publisher...
+
+[6/27/2017 18:00:58] Connection established.
+
+[6/27/2017 18:00:58] Data subscriber command channel connection to publisher was established.
+
+[6/27/2017 18:00:58] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/27/2017 18:00:59] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 80.06 milliseconds...
+
+[6/27/2017 18:00:59] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/27/2017 18:01:03] [Signal Received] ActTxRaise
+
+
+[6/27/2017 18:01:06] [Signal Received] ActTxRaise
+
+
+[6/27/2017 18:01:09] [Signal Received] ActTxRaise
+
+
+[6/27/2017 18:01:12] [Signal Received] ActTxLower
+
+
+[6/27/2017 18:01:14] [Signal Received] ActTxLower
+
+
+[6/27/2017 18:01:16] [Signal Received] ActTxLower
+
+
+[6/27/2017 18:01:38] [Signal Received] ActSn1Close
+
+
+[6/27/2017 18:01:45] [Signal Received] ActSn1Trip
+
+
+[6/27/2017 18:01:53] [Signal Received] ActSn2Close
+
+
+[6/27/2017 18:01:58] [Signal Received] ActSn2Trip
+
+
+[6/27/2017 18:02:07] [Signal Received] ActSn1Close
+
+
+[6/27/2017 18:02:11] [Signal Received] ActSn2Close
+
+
+[6/27/2017 18:02:22] [Signal Received] ActSn1Trip
+
+
+[6/27/2017 18:02:22] [Signal Received] ActSn2Trip
+
+
+[6/27/2017 6:13:39 PM] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-27 22:13:39.604 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 31.9023 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: WORKGROUP\SYSTEM
+
+*******************************************************************************
+
+[6/27/2017 6:13:40 PM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+
+
+[6/27/2017 6:13:43 PM] Attempting connection to tcp://localhost:6190...
+
+[6/27/2017 6:13:43 PM] Attempting command channel connection to publisher...
+
+[6/27/2017 6:13:43 PM] Connection established.
+
+[6/27/2017 6:13:43 PM] Data subscriber command channel connection to publisher was established.
+
+[6/27/2017 6:13:44 PM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/27/2017 6:13:44 PM] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 19.01 milliseconds...
+
+[6/27/2017 6:13:44 PM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/27/2017 6:13:56 PM] [Signal Received] ActTxRaise
+
+
+[6/27/2017 6:13:59 PM] [Signal Received] ActTxRaise
+
+
+[6/27/2017 6:14:02 PM] [Signal Received] ActTxRaise
+
+
+[6/27/2017 6:14:05 PM] [Signal Received] ActTxLower
+
+
+[6/27/2017 6:14:07 PM] [Signal Received] ActTxLower
+
+
+[6/27/2017 6:14:09 PM] [Signal Received] ActTxLower
+
+
+[6/27/2017 6:14:31 PM] [Signal Received] ActSn1Close
+
+
+[6/27/2017 6:14:37 PM] [Signal Received] ActSn1Trip
+
+
+[6/27/2017 6:14:45 PM] [Signal Received] ActSn2Close
+
+
+[6/27/2017 6:14:51 PM] [Signal Received] ActSn2Trip
+
+
+[6/27/2017 6:14:59 PM] [Signal Received] ActSn1Close
+
+
+[6/27/2017 6:15:04 PM] [Signal Received] ActSn2Close
+
+
+[6/27/2017 6:15:15 PM] [Signal Received] ActSn1Trip
+
+
+[6/27/2017 6:15:15 PM] [Signal Received] ActSn2Trip
+
+
+[6/27/2017 6:16:30 PM] [Signal Received] ActTxRaise
+
+
+[6/27/2017 6:16:33 PM] [Signal Received] ActTxRaise
+
+
+[6/27/2017 6:16:36 PM] [Signal Received] ActTxRaise
+
+
+[6/27/2017 6:16:39 PM] [Signal Received] ActTxLower
+
+
+[6/27/2017 6:16:42 PM] [Signal Received] ActTxLower
+
+
+[6/27/2017 6:16:43 PM] [Signal Received] ActTxLower
+
+
+[6/27/2017 6:17:05 PM] [Signal Received] ActSn1Close
+
+
+[6/27/2017 6:17:12 PM] [Signal Received] ActSn1Trip
+
+
+[6/27/2017 6:17:20 PM] [Signal Received] ActSn2Close
+
+
+[6/27/2017 6:17:25 PM] [Signal Received] ActSn2Trip
+
+
+[6/27/2017 6:17:34 PM] [Signal Received] ActSn1Close
+
+
+[6/27/2017 6:17:38 PM] [Signal Received] ActSn2Close
+
+
+[6/27/2017 6:17:50 PM] [Signal Received] ActSn1Trip
+
+
+[6/27/2017 6:17:50 PM] [Signal Received] ActSn2Trip
+
+
+[6/27/2017 6:19:05 PM] [Signal Received] ActTxRaise
+
+
+[6/27/2017 6:19:08 PM] [Signal Received] ActTxRaise
+
+
+[6/27/2017 6:19:11 PM] [Signal Received] ActTxRaise
+
+
+[6/27/2017 6:19:14 PM] [Signal Received] ActTxLower
+
+
+[6/27/2017 6:19:16 PM] [Signal Received] ActTxLower
+
+
+[6/27/2017 6:19:18 PM] [Signal Received] ActTxLower
+
+
+[6/27/2017 6:19:40 PM] [Signal Received] ActSn1Close
+
+
+[6/27/2017 6:19:46 PM] [Signal Received] ActSn1Trip
+
+
+[6/27/2017 6:19:55 PM] [Signal Received] ActSn2Close
+
+
+[6/27/2017 6:19:59 PM] [Signal Received] ActSn2Trip
+
+
+[6/27/2017 6:20:09 PM] [Signal Received] ActSn1Close
+
+
+[6/27/2017 6:20:13 PM] [Signal Received] ActSn2Close
+
+
+[6/27/2017 6:20:24 PM] [Signal Received] ActSn1Trip
+
+
+[6/27/2017 6:20:24 PM] [Signal Received] ActSn2Trip
+
+
+[6/27/2017 6:21:39 PM] [Signal Received] ActTxRaise
+
+
+[6/27/2017 6:21:42 PM] [Signal Received] ActTxRaise
+
+
+[6/27/2017 6:21:45 PM] [Signal Received] ActTxRaise
+
+
+[6/27/2017 6:21:48 PM] [Signal Received] ActTxLower
+
+
+[6/27/2017 6:21:50 PM] [Signal Received] ActTxLower
+
+
+[6/27/2017 6:21:52 PM] [Signal Received] ActTxLower
+
+
+[6/27/2017 6:22:14 PM] [Signal Received] ActSn1Close
+
+
+[6/27/2017 6:22:21 PM] [Signal Received] ActSn1Trip
+
+
+[6/27/2017 6:22:29 PM] [Signal Received] ActSn2Close
+
+
+[6/27/2017 6:22:34 PM] [Signal Received] ActSn2Trip
+
+
+[6/27/2017 6:22:43 PM] [Signal Received] ActSn1Close
+
+
+[6/27/2017 6:22:47 PM] [Signal Received] ActSn2Close
 
 

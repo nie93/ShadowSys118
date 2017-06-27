@@ -49,52 +49,98 @@ namespace ShadowSys118
 
             string CaseFileName = "IEEE_118_Bus.sav";
             string CsvOutputsFileName = "Outputs.csv";
-            //string ConfigurationFileName = "Configurations.xml";
-            //string CtrlDecisionFrameFileName = "ctrl_SysConfigFrame.xml";
-            //string InitSysConfigFrameFileName = "init_SysConfigFrame.xml";
-            //string PrevSysConfigFrameFileName = "prev_SysConfigFrame.xml";
+            string ConfigurationFileName = "Configurations.xml";
+            string CtrlDecisionFrameFileName = "ctrl_SysConfigFrame.xml";
+            string InitSysConfigFrameFileName = "init_SysConfigFrame.xml";
+            string PrevSysConfigFrameFileName = "prev_SysConfigFrame.xml";
 
             string CaseFilePath = Path.Combine(PythonCodeFolderPath, CaseFileName);
             string CsvOutputsFilePath = Path.Combine(LogFolderPath, CsvOutputsFileName);
-            //string ConfigurationFilePath = Path.Combine(ConfigurationFolderPath, ConfigurationFileName);
-            //string CtrlDecisionFrameFilePath = Path.Combine(ConfigurationFolderPath, CtrlDecisionFrameFileName);
-            //string InitSysConfigFrameFilePath = Path.Combine(ConfigurationFolderPath, InitSysConfigFrameFileName);
-            //string PrevSysConfigFrameFilePath = Path.Combine(ConfigurationFolderPath, PrevSysConfigFrameFileName);
+            string ConfigurationFilePath = Path.Combine(ConfigurationFolderPath, ConfigurationFileName);
+            string CtrlDecisionFrameFilePath = Path.Combine(ConfigurationFolderPath, CtrlDecisionFrameFileName);
+            string InitSysConfigFrameFilePath = Path.Combine(ConfigurationFolderPath, InitSysConfigFrameFileName);
+            string PrevSysConfigFrameFilePath = Path.Combine(ConfigurationFolderPath, PrevSysConfigFrameFileName);
             #endregion
 
-            #region [ NOT IMPLEMENTED YET: Update Configurations of Controlled Devices ]
+            #region [ Update Configurations of Controlled Devices ]
+
 
             VoltVarController frame = new VoltVarController();
 
-            //// Read System Configuration from XML file
-            //if (File.Exists(CtrlDecisionFrameFilePath))
-            //{
-            //    frame = VoltVarController.DeserializeFromXml(CtrlDecisionFrameFilePath);
-            //}
-            //else
-            //{
-            //    if (File.Exists(PrevSysConfigFrameFilePath))
-            //    {
-            //        frame = VoltVarController.DeserializeFromXml(PrevSysConfigFrameFilePath);
-            //    }
-            //    else
-            //    {
-            //        frame = VoltVarController.DeserializeFromXml(InitSysConfigFrameFilePath);
-            //    }
-            //}
-
-            //frame.SerializeToXml(PrevSysConfigFrameFilePath);
+            // Read System Configuration from XML file
+            if (File.Exists(PrevSysConfigFrameFilePath))
+            {
+                frame = VoltVarController.DeserializeFromXml(PrevSysConfigFrameFilePath);
+            }
+            else
+            {
+                frame = VoltVarController.DeserializeFromXml(InitSysConfigFrameFilePath);
+            }
 
             #endregion
 
             #region [ PSEUDO: Update Configurations of Controlled Devices ]
 
-            output.OutputData.StateTxTapV = 0;
-            output.OutputData.StateSn1CapBkrV = 0;
-            output.OutputData.StateSn2CapBkrV = 0;
-            output.OutputData.StateSn1BusBkrV = 1;
-            output.OutputData.StateSn2BusBkrV = 1;
+            switch (inputData.ActTxRaise)
+            {
+                case 1:
+                    MainWindow.WriteMessage($"[Signal Received] ActTxRaise");
+                    frame.ControlTransformers[0].TapV += 1;
+                    break;
+                default:
+                    break;
+            }
 
+            switch (inputData.ActTxLower)
+            {
+                case 1:
+                    MainWindow.WriteMessage($"[Signal Received] ActTxLower");
+                    frame.ControlTransformers[0].TapV += -1;
+                    break;
+                default:
+                    break;
+            }
+
+            switch (inputData.ActSn1Close)
+            {
+                case 1:
+                    MainWindow.WriteMessage($"[Signal Received] ActSn1Close");
+                    frame.ControlCapacitorBanks[0].CapBkrV = 1;
+                    break;
+                default:
+                    break;
+            }
+
+            switch (inputData.ActSn1Trip)
+            {
+                case 1:
+                    MainWindow.WriteMessage($"[Signal Received] ActSn1Trip");
+                    frame.ControlCapacitorBanks[0].CapBkrV = 0;
+                    break;
+                default:
+                    break;
+            }
+
+            switch (inputData.ActSn2Close)
+            {
+                case 1:
+                    MainWindow.WriteMessage($"[Signal Received] ActSn2Close");
+                    frame.ControlCapacitorBanks[1].CapBkrV = 1;
+                    break;
+                default:
+                    break;
+            }
+
+            switch (inputData.ActSn2Trip)
+            {
+                case 1:
+                    MainWindow.WriteMessage($"[Signal Received] ActSn2Trip");
+                    frame.ControlCapacitorBanks[1].CapBkrV = 0;
+                    break;
+                default:
+                    break;
+            }
+            
             #endregion
 
 
@@ -106,12 +152,14 @@ namespace ShadowSys118
                                 CaseFileName,
                                 CsvOutputsFileName,
                                 inputData.LoadIncrementPercentage,
-                                output.OutputData.StateTxTapV,     //frame.ControlTransformers[0].TapV,
-                                output.OutputData.StateSn1CapBkrV, //frame.ControlTransformers[1].TapV,
-                                output.OutputData.StateSn2CapBkrV, //frame.ControlCapacitorBanks[0].CapBkrV,
-                                output.OutputData.StateSn1BusBkrV, //frame.ControlCapacitorBanks[1].CapBkrV,
-                                output.OutputData.StateSn2BusBkrV  //frame.ControlCapacitorBanks[0].BusBkrV,                                                                  
+                                frame.ControlTransformers[0].TapV,
+                                frame.ControlCapacitorBanks[0].CapBkrV,
+                                frame.ControlCapacitorBanks[1].CapBkrV,
+                                frame.ControlCapacitorBanks[0].BusBkrV,
+                                frame.ControlCapacitorBanks[1].BusBkrV
                                 );
+
+            frame.SerializeToXml(PrevSysConfigFrameFilePath);
 
             #endregion
 
@@ -120,7 +168,7 @@ namespace ShadowSys118
             #region [ Output Calculated Values to Metadata ]
             // Read Measurement Values from CSV file
             CsvLineAdapter CsvLineReader = new CsvLineAdapter();
-            CsvLineReader.ReadCsvLastLine(CsvOutputsFilePath);
+            CsvLineReader.ReadCsvLastLine(CsvOutputsFilePath);            
             output.OutputData.StateTxTapV = Convert.ToInt16(CsvLineReader.LineArray[0]);
             output.OutputData.StateSn1CapBkrV = Convert.ToInt16(CsvLineReader.LineArray[1]);
             output.OutputData.StateSn2CapBkrV = Convert.ToInt16(CsvLineReader.LineArray[2]);
@@ -145,12 +193,12 @@ namespace ShadowSys118
                 // You can also write messages to the main window:
 
                 #region [ Write Xml Log File ]
-                //if (EnableXmlFileLog)
-                //{
-                //    string ConfigFrameXMLLogFileName = $"Log_SysConfigFrame_{DateTime.UtcNow:yyMMdd_HHmmss}.xml";
-                //    string ConfigFrameXMLLogFilePath = Path.Combine(LogFolderPath, ConfigFrameXMLLogFileName);
-                //    frame.SerializeToXml(ConfigFrameXMLLogFilePath);
-                //}
+                if (EnableXmlFileLog)
+                {
+                    string ConfigFrameXMLLogFileName = $"Log_SysConfigFrame_{DateTime.UtcNow:yyMMdd_HHmmss}.xml";
+                    string ConfigFrameXMLLogFilePath = Path.Combine(LogFolderPath, ConfigFrameXMLLogFileName);
+                    frame.SerializeToXml(ConfigFrameXMLLogFilePath);
+                }
                 #endregion
 
                 #region [ Write openECA Client Windows Message ]
