@@ -24,7 +24,7 @@
       <add name="ConnectionString" value="server=localhost:6190; interface=0.0.0.0"
         description="Connection string used by algorithm to connect to openECA data source."
         encrypted="false" />
-      <add name="FramesPerSecond" value="2" description="Data rate, in frames per second, expected by algorithm."
+      <add name="FramesPerSecond" value="1" description="Data rate, in frames per second, expected by algorithm."
         encrypted="false" />
       <add name="LagTime" value="3" description="Maximum past-time deviation tolerance, in seconds (can be sub-second), that the algorithm will tolerate."
         encrypted="false" />

@@ -28,7 +28,7 @@ namespace ShadowSys118
             SystemSettings.InputMapping = "SS118Data_InputMapping";
             SystemSettings.OutputMapping = "SS118Data_OutputMapping";
             SystemSettings.ConnectionString = @"server=localhost:6190; interface=0.0.0.0";
-            SystemSettings.FramesPerSecond = 2;
+            SystemSettings.FramesPerSecond = 1;
             SystemSettings.LagTime = 3;
             SystemSettings.LeadTime = 1;
         }
@@ -64,7 +64,6 @@ namespace ShadowSys118
             #endregion
 
             #region [ Update Configurations of Controlled Devices ]
-
 
             VoltVarController frame = new VoltVarController();
 
@@ -203,25 +202,33 @@ namespace ShadowSys118
                 if (EnableMainWindowMessageDisplay)
                 {
                     StringBuilder _message = new StringBuilder();
-                    _message.Append($"\n ================ ShadowSys Analytics ================");
-                    _message.Append($"\n                 Run Time:  {DateTime.Now:yyyy-MM-dd HH:mm:ss.fff}");
-                    _message.Append($"\n  LoadIncrementPercentage:  {inputData.LoadIncrementPercentage:0.0000} %");
-                    _message.Append($"\n -----------------------------------------------------");
-                    _message.Append($"\n              StateTxTapV:  {output.OutputData.StateTxTapV}");
-                    _message.Append($"\n          StateSn1CapBkrV:  {output.OutputData.StateSn1CapBkrV}");
-                    _message.Append($"\n          StateSn2CapBkrV:  {output.OutputData.StateSn2CapBkrV}");
-                    _message.Append($"\n          StateSn1BusBkrV:  {output.OutputData.StateSn1BusBkrV}");
-                    _message.Append($"\n          StateSn2BusBkrV:  {output.OutputData.StateSn2BusBkrV}");
-                    _message.Append($"\n              MeasTxVoltV:  {output.OutputData.MeasTxVoltV:0.000} Volts");
-                    _message.Append($"\n             MeasSn1VoltV:  {output.OutputData.MeasSn1VoltV:0.000} Volts");
-                    _message.Append($"\n             MeasSn2VoltV:  {output.OutputData.MeasSn2VoltV:0.000} Volts");
-                    _message.Append($"\n                MeasTxMwV:  {output.OutputData.MeasTxMwV:0.000} MW");
-                    _message.Append($"\n               MeasTxMvrV:  {output.OutputData.MeasTxMvrV:0.000} MVar");
-                    _message.Append($"\n               MeasGn1MwV:  {output.OutputData.MeasGn1MwV:0.000} MW");
-                    _message.Append($"\n              MeasGn1MvrV:  {output.OutputData.MeasGn1MvrV:0.000} MVar");
-                    _message.Append($"\n               MeasGn2MwV:  {output.OutputData.MeasGn2MwV:0.000} MW");
-                    _message.Append($"\n              MeasGn2MvrV:  {output.OutputData.MeasGn2MvrV:0.000} MVar");
-                    _message.Append($"\n =====================================================");
+                    _message.AppendLine($" ================ ShadowSys Analytics ================");
+                    _message.AppendLine($"                 Run Time:  {DateTime.Now:yyyy-MM-dd HH:mm:ss.fff}");
+                    _message.AppendLine($"  LoadIncrementPercentage:  {inputData.LoadIncrementPercentage:0.0000} %");
+                    _message.AppendLine($" ------------------- ActionChannel ------------------- ");
+                    _message.AppendLine($"               ActTxRaise:  {inputData.ActTxRaise}");
+                    _message.AppendLine($"               ActTxLower:  {inputData.ActTxLower}");
+                    _message.AppendLine($"              ActSn1Close:  {inputData.ActSn1Close}");
+                    _message.AppendLine($"               ActSn1Trip:  {inputData.ActSn1Trip}");
+                    _message.AppendLine($"              ActSn2Close:  {inputData.ActSn2Close}");
+                    _message.AppendLine($"               ActSn2Trip:  {inputData.ActSn2Trip}");
+                    _message.AppendLine($" ---------------- MeasurementChannel ----------------- ");
+                    _message.AppendLine($"              MeasTxVoltV:  {output.OutputData.MeasTxVoltV:0.000} Volts");
+                    _message.AppendLine($"             MeasSn1VoltV:  {output.OutputData.MeasSn1VoltV:0.000} Volts");
+                    _message.AppendLine($"             MeasSn2VoltV:  {output.OutputData.MeasSn2VoltV:0.000} Volts");
+                    _message.AppendLine($"                MeasTxMwV:  {output.OutputData.MeasTxMwV:0.000} MW");
+                    _message.AppendLine($"               MeasTxMvrV:  {output.OutputData.MeasTxMvrV:0.000} MVar");
+                    _message.AppendLine($"               MeasGn1MwV:  {output.OutputData.MeasGn1MwV:0.000} MW");
+                    _message.AppendLine($"              MeasGn1MvrV:  {output.OutputData.MeasGn1MvrV:0.000} MVar");
+                    _message.AppendLine($"               MeasGn2MwV:  {output.OutputData.MeasGn2MwV:0.000} MW");
+                    _message.AppendLine($"              MeasGn2MvrV:  {output.OutputData.MeasGn2MvrV:0.000} MVar");
+                    _message.AppendLine($" ------------------- StateChannel -------------------- ");
+                    _message.AppendLine($"              StateTxTapV:  {output.OutputData.StateTxTapV}");
+                    _message.AppendLine($"          StateSn1CapBkrV:  {output.OutputData.StateSn1CapBkrV}");
+                    _message.AppendLine($"          StateSn2CapBkrV:  {output.OutputData.StateSn2CapBkrV}");
+                    _message.AppendLine($"          StateSn1BusBkrV:  {output.OutputData.StateSn1BusBkrV}");
+                    _message.AppendLine($"          StateSn2BusBkrV:  {output.OutputData.StateSn2BusBkrV}");
+                    _message.AppendLine($" =====================================================");
                     MainWindow.WriteMessage(_message.ToString());
                 }
 
