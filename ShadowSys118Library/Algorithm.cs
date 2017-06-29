@@ -42,6 +42,7 @@ namespace ShadowSys118
             const bool EnableMainWindowMessageDisplay = false;
 
             string MainFolderPath = (@"C:\Users\niezj\Documents\dom\ShadowSys118\");
+            string ActionChannelFolderPath = Path.Combine(MainFolderPath, @"ActionChannel");
             string DataFolderPath = Path.Combine(MainFolderPath, @"Data");
             string LogFolderPath = Path.Combine(MainFolderPath, @"Log");
             string ConfigurationFolderPath = Path.Combine(MainFolderPath, @"ShadowSysConfiguration");
@@ -51,14 +52,12 @@ namespace ShadowSys118
             string CaseFileName = "IEEE_118_Bus.sav";
             string CsvOutputsFileName = "Outputs.csv";
             string ConfigurationFileName = "Configurations.xml";
-            string CtrlDecisionFrameFileName = "ctrl_SysConfigFrame.xml";
             string InitSysConfigFrameFileName = "init_SysConfigFrame.xml";
             string PrevSysConfigFrameFileName = "prev_SysConfigFrame.xml";
 
             string CaseFilePath = Path.Combine(PythonCodeFolderPath, CaseFileName);
             string CsvOutputsFilePath = Path.Combine(LogFolderPath, CsvOutputsFileName);
             string ConfigurationFilePath = Path.Combine(ConfigurationFolderPath, ConfigurationFileName);
-            string CtrlDecisionFrameFilePath = Path.Combine(ConfigurationFolderPath, CtrlDecisionFrameFileName);
             string InitSysConfigFrameFilePath = Path.Combine(ConfigurationFolderPath, InitSysConfigFrameFileName);
             string PrevSysConfigFrameFilePath = Path.Combine(ConfigurationFolderPath, PrevSysConfigFrameFileName);
             #endregion
@@ -81,65 +80,81 @@ namespace ShadowSys118
 
             #region [ PSEUDO: Update Configurations of Controlled Devices ]
 
-            switch (inputData.ActTxRaise)
+            string ActionChannelFilePath = Path.Combine(ActionChannelFolderPath, "act.xml");
+            ActionsAdapter actChannel = new ActionsAdapter();
+            try
+            {
+                actChannel = ActionsAdapter.DeserializeFromXml(ActionChannelFilePath);
+                MainWindow.WriteWarning($"Action Signals Received");
+                File.Delete(ActionChannelFilePath);
+            }
+            catch (Exception)
+            {
+            }
+
+
+            // Pending: Avoid logic conflict before execute control
+
+            switch (actChannel.ActTxRaise)
             {
                 case 1:
-                    MainWindow.WriteMessage($"[Signal Received] ActTxRaise");
+                    MainWindow.WriteMessage($"  - ActTxRaise");
                     frame.ControlTransformers[0].TapV += 1;
                     break;
                 default:
                     break;
             }
 
-            switch (inputData.ActTxLower)
+            switch (actChannel.ActTxLower)
             {
                 case 1:
-                    MainWindow.WriteMessage($"[Signal Received] ActTxLower");
+                    MainWindow.WriteMessage($"  - ActTxLower");
                     frame.ControlTransformers[0].TapV += -1;
                     break;
                 default:
                     break;
             }
 
-            switch (inputData.ActSn1Close)
+            switch (actChannel.ActSn1Close)
             {
                 case 1:
-                    MainWindow.WriteMessage($"[Signal Received] ActSn1Close");
+                    MainWindow.WriteMessage($"  - ActSn1Close");
                     frame.ControlCapacitorBanks[0].CapBkrV = 1;
                     break;
                 default:
                     break;
             }
 
-            switch (inputData.ActSn1Trip)
+            switch (actChannel.ActSn1Trip)
             {
                 case 1:
-                    MainWindow.WriteMessage($"[Signal Received] ActSn1Trip");
+                    MainWindow.WriteMessage($"  - ActSn1Trip");
                     frame.ControlCapacitorBanks[0].CapBkrV = 0;
                     break;
                 default:
                     break;
             }
 
-            switch (inputData.ActSn2Close)
+            switch (actChannel.ActSn2Close)
             {
                 case 1:
-                    MainWindow.WriteMessage($"[Signal Received] ActSn2Close");
+                    MainWindow.WriteMessage($"  - ActSn2Close");
                     frame.ControlCapacitorBanks[1].CapBkrV = 1;
                     break;
                 default:
                     break;
             }
 
-            switch (inputData.ActSn2Trip)
+            switch (actChannel.ActSn2Trip)
             {
                 case 1:
-                    MainWindow.WriteMessage($"[Signal Received] ActSn2Trip");
+                    MainWindow.WriteMessage($"  - ActSn2Trip");
                     frame.ControlCapacitorBanks[1].CapBkrV = 0;
                     break;
                 default:
                     break;
             }
+
 
             #endregion
 
@@ -233,6 +248,8 @@ namespace ShadowSys118
                 }
 
                 #endregion
+
+
             }
             catch (Exception ex)
             {

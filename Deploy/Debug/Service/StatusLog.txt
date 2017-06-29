@@ -1,10 +1,10 @@
-[6/28/2017 15:25:30] 
+[6/29/2017 10:16:19] 
 
 *******************************************************************************
 
 ShadowSys118Service Initializing
 
-     System Time: 2017-06-28 19:25:30.778 UTC
+     System Time: 2017-06-29 14:16:19.173 UTC
 
     Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
 
@@ -14,7 +14,7 @@ ShadowSys118Service Initializing
 
     Product Name: Windows 8.1
 
-  Working Memory: 37.5977 MiB
+  Working Memory: 37.1523 MiB
 
   Execution Mode: 32-bit
 
@@ -28,884 +28,1373 @@ ShadowSys118Service Initializing
 
 *******************************************************************************
 
-[6/28/2017 15:25:32] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+[6/29/2017 10:16:20] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
 
 
-[6/28/2017 15:25:36] Attempting connection to tcp://localhost:6190...
+[6/29/2017 10:16:24] Attempting connection to tcp://localhost:6190...
 
-[6/28/2017 15:25:36] Attempting command channel connection to publisher...
+[6/29/2017 10:16:24] Attempting command channel connection to publisher...
 
-[6/28/2017 15:25:36] Connection established.
+[6/29/2017 10:16:24] Connection established.
 
-[6/28/2017 15:25:36] Data subscriber command channel connection to publisher was established.
+[6/29/2017 10:16:24] Data subscriber command channel connection to publisher was established.
 
-[6/28/2017 15:25:36] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+[6/29/2017 10:16:24] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
 
-[6/28/2017 15:25:36] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 11.01 milliseconds...
+[6/29/2017 10:16:24] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 37.02 milliseconds...
 
-[6/28/2017 15:25:36] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+[6/29/2017 10:16:24] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
 
-[6/28/2017 15:25:40] Concentrator Status:
-     Data concentration is: Enabled
-    Total process run time: 8.41 seconds
-    Measurement wait delay: 3 seconds (lag time)
-     Local clock tolerance: 1 seconds (lead time)
-   Maximum time resolution: 0 ticks
-      Down-sampling method: LastReceived
-    Local clock time (UTC): 28-Jun-2017 19:25:40.542
-  Using clock as real-time: False
-      Local clock accuracy: -0.0310 second deviation from latest time
-     Ignore bad timestamps: False
-    Allow sorts by arrival: True
- Use preemptive publishing: True
-  Time reasonability check: Enabled
-  Process by received time: False
-     Received measurements: 87
-    Processed measurements: 87
-    Discarded measurements: 0
- Down-sampled measurements: 0
-    Published measurements: 0
-     Expected measurements: 0 (0 / frame)
-Last discarded measurement: <none>
-  Average publication time: NaN milliseconds
-  Pre-lag-time publication: NaN
- Down-sampling application: 0.0000%
- User function utilization: -92233720368547.8000% of available time used
-Published measurement loss: 0.0000%
-    Total sorts by arrival: 0
- Measurement time accuracy: 100.0000%
-   Missed sorts by timeout: 0
-      Loss due to timeouts: 0.0000%
-     Using precision timer: True
-       Wait handle timeout: 1200 milliseconds
-   Wait handle expirations: 0
-    Total published frames: 0
-        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
- Estimated mean frame rate: 0.00 frames/sec
-       Processing interval: 1000.00 milliseconds
-     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
-   Total frame rate timers: 1
-        Queued frame count: 5
-      Last published frame: <none>
-
-Subscriber Status:
-         Subscription mode: Unsynchronized
-             Authenticated: False
-                Subscribed: True
-             Security mode: None
-         Compression modes: None
-      Data monitor enabled: True
-              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
-No data reconnect interval: 10.000 seconds
-    Data gap recovery mode: Disabled
-
-              Command Channel Status              
-              ----------------------              
-              Client state: Connected
-           Connection time: 4 seconds
-            Receive buffer: 32768
-        Transport protocol: Tcp
-        Text encoding used: US-ASCII
-           Queued payloads: 0
-       Data source defined: False
-    Initialization timeout: 15,000 milliseconds
-       Adapter initialized: True
-         Operational state: Running
-         Connect on demand: False
-    Processed measurements: 88
-    Total adapter run time: 8.38 seconds
-       Temporal processing: Unsupported
-   Item reporting interval: Every 100,000 items
-                Adapter ID: 0
-         Connection string: 2 key/value pairs
-
-                   Server = localhost:6190                                    
-                Interface = 0.0.0.0                                           
-
-    Connection established: True
-   Asynchronous connection: True
-
-
-
-
-[6/28/2017 15:27:11] Concentrator Status:
-     Data concentration is: Enabled
-    Total process run time: 1 minute 39.03 seconds
-    Measurement wait delay: 3 seconds (lag time)
-     Local clock tolerance: 1 seconds (lead time)
-   Maximum time resolution: 0 ticks
-      Down-sampling method: LastReceived
-    Local clock time (UTC): 28-Jun-2017 19:27:11.168
-  Using clock as real-time: False
-      Local clock accuracy: -0.0340 second deviation from latest time
-     Ignore bad timestamps: False
-    Allow sorts by arrival: True
- Use preemptive publishing: True
-  Time reasonability check: Enabled
-  Process by received time: False
-     Received measurements: 2337
-    Processed measurements: 1965
-    Discarded measurements: 372
- Down-sampled measurements: 1797
-    Published measurements: 89
-     Expected measurements: 0 (0 / frame)
-Last discarded measurement: PPA:47 - 28-Jun-2017 19:26:57.000
- Latency of last discarded: 13.6192 seconds
-  Average publication time: 439.5390 milliseconds
-  Pre-lag-time publication: 0.0000%
- Down-sampling application: 91.4504%
- User function utilization: 43.9539% of available time used
-Published measurement loss: 15.9178%
-    Total sorts by arrival: 0
- Measurement time accuracy: 100.0000%
-   Missed sorts by timeout: 0
-      Loss due to timeouts: 0.0000%
-     Using precision timer: True
-       Wait handle timeout: 1200 milliseconds
-   Wait handle expirations: 0
-    Total published frames: 89
-        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
- Estimated mean frame rate: 0.93 frames/sec
-       Processing interval: 1000.00 milliseconds
-     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
-   Total frame rate timers: 1
-        Queued frame count: 4
-      Last published frame: 28-Jun-2017 19:27:07.000
-   Last sorted measurement: PPA:41
-
-Subscriber Status:
-         Subscription mode: Unsynchronized
-             Authenticated: False
-                Subscribed: True
-             Security mode: None
-         Compression modes: None
-      Data monitor enabled: True
-              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
-No data reconnect interval: 10.000 seconds
-    Data gap recovery mode: Disabled
-
-              Command Channel Status              
-              ----------------------              
-              Client state: Connected
-           Connection time: 1 minute 35 seconds
-            Receive buffer: 32768
-        Transport protocol: Tcp
-        Text encoding used: US-ASCII
-           Queued payloads: 0
-       Data source defined: False
-    Initialization timeout: 15,000 milliseconds
-       Adapter initialized: True
-         Operational state: Running
-         Connect on demand: False
-    Processed measurements: 2,337
-    Total adapter run time: 1 minute 38.99 seconds
-       Temporal processing: Unsupported
-   Item reporting interval: Every 100,000 items
-                Adapter ID: 0
-         Connection string: 2 key/value pairs
-
-                   Server = localhost:6190                                    
-                Interface = 0.0.0.0                                           
-
-    Connection established: True
-   Asynchronous connection: True
-
-
-
-
-[6/28/2017 15:27:32] Concentrator Status:
-     Data concentration is: Enabled
-    Total process run time: 1 minute 59.93 seconds
-    Measurement wait delay: 3 seconds (lag time)
-     Local clock tolerance: 1 seconds (lead time)
-   Maximum time resolution: 0 ticks
-      Down-sampling method: LastReceived
-    Local clock time (UTC): 28-Jun-2017 19:27:32.070
-  Using clock as real-time: False
-      Local clock accuracy: -0.0129 second deviation from latest time
-     Ignore bad timestamps: False
-    Allow sorts by arrival: True
- Use preemptive publishing: True
-  Time reasonability check: Enabled
-  Process by received time: False
-     Received measurements: 2899
-    Processed measurements: 2413
-    Discarded measurements: 486
- Down-sampled measurements: 2226
-    Published measurements: 110
-     Expected measurements: 0 (0 / frame)
-Last discarded measurement: PPA:47 - 28-Jun-2017 19:27:18.000
- Latency of last discarded: 13.5869 seconds
-  Average publication time: 434.6804 milliseconds
-  Pre-lag-time publication: 0.0000%
- Down-sampling application: 92.2503%
- User function utilization: 43.4680% of available time used
-Published measurement loss: 16.7644%
-    Total sorts by arrival: 0
- Measurement time accuracy: 100.0000%
-   Missed sorts by timeout: 0
-      Loss due to timeouts: 0.0000%
-     Using precision timer: True
-       Wait handle timeout: 1200 milliseconds
-   Wait handle expirations: 0
-    Total published frames: 110
-        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
- Estimated mean frame rate: 0.94 frames/sec
-       Processing interval: 1000.00 milliseconds
-     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
-   Total frame rate timers: 1
-        Queued frame count: 4
-      Last published frame: 28-Jun-2017 19:27:28.000
-   Last sorted measurement: PPA:41
-
-Subscriber Status:
-         Subscription mode: Unsynchronized
-             Authenticated: False
-                Subscribed: True
-             Security mode: None
-         Compression modes: None
-      Data monitor enabled: True
-              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
-No data reconnect interval: 10.000 seconds
-    Data gap recovery mode: Disabled
-
-              Command Channel Status              
-              ----------------------              
-              Client state: Connected
-           Connection time: 1 minute 56 seconds
-            Receive buffer: 32768
-        Transport protocol: Tcp
-        Text encoding used: US-ASCII
-           Queued payloads: 0
-       Data source defined: False
-    Initialization timeout: 15,000 milliseconds
-       Adapter initialized: True
-         Operational state: Running
-         Connect on demand: False
-    Processed measurements: 2,899
-    Total adapter run time: 1 minute 59.89 seconds
-       Temporal processing: Unsupported
-   Item reporting interval: Every 100,000 items
-                Adapter ID: 0
-         Connection string: 2 key/value pairs
-
-                   Server = localhost:6190                                    
-                Interface = 0.0.0.0                                           
-
-    Connection established: True
-   Asynchronous connection: True
-
-
-
-
-[6/28/2017 15:27:54] Remote client disconnected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
-
-
-[6/28/2017 15:28:46] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
-
-
-[6/28/2017 15:28:52] Concentrator Status:
-     Data concentration is: Enabled
-    Total process run time: 3 minutes 20.58 seconds
-    Measurement wait delay: 3 seconds (lag time)
-     Local clock tolerance: 1 seconds (lead time)
-   Maximum time resolution: 0 ticks
-      Down-sampling method: LastReceived
-    Local clock time (UTC): 28-Jun-2017 19:28:52.714
-  Using clock as real-time: False
-      Local clock accuracy: -0.0030 second deviation from latest time
-     Ignore bad timestamps: False
-    Allow sorts by arrival: True
- Use preemptive publishing: True
-  Time reasonability check: Enabled
-  Process by received time: False
-     Received measurements: 4770
-    Processed measurements: 4140
-    Discarded measurements: 630
- Down-sampled measurements: 3880
-    Published measurements: 191
-     Expected measurements: 0 (0 / frame)
-Last discarded measurement: PPA:47 - 28-Jun-2017 19:27:42.000
- Latency of last discarded: 13.7172 seconds
-  Average publication time: 477.3839 milliseconds
-  Pre-lag-time publication: 0.0000%
- Down-sampling application: 93.7198%
- User function utilization: 47.7384% of available time used
-Published measurement loss: 13.2075%
-    Total sorts by arrival: 0
- Measurement time accuracy: 100.0000%
-   Missed sorts by timeout: 0
-      Loss due to timeouts: 0.0000%
-     Using precision timer: True
-       Wait handle timeout: 1200 milliseconds
-   Wait handle expirations: 0
-    Total published frames: 191
-        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
- Estimated mean frame rate: 0.97 frames/sec
-       Processing interval: 1000.00 milliseconds
-     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
-   Total frame rate timers: 1
-        Queued frame count: 4
-      Last published frame: 28-Jun-2017 19:28:49.000
-   Last sorted measurement: PPA:41
-
-Subscriber Status:
-         Subscription mode: Unsynchronized
-             Authenticated: False
-                Subscribed: True
-             Security mode: None
-         Compression modes: None
-      Data monitor enabled: True
-              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
-No data reconnect interval: 10.000 seconds
-    Data gap recovery mode: Disabled
-
-              Command Channel Status              
-              ----------------------              
-              Client state: Connected
-           Connection time: 3 minutes 16 seconds
-            Receive buffer: 32768
-        Transport protocol: Tcp
-        Text encoding used: US-ASCII
-           Queued payloads: 0
-       Data source defined: False
-    Initialization timeout: 15,000 milliseconds
-       Adapter initialized: True
-         Operational state: Running
-         Connect on demand: False
-    Processed measurements: 4,770
-    Total adapter run time: 3 minutes 20.53 seconds
-       Temporal processing: Unsupported
-   Item reporting interval: Every 100,000 items
-                Adapter ID: 0
-         Connection string: 2 key/value pairs
-
-                   Server = localhost:6190                                    
-                Interface = 0.0.0.0                                           
-
-    Connection established: True
-   Asynchronous connection: True
-
-
-
-
-[6/28/2017 15:29:16] Concentrator Status:
-     Data concentration is: Enabled
-    Total process run time: 3 minutes 44.54 seconds
-    Measurement wait delay: 3 seconds (lag time)
-     Local clock tolerance: 1 seconds (lead time)
-   Maximum time resolution: 0 ticks
-      Down-sampling method: LastReceived
-    Local clock time (UTC): 28-Jun-2017 19:29:16.676
-  Using clock as real-time: False
-      Local clock accuracy: -0.0410 second deviation from latest time
-     Ignore bad timestamps: False
-    Allow sorts by arrival: True
- Use preemptive publishing: True
-  Time reasonability check: Enabled
-  Process by received time: False
-     Received measurements: 5419
-    Processed measurements: 4651
-    Discarded measurements: 768
- Down-sampled measurements: 4369
-    Published measurements: 215
-     Expected measurements: 0 (0 / frame)
-Last discarded measurement: PPA:47 - 28-Jun-2017 19:29:02.000
- Latency of last discarded: 13.8872 seconds
-  Average publication time: 469.2416 milliseconds
-  Pre-lag-time publication: 0.0000%
- Down-sampling application: 93.9368%
- User function utilization: 46.9242% of available time used
-Published measurement loss: 14.1724%
-    Total sorts by arrival: 0
- Measurement time accuracy: 100.0000%
-   Missed sorts by timeout: 0
-      Loss due to timeouts: 0.0000%
-     Using precision timer: True
-       Wait handle timeout: 1200 milliseconds
-   Wait handle expirations: 0
-    Total published frames: 215
-        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
- Estimated mean frame rate: 0.97 frames/sec
-       Processing interval: 1000.00 milliseconds
-     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
-   Total frame rate timers: 1
-        Queued frame count: 4
-      Last published frame: 28-Jun-2017 19:29:13.000
-   Last sorted measurement: PPA:41
-
-Subscriber Status:
-         Subscription mode: Unsynchronized
-             Authenticated: False
-                Subscribed: True
-             Security mode: None
-         Compression modes: None
-      Data monitor enabled: True
-              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
-No data reconnect interval: 10.000 seconds
-    Data gap recovery mode: Disabled
-
-              Command Channel Status              
-              ----------------------              
-              Client state: Connected
-           Connection time: 3 minutes 40 seconds
-            Receive buffer: 32768
-        Transport protocol: Tcp
-        Text encoding used: US-ASCII
-           Queued payloads: 0
-       Data source defined: False
-    Initialization timeout: 15,000 milliseconds
-       Adapter initialized: True
-         Operational state: Running
-         Connect on demand: False
-    Processed measurements: 5,419
-    Total adapter run time: 3 minutes 44.5 seconds
-       Temporal processing: Unsupported
-   Item reporting interval: Every 100,000 items
-                Adapter ID: 0
-         Connection string: 2 key/value pairs
-
-                   Server = localhost:6190                                    
-                Interface = 0.0.0.0                                           
-
-    Connection established: True
-   Asynchronous connection: True
-
-
-
-
-[6/28/2017 15:30:04] Concentrator Status:
-     Data concentration is: Enabled
-    Total process run time: 4 minutes 32.06 seconds
-    Measurement wait delay: 3 seconds (lag time)
-     Local clock tolerance: 1 seconds (lead time)
-   Maximum time resolution: 0 ticks
-      Down-sampling method: LastReceived
-    Local clock time (UTC): 28-Jun-2017 19:30:04.193
-  Using clock as real-time: False
-      Local clock accuracy: -0.0450 second deviation from latest time
-     Ignore bad timestamps: False
-    Allow sorts by arrival: True
- Use preemptive publishing: True
-  Time reasonability check: Enabled
-  Process by received time: False
-     Received measurements: 6528
-    Processed measurements: 5604
-    Discarded measurements: 924
- Down-sampled measurements: 5265
-    Published measurements: 260
-     Expected measurements: 0 (0 / frame)
-Last discarded measurement: PPA:47 - 28-Jun-2017 19:29:57.000
- Latency of last discarded: 6.6023 seconds
-  Average publication time: 461.5071 milliseconds
-  Pre-lag-time publication: 0.0000%
- Down-sampling application: 93.9507%
- User function utilization: 46.1507% of available time used
-Published measurement loss: 14.1544%
-    Total sorts by arrival: 0
- Measurement time accuracy: 100.0000%
-   Missed sorts by timeout: 0
-      Loss due to timeouts: 0.0000%
-     Using precision timer: True
-       Wait handle timeout: 1200 milliseconds
-   Wait handle expirations: 0
-    Total published frames: 260
-        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
- Estimated mean frame rate: 0.97 frames/sec
-       Processing interval: 1000.00 milliseconds
-     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
-   Total frame rate timers: 1
-        Queued frame count: 4
-      Last published frame: 28-Jun-2017 19:30:00.000
-   Last sorted measurement: PPA:41
-
-Subscriber Status:
-         Subscription mode: Unsynchronized
-             Authenticated: False
-                Subscribed: True
-             Security mode: None
-         Compression modes: None
-      Data monitor enabled: True
-              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
-No data reconnect interval: 10.000 seconds
-    Data gap recovery mode: Disabled
-
-              Command Channel Status              
-              ----------------------              
-              Client state: Connected
-           Connection time: 4 minutes 28 seconds
-            Receive buffer: 32768
-        Transport protocol: Tcp
-        Text encoding used: US-ASCII
-           Queued payloads: 0
-       Data source defined: False
-    Initialization timeout: 15,000 milliseconds
-       Adapter initialized: True
-         Operational state: Running
-         Connect on demand: False
-    Processed measurements: 6,528
-    Total adapter run time: 4 minutes 32.01 seconds
-       Temporal processing: Unsupported
-   Item reporting interval: Every 100,000 items
-                Adapter ID: 0
-         Connection string: 2 key/value pairs
-
-                   Server = localhost:6190                                    
-                Interface = 0.0.0.0                                           
-
-    Connection established: True
-   Asynchronous connection: True
-
-
-
-
-[6/28/2017 15:30:25] Concentrator Status:
-     Data concentration is: Enabled
-    Total process run time: 4 minutes 52.95 seconds
-    Measurement wait delay: 3 seconds (lag time)
-     Local clock tolerance: 1 seconds (lead time)
-   Maximum time resolution: 0 ticks
-      Down-sampling method: LastReceived
-    Local clock time (UTC): 28-Jun-2017 19:30:25.092
-  Using clock as real-time: False
-      Local clock accuracy: -0.0060 second deviation from latest time
-     Ignore bad timestamps: False
-    Allow sorts by arrival: True
- Use preemptive publishing: True
-  Time reasonability check: Enabled
-  Process by received time: False
-     Received measurements: 7042
-    Processed measurements: 6052
-    Discarded measurements: 990
- Down-sampled measurements: 5694
-    Published measurements: 281
-     Expected measurements: 0 (0 / frame)
-Last discarded measurement: PPA:47 - 28-Jun-2017 19:30:10.000
- Latency of last discarded: 6.6347 seconds
-  Average publication time: 465.1368 milliseconds
-  Pre-lag-time publication: 0.0000%
- Down-sampling application: 94.0846%
- User function utilization: 46.5137% of available time used
-Published measurement loss: 14.0585%
-    Total sorts by arrival: 0
- Measurement time accuracy: 100.0000%
-   Missed sorts by timeout: 0
-      Loss due to timeouts: 0.0000%
-     Using precision timer: True
-       Wait handle timeout: 1200 milliseconds
-   Wait handle expirations: 0
-    Total published frames: 281
-        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
- Estimated mean frame rate: 0.97 frames/sec
-       Processing interval: 1000.00 milliseconds
-     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
-   Total frame rate timers: 1
-        Queued frame count: 4
-      Last published frame: 28-Jun-2017 19:30:21.000
-   Last sorted measurement: PPA:41
-
-Subscriber Status:
-         Subscription mode: Unsynchronized
-             Authenticated: False
-                Subscribed: True
-             Security mode: None
-         Compression modes: None
-      Data monitor enabled: True
-              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
-No data reconnect interval: 10.000 seconds
-    Data gap recovery mode: Disabled
-
-              Command Channel Status              
-              ----------------------              
-              Client state: Connected
-           Connection time: 4 minutes 49 seconds
-            Receive buffer: 32768
-        Transport protocol: Tcp
-        Text encoding used: US-ASCII
-           Queued payloads: 0
-       Data source defined: False
-    Initialization timeout: 15,000 milliseconds
-       Adapter initialized: True
-         Operational state: Running
-         Connect on demand: False
-    Processed measurements: 7,042
-    Total adapter run time: 4 minutes 52.91 seconds
-       Temporal processing: Unsupported
-   Item reporting interval: Every 100,000 items
-                Adapter ID: 0
-         Connection string: 2 key/value pairs
-
-                   Server = localhost:6190                                    
-                Interface = 0.0.0.0                                           
-
-    Connection established: True
-   Asynchronous connection: True
-
-
-
-
-[6/28/2017 15:30:36] Concentrator Status:
-     Data concentration is: Enabled
-    Total process run time: 5 minutes 4.03 seconds
-    Measurement wait delay: 3 seconds (lag time)
-     Local clock tolerance: 1 seconds (lead time)
-   Maximum time resolution: 0 ticks
-      Down-sampling method: LastReceived
-    Local clock time (UTC): 28-Jun-2017 19:30:36.169
-  Using clock as real-time: False
-      Local clock accuracy: -0.0210 second deviation from latest time
-     Ignore bad timestamps: False
-    Allow sorts by arrival: True
- Use preemptive publishing: True
-  Time reasonability check: Enabled
-  Process by received time: False
-     Received measurements: 7298
-    Processed measurements: 6290
-    Discarded measurements: 1008
- Down-sampled measurements: 5920
-    Published measurements: 292
-     Expected measurements: 0 (0 / frame)
-Last discarded measurement: PPA:47 - 28-Jun-2017 19:30:30.000
- Latency of last discarded: 4.8859 seconds
-  Average publication time: 465.4657 milliseconds
-  Pre-lag-time publication: 0.0000%
- Down-sampling application: 94.1176%
- User function utilization: 46.5466% of available time used
-Published measurement loss: 13.8120%
-    Total sorts by arrival: 0
- Measurement time accuracy: 100.0000%
-   Missed sorts by timeout: 0
-      Loss due to timeouts: 0.0000%
-     Using precision timer: True
-       Wait handle timeout: 1200 milliseconds
-   Wait handle expirations: 0
-    Total published frames: 292
-        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
- Estimated mean frame rate: 0.97 frames/sec
-       Processing interval: 1000.00 milliseconds
-     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
-   Total frame rate timers: 1
-        Queued frame count: 4
-      Last published frame: 28-Jun-2017 19:30:32.000
-   Last sorted measurement: PPA:41
-
-Subscriber Status:
-         Subscription mode: Unsynchronized
-             Authenticated: False
-                Subscribed: True
-             Security mode: None
-         Compression modes: None
-      Data monitor enabled: True
-              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
-No data reconnect interval: 10.000 seconds
-    Data gap recovery mode: Disabled
-
-              Command Channel Status              
-              ----------------------              
-              Client state: Connected
-           Connection time: 5 minutes
-            Receive buffer: 32768
-        Transport protocol: Tcp
-        Text encoding used: US-ASCII
-           Queued payloads: 0
-       Data source defined: False
-    Initialization timeout: 15,000 milliseconds
-       Adapter initialized: True
-         Operational state: Running
-         Connect on demand: False
-    Processed measurements: 7,298
-    Total adapter run time: 5 minutes 3.99 seconds
-       Temporal processing: Unsupported
-   Item reporting interval: Every 100,000 items
-                Adapter ID: 0
-         Connection string: 2 key/value pairs
-
-                   Server = localhost:6190                                    
-                Interface = 0.0.0.0                                           
-
-    Connection established: True
-   Asynchronous connection: True
-
-
-
-
-[6/28/2017 15:30:46] Concentrator Status:
-     Data concentration is: Enabled
-    Total process run time: 5 minutes 14.1 seconds
-    Measurement wait delay: 3 seconds (lag time)
-     Local clock tolerance: 1 seconds (lead time)
-   Maximum time resolution: 0 ticks
-      Down-sampling method: LastReceived
-    Local clock time (UTC): 28-Jun-2017 19:30:46.238
-  Using clock as real-time: False
-      Local clock accuracy: -0.0240 second deviation from latest time
-     Ignore bad timestamps: False
-    Allow sorts by arrival: True
- Use preemptive publishing: True
-  Time reasonability check: Enabled
-  Process by received time: False
-     Received measurements: 7513
-    Processed measurements: 6505
-    Discarded measurements: 1008
- Down-sampled measurements: 6123
-    Published measurements: 302
-     Expected measurements: 0 (0 / frame)
-Last discarded measurement: PPA:47 - 28-Jun-2017 19:30:30.000
- Latency of last discarded: 4.8859 seconds
-  Average publication time: 464.4104 milliseconds
-  Pre-lag-time publication: 0.0000%
- Down-sampling application: 94.1276%
- User function utilization: 46.4410% of available time used
-Published measurement loss: 13.4167%
-    Total sorts by arrival: 0
- Measurement time accuracy: 100.0000%
-   Missed sorts by timeout: 0
-      Loss due to timeouts: 0.0000%
-     Using precision timer: True
-       Wait handle timeout: 1200 milliseconds
-   Wait handle expirations: 0
-    Total published frames: 302
-        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
- Estimated mean frame rate: 0.97 frames/sec
-       Processing interval: 1000.00 milliseconds
-     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
-   Total frame rate timers: 1
-        Queued frame count: 4
-      Last published frame: 28-Jun-2017 19:30:42.000
-   Last sorted measurement: PPA:41
-
-Subscriber Status:
-         Subscription mode: Unsynchronized
-             Authenticated: False
-                Subscribed: True
-             Security mode: None
-         Compression modes: None
-      Data monitor enabled: True
-              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
-No data reconnect interval: 10.000 seconds
-    Data gap recovery mode: Disabled
-
-              Command Channel Status              
-              ----------------------              
-              Client state: Connected
-           Connection time: 5 minutes 10 seconds
-            Receive buffer: 32768
-        Transport protocol: Tcp
-        Text encoding used: US-ASCII
-           Queued payloads: 0
-       Data source defined: False
-    Initialization timeout: 15,000 milliseconds
-       Adapter initialized: True
-         Operational state: Running
-         Connect on demand: False
-    Processed measurements: 7,513
-    Total adapter run time: 5 minutes 14.06 seconds
-       Temporal processing: Unsupported
-   Item reporting interval: Every 100,000 items
-                Adapter ID: 0
-         Connection string: 2 key/value pairs
-
-                   Server = localhost:6190                                    
-                Interface = 0.0.0.0                                           
-
-    Connection established: True
-   Asynchronous connection: True
-
-
-
-
-[6/28/2017 15:37:28] Concentrator Status:
-     Data concentration is: Enabled
-    Total process run time: 11 minutes 56.35 seconds
-    Measurement wait delay: 3 seconds (lag time)
-     Local clock tolerance: 1 seconds (lead time)
-   Maximum time resolution: 0 ticks
-      Down-sampling method: LastReceived
-    Local clock time (UTC): 28-Jun-2017 19:37:28.489
-  Using clock as real-time: False
-      Local clock accuracy: -0.0270 second deviation from latest time
-     Ignore bad timestamps: False
-    Allow sorts by arrival: True
- Use preemptive publishing: True
-  Time reasonability check: Enabled
-  Process by received time: False
-     Received measurements: 15948
-    Processed measurements: 14934
-    Discarded measurements: 1014
- Down-sampled measurements: 14151
-    Published measurements: 698
-     Expected measurements: 0 (0 / frame)
-Last discarded measurement: PPA:47 - 28-Jun-2017 19:31:18.000
- Latency of last discarded: 3.9016 seconds
-  Average publication time: 432.6210 milliseconds
-  Pre-lag-time publication: 0.0000%
- Down-sampling application: 94.7569%
- User function utilization: 43.2621% of available time used
-Published measurement loss: 6.3582%
-    Total sorts by arrival: 0
- Measurement time accuracy: 100.0000%
-   Missed sorts by timeout: 0
-      Loss due to timeouts: 0.0000%
-     Using precision timer: True
-       Wait handle timeout: 1200 milliseconds
-   Wait handle expirations: 0
-    Total published frames: 698
-        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
- Estimated mean frame rate: 0.98 frames/sec
-       Processing interval: 1000.00 milliseconds
-     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
-   Total frame rate timers: 1
-        Queued frame count: 4
-      Last published frame: 28-Jun-2017 19:37:24.000
-   Last sorted measurement: PPA:41
-
-Subscriber Status:
-         Subscription mode: Unsynchronized
-             Authenticated: False
-                Subscribed: True
-             Security mode: None
-         Compression modes: None
-      Data monitor enabled: True
-              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
-No data reconnect interval: 10.000 seconds
-    Data gap recovery mode: Disabled
-
-              Command Channel Status              
-              ----------------------              
-              Client state: Connected
-           Connection time: 11 minutes 52 seconds
-            Receive buffer: 32768
-        Transport protocol: Tcp
-        Text encoding used: US-ASCII
-           Queued payloads: 0
-       Data source defined: False
-    Initialization timeout: 15,000 milliseconds
-       Adapter initialized: True
-         Operational state: Running
-         Connect on demand: False
-    Processed measurements: 15,948
-    Total adapter run time: 11 minutes 56.31 seconds
-       Temporal processing: Unsupported
-   Item reporting interval: Every 100,000 items
-                Adapter ID: 0
-         Connection string: 2 key/value pairs
-
-                   Server = localhost:6190                                    
-                Interface = 0.0.0.0                                           
-
-    Connection established: True
-   Asynchronous connection: True
-
-
-
-
-[6/28/2017 3:39:01 PM] 
+[6/29/2017 10:20:42] 
 
 *******************************************************************************
 
 ShadowSys118Service Initializing
 
-     System Time: 2017-06-28 19:39:01.476 UTC
+     System Time: 2017-06-29 14:20:42.862 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.3633 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[6/29/2017 10:20:44] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/29/2017 10:20:44] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/29/2017 10:20:44] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/29/2017 10:20:48] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 10:20:48] Attempting command channel connection to publisher...
+
+[6/29/2017 10:20:48] Connection established.
+
+[6/29/2017 10:20:48] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 10:20:48] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 10:20:49] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 37.03 milliseconds...
+
+[6/29/2017 10:20:49] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/29/2017 10:20:52] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:20:53] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:20:54] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:20:55] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:20:56] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:20:57] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:20:58] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:20:59] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:00] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:01] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:02] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:03] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:04] [Signal Received] ActTxRaise
+
+
+[6/29/2017 10:21:05] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:06] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:07] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:08] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:09] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:10] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:11] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:12] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:13] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:14] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:15] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:16] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:17] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:18] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:19] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:20] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:21] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:22] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:23] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:24] [Signal Received] ActTxRaise
+
+
+[6/29/2017 10:21:25] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:26] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:27] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:28] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:30] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:31] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:31] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:34] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:35] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:36] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:37] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:38] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:39] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:40] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:41] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:42] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:43] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:44] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:45] [Signal Received] ActTxRaise
+
+
+[6/29/2017 10:21:46] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:47] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:48] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:49] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:50] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:51] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:52] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:53] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:54] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:55] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:56] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:57] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:58] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:21:59] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:00] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:01] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:02] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:03] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:04] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:05] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:06] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:07] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:08] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:09] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:11] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:12] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:13] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:14] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:15] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:16] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:17] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:18] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:19] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:20] [Signal Received] ActTxLower
+
+
+[6/29/2017 10:22:21] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:22] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:23] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:24] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:25] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:26] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:27] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:28] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:29] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:30] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:31] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:32] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:33] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:34] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:35] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:36] [Signal Received] ActSn1Close
+
+
+[6/29/2017 10:22:37] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:38] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:39] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:40] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:41] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:42] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:43] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:44] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:45] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:46] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:47] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:48] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:49] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:50] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:51] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:52] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:53] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:54] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:55] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:56] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:57] [Signal Received] ActSn2Close
+
+
+[6/29/2017 10:22:58] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:22:59] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:00] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:01] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:02] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:03] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:04] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:05] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:06] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:07] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:08] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:09] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:10] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:11] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:12] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:13] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:14] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:15] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:16] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:17] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:18] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:19] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:20] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:21] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:22] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:23] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:24] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:25] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:26] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:27] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:28] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:29] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:30] [Signal Received] ActSn1Trip
+
+
+[6/29/2017 10:23:30] [Signal Received] ActSn2Trip
+
+
+[6/29/2017 10:23:31] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:32] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:33] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:34] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:35] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:36] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:37] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:38] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:39] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:40] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:41] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:42] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:43] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:44] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:45] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:47] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:48] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:49] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:50] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:52] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:53] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:54] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:55] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:56] [Signal Received] ActTxLower
+
+
+[6/29/2017 10:23:57] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:58] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:23:59] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:00] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:01] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:02] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:03] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:04] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:05] [Signal Received] ActTxLower
+
+
+[6/29/2017 10:24:06] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:07] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:08] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:09] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:10] [Signal Received] ActTxLower
+
+
+[6/29/2017 10:24:11] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:12] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:13] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:14] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:15] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:16] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:17] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:18] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:19] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:20] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:21] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:22] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:23] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:24] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:25] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:27] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:27] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:28] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:29] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:32] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:32] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:33] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:33] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:34] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:35] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:36] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:37] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:38] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:39] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:40] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:41] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:42] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:43] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:44] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:45] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:46] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:47] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:48] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:49] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:50] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:51] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:52] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:53] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:54] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:55] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:56] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:57] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:58] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:24:59] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:00] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:01] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:02] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:03] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:04] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:05] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:06] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:07] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:08] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:09] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:10] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:11] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:12] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:13] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:14] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:15] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:16] ActionsAdapter exception: Error: XML Deserialization failed.
+
+
+
+[6/29/2017 10:25:17] ActionsAdapter exceptio[6/29/2017 10:28:53] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-29 14:28:53.675 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.4453 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[6/29/2017 10:28:55] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/29/2017 10:28:59] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 10:28:59] Attempting command channel connection to publisher...
+
+[6/29/2017 10:28:59] Connection established.
+
+[6/29/2017 10:28:59] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 10:28:59] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 10:28:59] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 57.04 milliseconds...
+
+[6/29/2017 10:28:59] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/29/2017 10:29:17] WARNING: Action Signals Received
+
+
+[6/29/2017 10:29:18] 	ActSn2Close
+
+
+[6/29/2017 10:29:38] Remote client disconnected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/29/2017 10:29:53] WARNING: Action Signals Received
+
+
+[6/29/2017 10:29:53] 	ActSn2Trip
+
+
+[6/29/2017 10:31:11] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-29 14:31:11.873 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.6602 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[6/29/2017 10:31:13] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/29/2017 10:31:17] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 10:31:17] Attempting command channel connection to publisher...
+
+[6/29/2017 10:31:17] Connection established.
+
+[6/29/2017 10:31:17] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 10:31:17] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 10:31:17] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 11.01 milliseconds...
+
+[6/29/2017 10:31:17] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/29/2017 10:31:51] WARNING: Action Signals Received
+
+
+[6/29/2017 10:31:51] 	ActSn1Close
+
+
+[6/29/2017 10:33:27] WARNING: Action Signals Received
+
+
+[6/29/2017 10:33:27] 	ActSn1Trip
+
+
+[6/29/2017 10:35:27] Received notification from publisher that configuration has changed.
+
+[6/29/2017 10:36:45] WARNING: Action Signals Received
+
+
+[6/29/2017 10:36:45] 	ActTxRaise
+
+
+[6/29/2017 10:37:30] WARNING: Action Signals Received
+
+
+[6/29/2017 10:37:30] 	ActTxRaise
+
+
+[6/29/2017 10:37:34] WARNING: Action Signals Received
+
+
+[6/29/2017 10:37:34] 	ActTxRaise
+
+
+[6/29/2017 10:37:48] WARNING: Action Signals Received
+
+
+[6/29/2017 10:37:48] 	ActTxLower
+
+
+[6/29/2017 10:38:02] WARNING: Action Signals Received
+
+
+[6/29/2017 10:38:02] 	ActTxLower
+
+
+[6/29/2017 10:38:08] WARNING: Action Signals Received
+
+
+[6/29/2017 10:38:08] 	ActTxLower
+
+
+[6/29/2017 10:38:31] WARNING: Action Signals Received
+
+
+[6/29/2017 10:38:31] 	ActSn1Close
+
+
+[6/29/2017 10:38:43] WARNING: Action Signals Received
+
+
+[6/29/2017 10:38:43] 	ActSn1Close
+
+
+[6/29/2017 10:38:43] 	ActSn2Close
+
+
+[6/29/2017 10:39:08] WARNING: Action Signals Received
+
+
+[6/29/2017 10:39:08] 	ActSn1Trip
+
+
+[6/29/2017 10:39:08] 	ActSn2Trip
+
+
+[6/29/2017 10:39:44] Remote client disconnected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/29/2017 10:42:07 AM] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-29 14:42:07.183 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 32.293 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: WORKGROUP\SYSTEM
+
+*******************************************************************************
+
+[6/29/2017 10:42:07 AM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+
+
+[6/29/2017 10:42:11 AM] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 10:42:11 AM] Attempting command channel connection to publisher...
+
+[6/29/2017 10:42:11 AM] Connection established.
+
+[6/29/2017 10:42:11 AM] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 10:42:11 AM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 10:42:11 AM] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 21.02 milliseconds...
+
+[6/29/2017 10:42:11 AM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/29/2017 10:42:36 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:42:36 AM] 	ActSn2Close
+
+
+[6/29/2017 10:42:56 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:42:56 AM] 	ActSn2Trip
+
+
+[6/29/2017 10:43:10 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:43:10 AM] 	ActSn1Close
+
+
+[6/29/2017 10:43:21 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:43:21 AM] 	ActSn1Trip
+
+
+[6/29/2017 10:45:50 AM] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-29 14:45:50.922 UTC
 
     Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
 
@@ -929,197 +1418,199 @@ ShadowSys118Service Initializing
 
 *******************************************************************************
 
-[6/28/2017 3:39:01 PM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+[6/29/2017 10:45:51 AM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
 
 
-[6/28/2017 3:39:01 PM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+[6/29/2017 10:45:55 AM] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 10:45:55 AM] Attempting command channel connection to publisher...
+
+[6/29/2017 10:45:55 AM] Connection established.
+
+[6/29/2017 10:45:55 AM] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 10:45:55 AM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 10:45:55 AM] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 17.01 milliseconds...
+
+[6/29/2017 10:45:55 AM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/29/2017 10:46:12 AM] WARNING: Action Signals Received
 
 
-[6/28/2017 3:39:05 PM] Attempting connection to tcp://localhost:6190...
-
-[6/28/2017 3:39:05 PM] Attempting command channel connection to publisher...
-
-[6/28/2017 3:39:05 PM] Connection established.
-
-[6/28/2017 3:39:05 PM] Data subscriber command channel connection to publisher was established.
-
-[6/28/2017 3:39:05 PM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
-
-[6/28/2017 3:39:06 PM] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 24.01 milliseconds...
-
-[6/28/2017 3:39:06 PM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
-
-[6/28/2017 3:39:17 PM] Concentrator Status:
-     Data concentration is: Enabled
-    Total process run time: 15.38 seconds
-    Measurement wait delay: 3 seconds (lag time)
-     Local clock tolerance: 1 seconds (lead time)
-   Maximum time resolution: 0 ticks
-      Down-sampling method: LastReceived
-    Local clock time (UTC): 28-Jun-2017 19:39:17.188
-  Using clock as real-time: False
-      Local clock accuracy: -0.0239 second deviation from latest time
-     Ignore bad timestamps: False
-    Allow sorts by arrival: True
- Use preemptive publishing: True
-  Time reasonability check: Enabled
-  Process by received time: False
-     Received measurements: 237
-    Processed measurements: 237
-    Discarded measurements: 0
- Down-sampled measurements: 150
-    Published measurements: 8
-     Expected measurements: 0 (0 / frame)
-Last discarded measurement: <none>
-  Average publication time: 359.9947 milliseconds
-  Pre-lag-time publication: 0.0000%
- Down-sampling application: 63.2911%
- User function utilization: 35.9995% of available time used
-Published measurement loss: 0.0000%
-    Total sorts by arrival: 0
- Measurement time accuracy: 100.0000%
-   Missed sorts by timeout: 0
-      Loss due to timeouts: 0.0000%
-     Using precision timer: True
-       Wait handle timeout: 1200 milliseconds
-   Wait handle expirations: 0
-    Total published frames: 8
-        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
- Estimated mean frame rate: 0.65 frames/sec
-       Processing interval: 1000.00 milliseconds
-     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
-   Total frame rate timers: 1
-        Queued frame count: 4
-      Last published frame: 28-Jun-2017 19:39:13.000
-   Last sorted measurement: PPA:41
-
-Subscriber Status:
-         Subscription mode: Unsynchronized
-             Authenticated: False
-                Subscribed: True
-             Security mode: None
-         Compression modes: None
-      Data monitor enabled: True
-              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
-No data reconnect interval: 10.000 seconds
-    Data gap recovery mode: Disabled
-
-              Command Channel Status              
-              ----------------------              
-              Client state: Connected
-           Connection time: 11 seconds
-            Receive buffer: 32768
-        Transport protocol: Tcp
-        Text encoding used: US-ASCII
-           Queued payloads: 0
-       Data source defined: False
-    Initialization timeout: 15,000 milliseconds
-       Adapter initialized: True
-         Operational state: Running
-         Connect on demand: False
-    Processed measurements: 237
-    Total adapter run time: 15.37 seconds
-       Temporal processing: Unsupported
-   Item reporting interval: Every 100,000 items
-                Adapter ID: 0
-         Connection string: 2 key/value pairs
-
-                   Server = localhost:6190                                    
-                Interface = 0.0.0.0                                           
-
-    Connection established: True
-   Asynchronous connection: True
+[6/29/2017 10:46:12 AM] 	ActSn1Close
 
 
+[6/29/2017 10:46:28 AM] WARNING: Action Signals Received
 
 
-[6/28/2017 3:49:05 PM] Concentrator Status:
-     Data concentration is: Enabled
-    Total process run time: 10 minutes 4.12 seconds
-    Measurement wait delay: 3 seconds (lag time)
-     Local clock tolerance: 1 seconds (lead time)
-   Maximum time resolution: 0 ticks
-      Down-sampling method: LastReceived
-    Local clock time (UTC): 28-Jun-2017 19:49:05.933
-  Using clock as real-time: False
-      Local clock accuracy: 0.0000 second deviation from latest time
-     Ignore bad timestamps: False
-    Allow sorts by arrival: True
- Use preemptive publishing: True
-  Time reasonability check: Enabled
-  Process by received time: False
-     Received measurements: 12600
-    Processed measurements: 12600
-    Discarded measurements: 0
- Down-sampled measurements: 11936
-    Published measurements: 589
-     Expected measurements: 0 (0 / frame)
-Last discarded measurement: <none>
-  Average publication time: 364.1243 milliseconds
-  Pre-lag-time publication: 0.0000%
- Down-sampling application: 94.7302%
- User function utilization: 36.4124% of available time used
-Published measurement loss: 0.0000%
-    Total sorts by arrival: 0
- Measurement time accuracy: 100.0000%
-   Missed sorts by timeout: 0
-      Loss due to timeouts: 0.0000%
-     Using precision timer: True
-       Wait handle timeout: 1200 milliseconds
-   Wait handle expirations: 0
-    Total published frames: 589
-        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
- Estimated mean frame rate: 0.98 frames/sec
-       Processing interval: 1000.00 milliseconds
-     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
-   Total frame rate timers: 1
-        Queued frame count: 4
-      Last published frame: 28-Jun-2017 19:49:02.000
-   Last sorted measurement: PPA:41
-
-Subscriber Status:
-         Subscription mode: Unsynchronized
-             Authenticated: False
-                Subscribed: True
-             Security mode: None
-         Compression modes: None
-      Data monitor enabled: True
-              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
-No data reconnect interval: 10.000 seconds
-    Data gap recovery mode: Disabled
-
-              Command Channel Status              
-              ----------------------              
-              Client state: Connected
-           Connection time: 10 minutes
-            Receive buffer: 32768
-        Transport protocol: Tcp
-        Text encoding used: US-ASCII
-           Queued payloads: 0
-       Data source defined: False
-    Initialization timeout: 15,000 milliseconds
-       Adapter initialized: True
-         Operational state: Running
-         Connect on demand: False
-    Processed measurements: 12,600
-    Total adapter run time: 10 minutes 4.09 seconds
-       Temporal processing: Unsupported
-   Item reporting interval: Every 100,000 items
-                Adapter ID: 0
-         Connection string: 2 key/value pairs
-
-                   Server = localhost:6190                                    
-                Interface = 0.0.0.0                                           
-
-    Connection established: True
-   Asynchronous connection: True
+[6/29/2017 10:46:28 AM] 	ActSn1Trip
 
 
+[6/29/2017 10:46:38 AM] WARNING: Action Signals Received
 
 
-[6/28/2017 4:29:49 PM] Received notification from publisher that configuration has changed.
+[6/29/2017 10:46:38 AM] 	ActSn2Close
 
-[6/28/2017 4:33:26 PM] Received notification from publisher that configuration has changed.
 
-[6/28/2017 4:37:52 PM] Received notification from publisher that configuration has changed.
+[6/29/2017 10:46:50 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:46:50 AM] 	ActSn2Trip
+
+
+[6/29/2017 10:47:00 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:47:00 AM] 	ActTxRaise
+
+
+[6/29/2017 10:47:03 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:47:03 AM] 	ActTxRaise
+
+
+[6/29/2017 10:47:06 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:47:06 AM] 	ActTxRaise
+
+
+[6/29/2017 10:47:29 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:47:29 AM] 	ActTxLower
+
+
+[6/29/2017 10:47:44 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:47:44 AM] 	ActTxLower
+
+
+[6/29/2017 10:47:47 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:47:47 AM] 	ActTxLower
+
+
+[6/29/2017 10:52:34 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:52:34 AM] 	ActTxRaise
+
+
+[6/29/2017 10:52:35 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:52:35 AM] 	ActTxRaise
+
+
+[6/29/2017 10:52:37 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:52:37 AM] 	ActTxRaise
+
+
+[6/29/2017 10:52:38 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:52:38 AM] 	ActTxRaise
+
+
+[6/29/2017 10:52:39 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:52:39 AM] 	ActTxRaise
+
+
+[6/29/2017 10:52:40 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:52:40 AM] 	ActTxRaise
+
+
+[6/29/2017 10:53:01 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:53:01 AM] 	ActTxLower
+
+
+[6/29/2017 10:53:03 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:53:03 AM] 	ActTxLower
+
+
+[6/29/2017 10:53:04 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:53:04 AM] 	ActTxLower
+
+
+[6/29/2017 10:53:05 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:53:05 AM] 	ActTxLower
+
+
+[6/29/2017 10:53:06 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:53:06 AM] 	ActTxLower
+
+
+[6/29/2017 10:53:07 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 10:53:07 AM] 	ActTxLower
+
+
+[6/29/2017 10:54:44] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-29 14:54:44.174 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.5547 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[6/29/2017 10:54:45] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/29/2017 10:54:49] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 10:54:49] Attempting command channel connection to publisher...
+
+[6/29/2017 10:54:49] Connection established.
+
+[6/29/2017 10:54:49] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 10:54:49] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 10:54:49] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 29.02 milliseconds...
+
+[6/29/2017 10:54:49] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
 
