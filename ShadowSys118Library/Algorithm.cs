@@ -99,7 +99,10 @@ namespace ShadowSys118
             {
                 case 1:
                     MainWindow.WriteMessage($"  - ActTxRaise");
-                    frame.ControlTransformers[0].TapV += 1;
+                    if (frame.ControlTransformers[0].TapV < frame.SubstationAlarmDevice.ZHITAP)
+                    {
+                        frame.ControlTransformers[0].TapV += 1;
+                    }
                     break;
                 default:
                     break;
@@ -109,7 +112,10 @@ namespace ShadowSys118
             {
                 case 1:
                     MainWindow.WriteMessage($"  - ActTxLower");
-                    frame.ControlTransformers[0].TapV += -1;
+                    if (frame.ControlTransformers[0].TapV > frame.SubstationAlarmDevice.ZLOTAP)
+                    {
+                        frame.ControlTransformers[0].TapV += -1;
+                    }
                     break;
                 default:
                     break;

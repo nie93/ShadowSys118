@@ -151,7 +151,7 @@ def set_transformer_ratio(bus_num, tap_value, ratio_step):
 
 BASE_VOLTAGE = 138000
 LOAD_BUS_NUM = [33, 34, 36, 39, 40]
-TRANSFORMER_TAP_RATIO_STEP = 0.007
+TRANSFORMER_TAP_RATIO_STEP = 0.002
 TRANSFORMER_BUS_NUM = [37, 38]
 GEN_BUS_NUM = [46, 49]
 SHUNT_BUS_NUM = [34, 39]
@@ -263,11 +263,11 @@ if __name__ == '__main__':
         return_argv = '\n'.join(map(str,_frame))
         print(return_argv)
 
-        # # Save measurement values to Outputs.csv
-        # outputs_csvfile = open(OutputsFilePath, 'a')
-        # wcsv = csv.writer(outputs_csvfile, delimiter=',', lineterminator='\n')
-        # wcsv.writerow(_frame)
-        # outputs_csvfile.close()
+        # Save measurement values to Outputs.csv
+        outputs_csvfile = open(OutputsFilePath, 'a')
+        wcsv = csv.writer(outputs_csvfile, delimiter=',', lineterminator='\n')
+        wcsv.writerow(_frame)
+        outputs_csvfile.close()
         # endregion
 
 

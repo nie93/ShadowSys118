@@ -1614,3 +1614,6849 @@ ShadowSys118Service Initializing
 
 [6/29/2017 10:54:49] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
 
+[6/29/2017 11:55:31 AM] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-29 15:55:31.940 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 32.2031 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: WORKGROUP\SYSTEM
+
+*******************************************************************************
+
+[6/29/2017 11:55:32 AM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+
+
+[6/29/2017 11:55:36 AM] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 11:55:36 AM] Attempting command channel connection to publisher...
+
+[6/29/2017 11:55:36 AM] Connection established.
+
+[6/29/2017 11:55:36 AM] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 11:55:36 AM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 11:55:36 AM] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 18.01 milliseconds...
+
+[6/29/2017 11:55:36 AM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/29/2017 11:55:50 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:55:51 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:55:52 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:55:53 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:55:54 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:55:55 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:55:56 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:55:57 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:55:58 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:55:59 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:56:00 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:56:01 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:56:02 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:56:03 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:56:04 AM] WARNING: Action Signals Received
+
+
+[6/29/2017 11:59:38 AM] Received notification from publisher that configuration has changed.
+
+[6/29/2017 12:00:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:00:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:02:32 PM] Received notification from publisher that configuration has changed.
+
+[6/29/2017 12:03:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:27 PM]   - ActTxRaise
+
+
+[6/29/2017 12:03:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:28 PM]   - ActTxRaise
+
+
+[6/29/2017 12:03:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:29 PM]   - ActTxRaise
+
+
+[6/29/2017 12:03:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:03:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:04:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:05:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:06:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:07:53 PM] Received notification from publisher that configuration has changed.
+
+[6/29/2017 12:08:29 PM] Received notification from publisher that configuration has changed.
+
+[6/29/2017 12:08:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:42 PM]   - ActTxRaise
+
+
+[6/29/2017 12:08:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:43 PM]   - ActTxRaise
+
+
+[6/29/2017 12:08:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:44 PM]   - ActTxRaise
+
+
+[6/29/2017 12:08:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:08:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:33 PM]   - ActTxRaise
+
+
+[6/29/2017 12:09:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:34 PM]   - ActTxRaise
+
+
+[6/29/2017 12:09:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:35 PM]   - ActTxRaise
+
+
+[6/29/2017 12:09:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:09:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:18 PM]   - ActTxRaise
+
+
+[6/29/2017 12:10:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:19 PM]   - ActTxRaise
+
+
+[6/29/2017 12:10:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:20 PM]   - ActTxRaise
+
+
+[6/29/2017 12:10:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:53 PM]   - ActTxLower
+
+
+[6/29/2017 12:10:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:54 PM]   - ActTxLower
+
+
+[6/29/2017 12:10:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:55 PM]   - ActTxLower
+
+
+[6/29/2017 12:10:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:56 PM]   - ActTxLower
+
+
+[6/29/2017 12:10:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:10:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:11:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:18 PM]   - ActTxRaise
+
+
+[6/29/2017 12:12:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:19 PM]   - ActTxRaise
+
+
+[6/29/2017 12:12:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:20 PM]   - ActTxRaise
+
+
+[6/29/2017 12:12:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:12:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:00 PM]   - ActTxRaise
+
+
+[6/29/2017 12:13:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:01 PM]   - ActTxRaise
+
+
+[6/29/2017 12:13:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:08 PM]   - ActTxLower
+
+
+[6/29/2017 12:13:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:10 PM]   - ActTxLower
+
+
+[6/29/2017 12:13:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:11 PM]   - ActTxLower
+
+
+[6/29/2017 12:13:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:12 PM]   - ActTxLower
+
+
+[6/29/2017 12:13:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:13 PM]   - ActTxLower
+
+
+[6/29/2017 12:13:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:13:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:17:35 PM] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-29 16:17:35.092 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 32.2266 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: WORKGROUP\SYSTEM
+
+*******************************************************************************
+
+[6/29/2017 12:17:35 PM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+
+
+[6/29/2017 12:17:39 PM] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 12:17:39 PM] Attempting command channel connection to publisher...
+
+[6/29/2017 12:17:39 PM] Connection established.
+
+[6/29/2017 12:17:39 PM] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 12:17:39 PM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 12:17:39 PM] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 26.02 milliseconds...
+
+[6/29/2017 12:17:39 PM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/29/2017 12:18:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:02 PM]   - ActTxRaise
+
+
+[6/29/2017 12:18:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:04 PM]   - ActTxRaise
+
+
+[6/29/2017 12:18:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:18:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:25 PM]   - ActTxRaise
+
+
+[6/29/2017 12:19:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:26 PM]   - ActTxRaise
+
+
+[6/29/2017 12:19:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:27 PM]   - ActTxRaise
+
+
+[6/29/2017 12:19:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:19:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:20:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:34 PM]   - ActTxRaise
+
+
+[6/29/2017 12:21:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:35 PM]   - ActTxRaise
+
+
+[6/29/2017 12:21:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:36 PM]   - ActTxRaise
+
+
+[6/29/2017 12:21:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:21:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:22:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:27 PM]   - ActTxRaise
+
+
+[6/29/2017 12:23:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:28 PM]   - ActTxRaise
+
+
+[6/29/2017 12:23:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:23:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:38 PM]   - ActTxRaise
+
+
+[6/29/2017 12:24:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:39 PM]   - ActTxRaise
+
+
+[6/29/2017 12:24:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:24:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:41 PM]   - ActTxRaise
+
+
+[6/29/2017 12:25:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:42 PM]   - ActTxRaise
+
+
+[6/29/2017 12:25:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:25:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:40 PM]   - ActTxRaise
+
+
+[6/29/2017 12:26:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:41 PM]   - ActTxRaise
+
+
+[6/29/2017 12:26:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:26:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:36 PM]   - ActTxRaise
+
+
+[6/29/2017 12:27:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:36 PM]   - ActTxRaise
+
+
+[6/29/2017 12:27:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:27:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:27 PM]   - ActTxRaise
+
+
+[6/29/2017 12:28:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:28 PM]   - ActTxRaise
+
+
+[6/29/2017 12:28:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:28:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:09 PM]   - ActTxRaise
+
+
+[6/29/2017 12:29:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:30 PM]   - ActTxRaise
+
+
+[6/29/2017 12:29:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:31 PM]   - ActTxRaise
+
+
+[6/29/2017 12:29:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 12:29:51 [6/29/2017 12:40:22 PM] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-29 16:40:22.467 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 32.2148 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: WORKGROUP\SYSTEM
+
+*******************************************************************************
+
+[6/29/2017 12:40:23 PM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+
+
+[6/29/2017 12:40:26 PM] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 12:40:26 PM] Attempting command channel connection to publisher...
+
+[6/29/2017 12:40:26 PM] Connection established.
+
+[6/29/2017 12:40:26 PM] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 12:40:26 PM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 12:40:26 PM] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 17.01 milliseconds...
+
+[6/29/2017 12:40:26 PM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/29/2017 12:40:31 PM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+
+
+[6/29/2017 12:40:56 PM] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 33.44 seconds
+    Measurement wait delay: 3 seconds (lag time)
+     Local clock tolerance: 1 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 29-Jun-2017 16:40:56.205
+  Using clock as real-time: False
+      Local clock accuracy: -0.1242 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 58
+    Processed measurements: 58
+    Discarded measurements: 0
+ Down-sampled measurements: 24
+    Published measurements: 26
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 470.2796 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 41.3793%
+ User function utilization: 47.0280% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 26
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.85 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 4
+      Last published frame: 29-Jun-2017 16:40:52.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 29 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 58
+    Total adapter run time: 33.43 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[6/29/2017 12:41:30 PM] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 1 minute 7.8 seconds
+    Measurement wait delay: 3 seconds (lag time)
+     Local clock tolerance: 1 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 29-Jun-2017 16:41:30.565
+  Using clock as real-time: False
+      Local clock accuracy: -0.0460 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 126
+    Processed measurements: 126
+    Discarded measurements: 0
+ Down-sampled measurements: 59
+    Published measurements: 61
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 392.0179 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 46.8254%
+ User function utilization: 39.2018% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 61
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.94 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 4
+      Last published frame: 29-Jun-2017 16:41:27.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 1 minute 4 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 126
+    Total adapter run time: 1 minute 7.77 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[6/29/2017 12:41:42 PM] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 1 minute 20.1 seconds
+    Measurement wait delay: 3 seconds (lag time)
+     Local clock tolerance: 1 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 29-Jun-2017 16:41:42.863
+  Using clock as real-time: False
+      Local clock accuracy: -0.1860 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 150
+    Processed measurements: 150
+    Discarded measurements: 0
+ Down-sampled measurements: 69
+    Published measurements: 72
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 382.5886 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 46.0000%
+ User function utilization: 38.2589% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 72
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.93 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 5
+      Last published frame: 29-Jun-2017 16:41:38.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 1 minute 16 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 150
+    Total adapter run time: 1 minute 20.07 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[6/29/2017 12:41:52 PM] Remote client disconnected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+
+
+[6/29/2017 12:59:50 PM] Received notification from publisher that configuration has changed.
+
+[6/29/2017 1:04:06 PM] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-29 17:04:06.838 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 32.168 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: WORKGROUP\SYSTEM
+
+*******************************************************************************
+
+[6/29/2017 1:04:07 PM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+
+
+[6/29/2017 1:04:11 PM] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 1:04:11 PM] Attempting command channel connection to publisher...
+
+[6/29/2017 1:04:11 PM] Connection established.
+
+[6/29/2017 1:04:11 PM] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 1:04:11 PM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 1:04:11 PM] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 16.99 milliseconds...
+
+[6/29/2017 1:04:11 PM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/29/2017 1:17:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:18:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:20:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:20:50 PM]   - ActTxRaise
+
+
+[6/29/2017 1:20:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:20:51 PM]   - ActTxRaise
+
+
+[6/29/2017 1:20:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:20:52 PM]   - ActTxRaise
+
+
+[6/29/2017 1:20:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:20:53 PM]   - ActTxRaise
+
+
+[6/29/2017 1:20:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:20:54 PM]   - ActTxRaise
+
+
+[6/29/2017 1:20:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:20:55 PM]   - ActTxRaise
+
+
+[6/29/2017 1:20:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:20:56 PM]   - ActTxRaise
+
+
+[6/29/2017 1:20:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:20:57 PM]   - ActTxRaise
+
+
+[6/29/2017 1:20:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:20:58 PM]   - ActTxRaise
+
+
+[6/29/2017 1:20:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:20:59 PM]   - ActTxRaise
+
+
+[6/29/2017 1:21:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:21:00 PM]   - ActTxRaise
+
+
+[6/29/2017 1:21:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:21:01 PM]   - ActTxRaise
+
+
+[6/29/2017 1:21:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:21:02 PM]   - ActTxRaise
+
+
+[6/29/2017 1:21:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:21:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:21:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:21:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:21:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:21:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:21:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:21:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:21:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:21:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:21:12 PM]   - ActTxRaise
+
+
+[6/29/2017 1:23:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:35:27 PM] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-29 17:35:27.936 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 32.2031 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: WORKGROUP\SYSTEM
+
+*******************************************************************************
+
+[6/29/2017 1:35:28 PM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+
+
+[6/29/2017 1:35:32 PM] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 1:35:32 PM] Attempting command channel connection to publisher...
+
+[6/29/2017 1:35:32 PM] Connection established.
+
+[6/29/2017 1:35:32 PM] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 1:35:32 PM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 1:35:32 PM] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 16.01 milliseconds...
+
+[6/29/2017 1:35:32 PM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/29/2017 1:36:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:36:07 PM]   - ActTxRaise
+
+
+[6/29/2017 1:36:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:36:09 PM]   - ActTxRaise
+
+
+[6/29/2017 1:36:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:36:10 PM]   - ActTxRaise
+
+
+[6/29/2017 1:36:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:36:11 PM]   - ActTxRaise
+
+
+[6/29/2017 1:36:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:36:12 PM]   - ActTxRaise
+
+
+[6/29/2017 1:36:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:36:13 PM]   - ActTxRaise
+
+
+[6/29/2017 1:36:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:36:25 PM]   - ActTxRaise
+
+
+[6/29/2017 1:36:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:36:26 PM]   - ActTxRaise
+
+
+[6/29/2017 1:36:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:36:27 PM]   - ActTxRaise
+
+
+[6/29/2017 1:36:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:36:37 PM]   - ActTxRaise
+
+
+[6/29/2017 1:36:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:36:38 PM]   - ActTxRaise
+
+
+[6/29/2017 1:36:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:36:39 PM]   - ActTxRaise
+
+
+[6/29/2017 1:38:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:38:51 PM]   - ActTxRaise
+
+
+[6/29/2017 1:39:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:39:10 PM]   - ActTxRaise
+
+
+[6/29/2017 1:39:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:39:18 PM]   - ActTxRaise
+
+
+[6/29/2017 1:42:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:42:57 PM]   - ActTxRaise
+
+
+[6/29/2017 1:43:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:43:03 PM]   - ActTxRaise
+
+
+[6/29/2017 1:44:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:44:28 PM]   - ActTxRaise
+
+
+[6/29/2017 1:46:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:46:10 PM]   - ActTxRaise
+
+
+[6/29/2017 1:47:36 PM] Failed to Serialzie
+
+
+[6/29/2017 1:48:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:48:30 PM]   - ActTxRaise
+
+
+[6/29/2017 1:48:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:48:42 PM]   - ActTxRaise
+
+
+[6/29/2017 1:50:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:50:10 PM]   - ActTxRaise
+
+
+[6/29/2017 1:51:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:51:04 PM]   - ActTxRaise
+
+
+[6/29/2017 1:53:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:53:07 PM]   - ActTxRaise
+
+
+[6/29/2017 1:53:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:53:08 PM]   - ActTxRaise
+
+
+[6/29/2017 1:53:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 1:53:10 PM]   - ActTxRaise
+
+
+[6/29/2017 2:01:13 PM] Received notification from publisher that configuration has changed.
+
+[6/29/2017 2:02:41 PM] Received notification from publisher that configuration has changed.
+
+[6/29/2017 2:03:35 PM] Received notification from publisher that configuration has changed.
+
+[6/29/2017 2:04:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:04:58 PM]   - ActTxRaise
+
+
+[6/29/2017 2:05:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:05:24 PM]   - ActTxRaise
+
+
+[6/29/2017 2:05:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:05:26 PM]   - ActTxRaise
+
+
+[6/29/2017 2:05:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:05:27 PM]   - ActTxRaise
+
+
+[6/29/2017 2:05:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:05:28 PM]   - ActTxRaise
+
+
+[6/29/2017 2:05:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:05:29 PM]   - ActTxRaise
+
+
+[6/29/2017 2:05:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:05:30 PM]   - ActTxRaise
+
+
+[6/29/2017 14:11:14] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-29 18:11:14.337 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.5312 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[6/29/2017 14:11:15] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[6/29/2017 14:11:19] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 14:11:19] Attempting command channel connection to publisher...
+
+[6/29/2017 14:11:19] Connection established.
+
+[6/29/2017 14:11:19] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 14:11:19] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 14:11:19] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 10.01 milliseconds...
+
+[6/29/2017 14:11:19] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/29/2017 2:11:49 PM] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-29 18:11:49.161 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 32.2031 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: WORKGROUP\SYSTEM
+
+*******************************************************************************
+
+[6/29/2017 2:11:49 PM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+
+
+[6/29/2017 2:11:53 PM] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 2:11:53 PM] Attempting command channel connection to publisher...
+
+[6/29/2017 2:11:53 PM] Connection established.
+
+[6/29/2017 2:11:53 PM] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 2:11:53 PM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 2:11:53 PM] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 15.01 milliseconds...
+
+[6/29/2017 2:11:53 PM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/29/2017 2:12:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:12:39 PM]   - ActTxRaise
+
+
+[6/29/2017 2:12:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:12:40 PM]   - ActTxRaise
+
+
+[6/29/2017 2:14:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:14:01 PM]   - ActTxRaise
+
+
+[6/29/2017 2:14:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:14:02 PM]   - ActTxRaise
+
+
+[6/29/2017 2:14:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:14:03 PM]   - ActTxRaise
+
+
+[6/29/2017 2:14:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:14:28 PM]   - ActTxRaise
+
+
+[6/29/2017 2:17:01 PM] Received notification from publisher that configuration has changed.
+
+[6/29/2017 2:17:14 PM] Failed to Serialzie
+
+
+[6/29/2017 2:17:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:17:45 PM]   - ActTxRaise
+
+
+[6/29/2017 2:17:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:17:46 PM]   - ActTxRaise
+
+
+[6/29/2017 2:17:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:17:47 PM]   - ActTxRaise
+
+
+[6/29/2017 2:17:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:17:48 PM]   - ActTxRaise
+
+
+[6/29/2017 2:17:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:17:49 PM]   - ActTxRaise
+
+
+[6/29/2017 2:18:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:18:07 PM]   - ActTxRaise
+
+
+[6/29/2017 2:18:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:18:08 PM]   - ActTxRaise
+
+
+[6/29/2017 2:18:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:18:49 PM]   - ActSn1Close
+
+
+[6/29/2017 2:18:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:18:50 PM]   - ActSn1Close
+
+
+[6/29/2017 2:19:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:19:25 PM]   - ActTxLower
+
+
+[6/29/2017 2:19:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:19:26 PM]   - ActTxLower
+
+
+[6/29/2017 2:19:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:19:27 PM]   - ActTxLower
+
+
+[6/29/2017 2:19:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:19:28 PM]   - ActTxLower
+
+
+[6/29/2017 2:19:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:19:29 PM]   - ActTxLower
+
+
+[6/29/2017 2:25:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:25:57 PM]   - ActTxRaise
+
+
+[6/29/2017 2:26:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:26:02 PM]   - ActTxRaise
+
+
+[6/29/2017 2:29:50 PM] Received notification from publisher that configuration has changed.
+
+[6/29/2017 2:31:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:31:29 PM]   - ActTxRaise
+
+
+[6/29/2017 2:31:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:31:30 PM]   - ActTxRaise
+
+
+[6/29/2017 2:31:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:31:31 PM]   - ActTxRaise
+
+
+[6/29/2017 2:32:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:32:13 PM]   - ActTxLower
+
+
+[6/29/2017 2:32:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:32:14 PM]   - ActTxLower
+
+
+[6/29/2017 2:32:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:32:15 PM]   - ActTxLower
+
+
+[6/29/2017 2:32:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:32:16 PM]   - ActTxLower
+
+
+[6/29/2017 2:33:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:33:32 PM]   - ActTxRaise
+
+
+[6/29/2017 2:33:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:33:34 PM]   - ActTxRaise
+
+
+[6/29/2017 2:33:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:33:35 PM]   - ActTxRaise
+
+
+[6/29/2017 2:33:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:33:36 PM]   - ActTxRaise
+
+
+[6/29/2017 2:33:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:33:37 PM]   - ActTxRaise
+
+
+[6/29/2017 2:33:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:33:38 PM]   - ActTxRaise
+
+
+[6/29/2017 2:33:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:33:39 PM]   - ActSn2Close
+
+
+[6/29/2017 2:34:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:16 PM]   - ActSn1Close
+
+
+[6/29/2017 2:34:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:28 PM]   - ActTxLower
+
+
+[6/29/2017 2:34:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:29 PM]   - ActTxLower
+
+
+[6/29/2017 2:34:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:30 PM]   - ActTxLower
+
+
+[6/29/2017 2:34:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:31 PM]   - ActTxLower
+
+
+[6/29/2017 2:34:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:32 PM]   - ActTxLower
+
+
+[6/29/2017 2:34:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:33 PM]   - ActTxLower
+
+
+[6/29/2017 2:34:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:34 PM]   - ActTxLower
+
+
+[6/29/2017 2:34:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:34:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:16 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:35:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:08 PM]   - ActTxRaise
+
+
+[6/29/2017 2:36:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:09 PM]   - ActTxRaise
+
+
+[6/29/2017 2:36:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:10 PM]   - ActTxRaise
+
+
+[6/29/2017 2:36:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:20 PM]   - ActTxRaise
+
+
+[6/29/2017 2:36:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:21 PM]   - ActTxRaise
+
+
+[6/29/2017 2:36:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:22 PM]   - ActTxRaise
+
+
+[6/29/2017 2:36:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:31 PM]   - ActTxRaise
+
+
+[6/29/2017 2:36:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:42 PM]   - ActTxLower
+
+
+[6/29/2017 2:36:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:43 PM]   - ActTxLower
+
+
+[6/29/2017 2:36:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:44 PM]   - ActTxLower
+
+
+[6/29/2017 2:36:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:45 PM]   - ActTxLower
+
+
+[6/29/2017 2:36:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:46 PM]   - ActTxLower
+
+
+[6/29/2017 2:36:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:47 PM]   - ActTxLower
+
+
+[6/29/2017 2:36:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:36:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:37:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:38:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:38:26 PM]   - ActTxRaise
+
+
+[6/29/2017 2:38:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:38:27 PM]   - ActTxRaise
+
+
+[6/29/2017 2:38:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:38:28 PM]   - ActTxRaise
+
+
+[6/29/2017 2:38:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:38:38 PM]   - ActTxRaise
+
+
+[6/29/2017 2:38:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:38:39 PM]   - ActTxRaise
+
+
+[6/29/2017 2:38:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:38:40 PM]   - ActTxRaise
+
+
+[6/29/2017 2:38:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:38:57 PM]   - ActTxLower
+
+
+[6/29/2017 2:38:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:38:58 PM]   - ActTxLower
+
+
+[6/29/2017 2:38:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:38:59 PM]   - ActTxLower
+
+
+[6/29/2017 2:39:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:00 PM]   - ActTxLower
+
+
+[6/29/2017 2:39:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:01 PM]   - ActTxLower
+
+
+[6/29/2017 2:39:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:02 PM]   - ActTxLower
+
+
+[6/29/2017 2:39:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:03 PM]   - ActTxLower
+
+
+[6/29/2017 2:39:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:39:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:42:09 PM] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-06-29 18:42:09.376 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 32.2969 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: WORKGROUP\SYSTEM
+
+*******************************************************************************
+
+[6/29/2017 2:42:09 PM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+
+
+[6/29/2017 2:42:13 PM] Attempting connection to tcp://localhost:6190...
+
+[6/29/2017 2:42:13 PM] Attempting command channel connection to publisher...
+
+[6/29/2017 2:42:13 PM] Connection established.
+
+[6/29/2017 2:42:13 PM] Data subscriber command channel connection to publisher was established.
+
+[6/29/2017 2:42:13 PM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[6/29/2017 2:42:13 PM] Received a total of 145 records spanning 5 tables of meta-data that was uncompressed and deserialized in 16.01 milliseconds...
+
+[6/29/2017 2:42:13 PM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 7 signals.
+
+[6/29/2017 2:43:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:43:58 PM]   - ActTxRaise
+
+
+[6/29/2017 2:44:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:44:12 PM]   - ActSn2Close
+
+
+[6/29/2017 2:44:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:44:14 PM]   - ActTxRaise
+
+
+[6/29/2017 2:44:14 PM]   - ActSn2Trip
+
+
+[6/29/2017 2:44:17 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:44:17 PM]   - ActTxRaise
+
+
+[6/29/2017 2:44:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:44:18 PM]   - ActTxRaise
+
+
+[6/29/2017 2:44:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:44:20 PM]   - ActTxRaise
+
+
+[6/29/2017 2:44:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:44:22 PM]   - ActTxRaise
+
+
+[6/29/2017 2:44:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:44:24 PM]   - ActSn2Close
+
+
+[6/29/2017 2:44:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:44:28 PM]   - ActSn2Trip
+
+
+[6/29/2017 2:44:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:44:32 PM]   - ActSn2Close
+
+
+[6/29/2017 2:45:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:45:28 PM]   - ActSn1Close
+
+
+[6/29/2017 2:45:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:45:41 PM]   - ActTxLower
+
+
+[6/29/2017 2:45:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:45:43 PM]   - ActTxLower
+
+
+[6/29/2017 2:45:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:45:45 PM]   - ActTxLower
+
+
+[6/29/2017 2:47:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:47:40 PM]   - ActTxLower
+
+
+[6/29/2017 2:47:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:47:42 PM]   - ActTxRaise
+
+
+[6/29/2017 2:47:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:47:43 PM]   - ActTxRaise
+
+
+[6/29/2017 2:47:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:47:44 PM]   - ActTxRaise
+
+
+[6/29/2017 2:47:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:47:46 PM]   - ActTxRaise
+
+
+[6/29/2017 2:47:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:47:54 PM]   - ActTxLower
+
+
+[6/29/2017 2:47:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:47:55 PM]   - ActTxLower
+
+
+[6/29/2017 2:47:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:47:57 PM]   - ActTxLower
+
+
+[6/29/2017 2:47:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:47:59 PM]   - ActTxLower
+
+
+[6/29/2017 2:48:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:48:00 PM]   - ActTxLower
+
+
+[6/29/2017 2:48:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:48:01 PM]   - ActTxLower
+
+
+[6/29/2017 2:48:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:48:03 PM]   - ActSn2Trip
+
+
+[6/29/2017 2:48:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:48:41 PM]   - ActSn2Close
+
+
+[6/29/2017 2:48:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:48:43 PM]   - ActSn2Close
+
+
+[6/29/2017 2:48:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:48:45 PM]   - ActSn2Trip
+
+
+[6/29/2017 2:48:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:48:49 PM]   - ActSn2Close
+
+
+[6/29/2017 2:48:50 PM] Failed to Serialzie
+
+
+[6/29/2017 2:48:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:48:50 PM]   - ActSn2Close
+
+
+[6/29/2017 2:48:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:48:53 PM]   - ActSn2Trip
+
+
+[6/29/2017 2:48:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:48:56 PM]   - ActSn2Close
+
+
+[6/29/2017 2:48:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:48:59 PM]   - ActSn2Trip
+
+
+[6/29/2017 2:49:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:49:02 PM]   - ActSn2Close
+
+
+[6/29/2017 2:49:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:49:39 PM]   - ActTxRaise
+
+
+[6/29/2017 2:49:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:49:40 PM]   - ActTxRaise
+
+
+[6/29/2017 2:50:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:50:41 PM]   - ActTxRaise
+
+
+[6/29/2017 2:50:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:50:43 PM]   - ActTxRaise
+
+
+[6/29/2017 2:50:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:50:44 PM]   - ActSn2Close
+
+
+[6/29/2017 2:50:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:50:45 PM]   - ActSn2Close
+
+
+[6/29/2017 2:51:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:51:19 PM]   - ActTxRaise
+
+
+[6/29/2017 2:51:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:51:20 PM]   - ActTxRaise
+
+
+[6/29/2017 2:51:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:51:21 PM]   - ActTxRaise
+
+
+[6/29/2017 2:51:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:51:31 PM]   - ActTxRaise
+
+
+[6/29/2017 2:52:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:52:11 PM]   - ActSn1Close
+
+
+[6/29/2017 2:52:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:52:23 PM]   - ActTxLower
+
+
+[6/29/2017 2:52:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:52:24 PM]   - ActTxLower
+
+
+[6/29/2017 2:52:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:52:25 PM]   - ActTxLower
+
+
+[6/29/2017 2:52:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:52:26 PM]   - ActTxLower
+
+
+[6/29/2017 2:52:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:52:27 PM]   - ActTxLower
+
+
+[6/29/2017 2:52:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:52:28 PM]   - ActTxLower
+
+
+[6/29/2017 2:52:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:52:29 PM]   - ActTxLower
+
+
+[6/29/2017 2:52:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:52:30 PM]   - ActSn2Trip
+
+
+[6/29/2017 2:52:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:52:31 PM]   - ActSn2Trip
+
+
+[6/29/2017 2:53:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:53:08 PM]   - ActSn2Close
+
+
+[6/29/2017 2:53:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:53:09 PM]   - ActSn2Close
+
+
+[6/29/2017 2:54:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:04 PM]   - ActTxRaise
+
+
+[6/29/2017 2:54:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:05 PM]   - ActTxRaise
+
+
+[6/29/2017 2:54:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:06 PM]   - ActTxRaise
+
+
+[6/29/2017 2:54:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:07 PM]   - ActTxRaise
+
+
+[6/29/2017 2:54:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:19 PM]   - ActTxRaise
+
+
+[6/29/2017 2:54:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:20 PM]   - ActTxRaise
+
+
+[6/29/2017 2:54:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:21 PM]   - ActTxRaise
+
+
+[6/29/2017 2:54:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:37 PM]   - ActTxLower
+
+
+[6/29/2017 2:54:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:39 PM]   - ActTxLower
+
+
+[6/29/2017 2:54:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:40 PM]   - ActTxLower
+
+
+[6/29/2017 2:54:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:41 PM]   - ActTxLower
+
+
+[6/29/2017 2:54:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:42 PM]   - ActTxLower
+
+
+[6/29/2017 2:54:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:43 PM]   - ActTxLower
+
+
+[6/29/2017 2:54:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:54:45 PM]   - ActSn2Trip
+
+
+[6/29/2017 2:55:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:55:24 PM]   - ActSn2Close
+
+
+[6/29/2017 2:55:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:55:25 PM]   - ActSn2Close
+
+
+[6/29/2017 2:56:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:22 PM]   - ActTxRaise
+
+
+[6/29/2017 2:56:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:23 PM]   - ActTxRaise
+
+
+[6/29/2017 2:56:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:24 PM]   - ActTxRaise
+
+
+[6/29/2017 2:56:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:33 PM]   - ActTxRaise
+
+
+[6/29/2017 2:56:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:34 PM]   - ActTxRaise
+
+
+[6/29/2017 2:56:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:35 PM]   - ActTxRaise
+
+
+[6/29/2017 2:56:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:52 PM]   - ActTxLower
+
+
+[6/29/2017 2:56:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:53 PM]   - ActTxLower
+
+
+[6/29/2017 2:56:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:54 PM]   - ActTxLower
+
+
+[6/29/2017 2:56:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:55 PM]   - ActTxLower
+
+
+[6/29/2017 2:56:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:56 PM]   - ActTxLower
+
+
+[6/29/2017 2:56:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:57 PM]   - ActTxLower
+
+
+[6/29/2017 2:56:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:58 PM]   - ActTxLower
+
+
+[6/29/2017 2:56:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:56:59 PM]   - ActSn2Trip
+
+
+[6/29/2017 2:57:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:57:00 PM]   - ActSn2Trip
+
+
+[6/29/2017 2:57:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:57:37 PM]   - ActSn2Close
+
+
+[6/29/2017 2:57:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:57:38 PM]   - ActSn2Close
+
+
+[6/29/2017 2:58:32 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:58:32 PM]   - ActTxRaise
+
+
+[6/29/2017 2:58:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:58:33 PM]   - ActTxRaise
+
+
+[6/29/2017 2:58:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:58:35 PM]   - ActTxRaise
+
+
+[6/29/2017 2:58:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:58:44 PM]   - ActTxRaise
+
+
+[6/29/2017 2:58:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:58:45 PM]   - ActTxRaise
+
+
+[6/29/2017 2:58:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:58:46 PM]   - ActTxRaise
+
+
+[6/29/2017 2:58:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:58:55 PM]   - ActTxRaise
+
+
+[6/29/2017 2:59:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:59:06 PM]   - ActTxLower
+
+
+[6/29/2017 2:59:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:59:07 PM]   - ActTxLower
+
+
+[6/29/2017 2:59:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:59:08 PM]   - ActTxLower
+
+
+[6/29/2017 2:59:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:59:09 PM]   - ActTxLower
+
+
+[6/29/2017 2:59:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:59:10 PM]   - ActTxLower
+
+
+[6/29/2017 2:59:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:59:11 PM]   - ActTxLower
+
+
+[6/29/2017 2:59:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:59:12 PM]   - ActTxLower
+
+
+[6/29/2017 2:59:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:59:13 PM]   - ActSn2Trip
+
+
+[6/29/2017 2:59:14 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:59:14 PM]   - ActSn2Trip
+
+
+[6/29/2017 2:59:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 2:59:52 PM]   - ActSn2Close
+
+
+[6/29/2017 3:00:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:00:40 PM]   - ActSn1Close
+
+
+[6/29/2017 3:00:40 PM]   - ActSn2Close
+
+
+[6/29/2017 3:00:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:00:42 PM]   - ActTxRaise
+
+
+[6/29/2017 3:00:42 PM]   - ActSn1Trip
+
+
+[6/29/2017 3:00:42 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:00:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:00:44 PM]   - ActSn1Close
+
+
+[6/29/2017 3:00:44 PM]   - ActSn2Close
+
+
+[6/29/2017 3:00:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:00:45 PM]   - ActTxRaise
+
+
+[6/29/2017 3:00:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:00:46 PM]   - ActTxRaise
+
+
+[6/29/2017 3:00:46 PM]   - ActSn1Trip
+
+
+[6/29/2017 3:00:46 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:00:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:00:49 PM]   - ActTxRaise
+
+
+[6/29/2017 3:00:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:00:50 PM]   - ActTxRaise
+
+
+[6/29/2017 3:00:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:00:51 PM]   - ActTxRaise
+
+
+[6/29/2017 3:00:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:00:52 PM]   - ActSn2Close
+
+
+[6/29/2017 3:00:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:00:53 PM]   - ActSn2Close
+
+
+[6/29/2017 3:01:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:10 PM]   - ActSn1Close
+
+
+[6/29/2017 3:01:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:11 PM]   - ActSn1Close
+
+
+[6/29/2017 3:01:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:21 PM]   - ActTxLower
+
+
+[6/29/2017 3:01:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:22 PM]   - ActTxLower
+
+
+[6/29/2017 3:01:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:23 PM]   - ActTxLower
+
+
+[6/29/2017 3:01:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:24 PM]   - ActTxLower
+
+
+[6/29/2017 3:01:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:25 PM]   - ActTxLower
+
+
+[6/29/2017 3:01:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:26 PM]   - ActTxLower
+
+
+[6/29/2017 3:01:27 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:27 PM]   - ActTxLower
+
+
+[6/29/2017 3:01:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:28 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:01:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:29 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:01:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:31 PM]   - ActSn1Trip
+
+
+[6/29/2017 3:01:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:49 PM]   - ActTxRaise
+
+
+[6/29/2017 3:01:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:50 PM]   - ActTxRaise
+
+
+[6/29/2017 3:01:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:51 PM]   - ActTxRaise
+
+
+[6/29/2017 3:01:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:57 PM]   - ActSn2Close
+
+
+[6/29/2017 3:01:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:01:59 PM]   - ActSn2Close
+
+
+[6/29/2017 3:02:31 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:02:31 PM]   - ActTxRaise
+
+
+[6/29/2017 3:02:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:02:35 PM]   - ActTxRaise
+
+
+[6/29/2017 3:02:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:02:41 PM]   - ActTxRaise
+
+
+[6/29/2017 3:02:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:02:42 PM]   - ActTxRaise
+
+
+[6/29/2017 3:02:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:02:43 PM]   - ActTxRaise
+
+
+[6/29/2017 3:03:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:03:24 PM]   - ActSn1Close
+
+
+[6/29/2017 3:03:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:03:35 PM]   - ActTxLower
+
+
+[6/29/2017 3:03:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:03:36 PM]   - ActTxLower
+
+
+[6/29/2017 3:03:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:03:37 PM]   - ActTxLower
+
+
+[6/29/2017 3:03:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:03:38 PM]   - ActTxLower
+
+
+[6/29/2017 3:03:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:03:39 PM]   - ActTxLower
+
+
+[6/29/2017 3:03:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:03:40 PM]   - ActTxLower
+
+
+[6/29/2017 3:03:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:03:41 PM]   - ActTxLower
+
+
+[6/29/2017 3:03:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:03:42 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:03:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:03:43 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:03:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:03:45 PM]   - ActSn1Trip
+
+
+[6/29/2017 3:04:03 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:04:03 PM]   - ActTxRaise
+
+
+[6/29/2017 3:04:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:04:04 PM]   - ActTxRaise
+
+
+[6/29/2017 3:04:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:04:05 PM]   - ActTxRaise
+
+
+[6/29/2017 3:04:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:04:12 PM]   - ActSn2Close
+
+
+[6/29/2017 3:04:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:04:13 PM]   - ActSn2Close
+
+
+[6/29/2017 3:04:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:04:45 PM]   - ActTxRaise
+
+
+[6/29/2017 3:04:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:04:46 PM]   - ActTxRaise
+
+
+[6/29/2017 3:04:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:04:47 PM]   - ActTxRaise
+
+
+[6/29/2017 3:04:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:04:58 PM]   - ActTxRaise
+
+
+[6/29/2017 3:05:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:05:00 PM]   - ActTxRaise
+
+
+[6/29/2017 3:05:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:05:38 PM]   - ActSn1Close
+
+
+[6/29/2017 3:05:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:05:39 PM]   - ActSn1Close
+
+
+[6/29/2017 3:05:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:05:50 PM]   - ActTxLower
+
+
+[6/29/2017 3:05:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:05:51 PM]   - ActTxLower
+
+
+[6/29/2017 3:05:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:05:52 PM]   - ActTxLower
+
+
+[6/29/2017 3:05:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:05:53 PM]   - ActTxLower
+
+
+[6/29/2017 3:05:54 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:05:54 PM]   - ActTxLower
+
+
+[6/29/2017 3:05:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:05:55 PM]   - ActTxLower
+
+
+[6/29/2017 3:05:57 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:05:57 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:05:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:05:58 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:06:00 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:06:00 PM]   - ActSn1Trip
+
+
+[6/29/2017 3:06:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:06:22 PM]   - ActTxRaise
+
+
+[6/29/2017 3:06:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:06:23 PM]   - ActTxRaise
+
+
+[6/29/2017 3:06:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:06:24 PM]   - ActTxRaise
+
+
+[6/29/2017 3:06:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:06:25 PM]   - ActSn2Close
+
+
+[6/29/2017 3:06:26 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:06:26 PM]   - ActSn2Close
+
+
+[6/29/2017 3:07:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:07:05 PM]   - ActTxRaise
+
+
+[6/29/2017 3:07:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:07:07 PM]   - ActTxRaise
+
+
+[6/29/2017 3:07:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:07:08 PM]   - ActTxRaise
+
+
+[6/29/2017 3:07:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:07:52 PM]   - ActSn1Close
+
+
+[6/29/2017 3:08:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:08:04 PM]   - ActTxLower
+
+
+[6/29/2017 3:08:05 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:08:05 PM]   - ActTxLower
+
+
+[6/29/2017 3:08:06 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:08:06 PM]   - ActTxLower
+
+
+[6/29/2017 3:08:08 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:08:08 PM]   - ActTxLower
+
+
+[6/29/2017 3:08:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:08:10 PM]   - ActTxLower
+
+
+[6/29/2017 3:08:11 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:08:11 PM]   - ActTxLower
+
+
+[6/29/2017 3:08:12 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:08:12 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:08:13 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:08:13 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:08:15 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:08:15 PM]   - ActSn1Trip
+
+
+[6/29/2017 3:08:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:08:37 PM]   - ActTxRaise
+
+
+[6/29/2017 3:08:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:08:38 PM]   - ActTxRaise
+
+
+[6/29/2017 3:08:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:08:39 PM]   - ActTxRaise
+
+
+[6/29/2017 3:08:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:08:40 PM]   - ActSn2Close
+
+
+[6/29/2017 3:09:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:09:18 PM]   - ActTxRaise
+
+
+[6/29/2017 3:09:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:09:19 PM]   - ActTxRaise
+
+
+[6/29/2017 3:09:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:09:20 PM]   - ActTxRaise
+
+
+[6/29/2017 3:10:07 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:07 PM]   - ActSn1Close
+
+
+[6/29/2017 3:10:18 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:18 PM]   - ActTxLower
+
+
+[6/29/2017 3:10:19 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:19 PM]   - ActTxLower
+
+
+[6/29/2017 3:10:20 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:20 PM]   - ActTxLower
+
+
+[6/29/2017 3:10:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:21 PM]   - ActTxLower
+
+
+[6/29/2017 3:10:22 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:22 PM]   - ActTxLower
+
+
+[6/29/2017 3:10:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:23 PM]   - ActTxLower
+
+
+[6/29/2017 3:10:24 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:24 PM]   - ActTxLower
+
+
+[6/29/2017 3:10:25 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:25 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:10:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:28 PM]   - ActSn1Trip
+
+
+[6/29/2017 3:10:46 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:46 PM]   - ActTxRaise
+
+
+[6/29/2017 3:10:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:47 PM]   - ActTxRaise
+
+
+[6/29/2017 3:10:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:48 PM]   - ActTxRaise
+
+
+[6/29/2017 3:10:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:55 PM]   - ActSn2Close
+
+
+[6/29/2017 3:10:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:10:56 PM]   - ActSn2Close
+
+
+[6/29/2017 3:11:28 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:11:28 PM]   - ActTxRaise
+
+
+[6/29/2017 3:11:29 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:11:29 PM]   - ActTxRaise
+
+
+[6/29/2017 3:11:30 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:11:30 PM]   - ActTxRaise
+
+
+[6/29/2017 3:11:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:11:41 PM]   - ActTxRaise
+
+
+[6/29/2017 3:11:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:11:42 PM]   - ActTxRaise
+
+
+[6/29/2017 3:12:21 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:12:21 PM]   - ActSn1Close
+
+
+[6/29/2017 3:12:23 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:12:23 PM]   - ActSn1Close
+
+
+[6/29/2017 3:12:33 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:12:33 PM]   - ActTxLower
+
+
+[6/29/2017 3:12:34 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:12:34 PM]   - ActTxLower
+
+
+[6/29/2017 3:12:35 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:12:35 PM]   - ActTxLower
+
+
+[6/29/2017 3:12:37 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:12:37 PM]   - ActTxLower
+
+
+[6/29/2017 3:12:38 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:12:38 PM]   - ActTxLower
+
+
+[6/29/2017 3:12:39 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:12:39 PM]   - ActTxLower
+
+
+[6/29/2017 3:12:40 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:12:40 PM]   - ActTxLower
+
+
+[6/29/2017 3:12:41 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:12:41 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:12:42 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:12:42 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:12:44 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:12:44 PM]   - ActSn1Trip
+
+
+[6/29/2017 3:13:01 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:13:01 PM]   - ActTxRaise
+
+
+[6/29/2017 3:13:02 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:13:02 PM]   - ActTxRaise
+
+
+[6/29/2017 3:13:04 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:13:04 PM]   - ActTxRaise
+
+
+[6/29/2017 3:13:09 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:13:09 PM]   - ActSn2Close
+
+
+[6/29/2017 3:13:10 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:13:10 PM]   - ActSn2Close
+
+
+[6/29/2017 3:13:43 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:13:43 PM]   - ActTxRaise
+
+
+[6/29/2017 3:13:45 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:13:45 PM]   - ActTxRaise
+
+
+[6/29/2017 3:13:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:13:47 PM]   - ActTxRaise
+
+
+[6/29/2017 3:13:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:13:55 PM]   - ActTxRaise
+
+
+[6/29/2017 3:13:56 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:13:56 PM]   - ActTxRaise
+
+
+[6/29/2017 3:14:36 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:14:36 PM]   - ActSn1Close
+
+
+[6/29/2017 3:14:47 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:14:47 PM]   - ActTxLower
+
+
+[6/29/2017 3:14:48 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:14:48 PM]   - ActTxLower
+
+
+[6/29/2017 3:14:49 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:14:49 PM]   - ActTxLower
+
+
+[6/29/2017 3:14:50 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:14:50 PM]   - ActTxLower
+
+
+[6/29/2017 3:14:51 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:14:51 PM]   - ActTxLower
+
+
+[6/29/2017 3:14:52 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:14:52 PM]   - ActTxLower
+
+
+[6/29/2017 3:14:53 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:14:53 PM]   - ActTxLower
+
+
+[6/29/2017 3:14:55 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:14:55 PM]   - ActSn2Trip
+
+
+[6/29/2017 3:14:58 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:14:58 PM]   - ActSn1Trip
+
+
+[6/29/2017 3:14:59 PM] WARNING: Action Signals Received
+
+
+[6/29/2017 3:14:59 PM]   - ActSn1Trip
+
+
