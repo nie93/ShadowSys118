@@ -10,6 +10,7 @@ namespace ShadowSys118.Model.SS118Data
     [CompilerGenerated]
     public partial class _InputsMeta
     {
+        public MetaValues ResetSignal { get; set; }
         public MetaValues LoadIncrementPercentage { get; set; }
         public MetaValues ActTxRaise { get; set; }
         public MetaValues ActTxLower { get; set; }

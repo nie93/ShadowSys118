@@ -1,6 +1,7 @@
 category SS118Data
 Inputs {
-    Integer Int16 LoadIncrementPercentage
+	Integer Int16 ResetSignal
+    FloatingPoint Double LoadIncrementPercentage
     Integer Int16 ActTxRaise
     Integer Int16 ActTxLower
     Integer Int16 ActSn1Close

@@ -1,4 +1,5 @@
 SS118Data Inputs SS118Data_InputMapping {
+	ResetSignal: PPA:62
     LoadIncrementPercentage: PPA:41 
     ActTxRaise: PPA:42 
     ActTxLower: PPA:43 

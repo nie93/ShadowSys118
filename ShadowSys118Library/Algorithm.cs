@@ -67,6 +67,11 @@ namespace ShadowSys118
             VoltVarController frame = new VoltVarController();
 
             // Read System Configuration from XML file
+            if (inputData.ResetSignal == 1)
+            {
+                File.Delete(PrevSysConfigFrameFilePath);
+            }
+
             if (File.Exists(PrevSysConfigFrameFilePath))
             {
                 frame = VoltVarController.DeserializeFromXml(PrevSysConfigFrameFilePath);
@@ -92,8 +97,9 @@ namespace ShadowSys118
             {
             }
 
+            #endregion
 
-            // Pending: Avoid logic conflict before execute control
+            #region [ Pending: Avoid logic conflict before execute control ]
 
             switch (actChannel.ActTxRaise)
             {
@@ -161,9 +167,9 @@ namespace ShadowSys118
                     break;
             }
 
+            
 
             #endregion
-
 
             #region [ Run Power Flow Calculation using PSS/E ]
             // Call Python script to run power flow calculation

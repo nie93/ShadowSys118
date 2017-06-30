@@ -3,10 +3,18 @@ This is the Analytic project of Shadow System using IEEE 118-bus system, generat
 Client v1.0.5.0.
 
 
+### System Requirements
+* openECA v1.0.5.0 or higher
+* Visual Studio
+* Python 2.7.x
+* PSS/E 33 or PSS/E 34
+
+
 
 ### I/Os
 | I/O | Name | DataType | PointTag | SignalType | SignalReference | ID (Assigned) |
 | :-: | :--- | :------- | :------- | :--------: | :-------------- | :------------ |
+| I | ResetSignal     | short | SS_118:RESET | DIGI | SS118-RESET | PPA:62 |
 | I | LoadIncrementPercentage | double | SS_118:LOADINCRE | DIGI | SS118-LOADINCRE | PPA:41 |
 | I | ActTxRaise      | short  | SS_118:ACTTXRAISE      | DIGI | SS118-ACTXRAISE   | PPA:42 |
 | I | ActTxLower      | short  | SS_118:ACTTXLOWER      | DIGI | SS118-ACTTXLOWER  | PPA:43 |

@@ -101,7 +101,7 @@ def set_capbank_breaker_value(bus_num, breaker_status):
         elif breaker_status[i] == 1:
             # Capacity value of capacitor bank is given by PSS/E
             if bus_num[i] == 34:
-                psspy.shunt_data(bus_num[i], r"""1""", 1, [_f, 30])
+                psspy.shunt_data(bus_num[i], r"""1""", 1, [_f, 50])
             elif bus_num[i] == 39:
                 psspy.shunt_data(bus_num[i], r"""1""", 1, [_f, 50])
 
@@ -151,7 +151,7 @@ def set_transformer_ratio(bus_num, tap_value, ratio_step):
 
 BASE_VOLTAGE = 138000
 LOAD_BUS_NUM = [33, 34, 36, 39, 40]
-TRANSFORMER_TAP_RATIO_STEP = 0.002
+TRANSFORMER_TAP_RATIO_STEP = 0.005
 TRANSFORMER_BUS_NUM = [37, 38]
 GEN_BUS_NUM = [46, 49]
 SHUNT_BUS_NUM = [34, 39]

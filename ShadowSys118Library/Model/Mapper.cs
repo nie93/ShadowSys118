@@ -56,6 +56,13 @@ namespace ShadowSys118.Model
             ShadowSys118.Model.SS118Data.Inputs obj = new ShadowSys118.Model.SS118Data.Inputs();
 
             {
+                // Assign short value to "ResetSignal" field
+                FieldMapping fieldMapping = fieldLookup["ResetSignal"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ResetSignal = (short)measurement.Value;
+            }
+
+            {
                 // Assign short value to "LoadIncrementPercentage" field
                 FieldMapping fieldMapping = fieldLookup["LoadIncrementPercentage"];
                 IMeasurement measurement = GetMeasurement(fieldMapping);

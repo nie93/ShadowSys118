@@ -9,6 +9,7 @@ namespace ShadowSys118.Model.SS118Data
     [CompilerGenerated]
     public partial class Inputs
     {
+        public short ResetSignal { get; set; }
         public short LoadIncrementPercentage { get; set; }
         public short ActTxRaise { get; set; }
         public short ActTxLower { get; set; }
