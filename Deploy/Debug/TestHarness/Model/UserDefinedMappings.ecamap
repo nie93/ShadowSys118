@@ -1,0 +1,28 @@
+SS118Data Inputs SS118Data_InputMapping {
+	ResetSignal: PPA:62
+    LoadIncrementPercentage: PPA:41 
+    ActTxRaise: PPA:42 
+    ActTxLower: PPA:43 
+    ActSn1Close: PPA:44 
+    ActSn1Trip: PPA:45 
+    ActSn2Close: PPA:46 
+    ActSn2Trip: PPA:47 
+}
+
+SS118Data Outputs SS118Data_OutputMapping {
+    StateTxTapV: PPA:48 
+    StateSn1CapBkrV: PPA:49 
+    StateSn2CapBkrV: PPA:50 
+    StateSn1BusBkrV: PPA:51 
+    StateSn2BusBkrV: PPA:52 
+    MeasTxVoltV: PPA:53 
+    MeasSn1VoltV: PPA:54 
+    MeasSn2VoltV: PPA:55 
+    MeasTxMwV: PPA:56
+    MeasTxMvrV: PPA:57 
+    MeasGn1MwV: PPA:58 
+    MeasGn1MvrV: PPA:59 
+    MeasGn2MwV: PPA:60 
+    MeasGn2MvrV: PPA:61 
+}
+

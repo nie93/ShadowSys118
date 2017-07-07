@@ -5,7 +5,21 @@ Zhijie Nie, 2017-06-27
 ## Program Development
 * (C#) Verify Action's logic before execute it
 
+
+## `UpdateSystemSettings`
+
+| ECA Analytic | FramesPerSecond | LagTime | LeadTime | Publication Time | 
+| :----------- | :-------------- | :------ | :------- | :--------------- |
+| ShadowSys118 | 1 | 3 | 1 | | |
+| LVC118_test  | 1 | 5 | 1 | | |
+| LVC118       | 1 | 5 | 1 | | |
+
+
+
+
 ## Documentation
+
+
 
 ```sql
 -- Shadow System for 118 bus system (ShadowSys118)
@@ -64,6 +78,9 @@ Filename=C:\Program Files\openECA\Server\20170620_ShadowSys_Inputs.csv; AutoRepe
 ```
 Filename=C:\Program Files\openECA\Server\20170627_PseudoLVCSignals.csv; AutoRepeat=True; SimulateTimestamp=True; TransverseMode=True; ColumnMappings={0 = Timestamp; 1 = PPA:42; 2 = PPA:43; 3 = PPA:44; 4 = PPA:45; 5 = PPA:46; 6 = PPA:47}; InputInterval=500
 ```
+```
+Filename=C:\Program Files\openECA\Server\20170703_PseudoLVCSignals.csv; AutoRepeat=True; SimulateTimestamp=True; TransverseMode=True; ColumnMappings={0 = Timestamp; 1 = PPA:62; 2 = PPA:41; 3 = PPA:42; 4 = PPA:43; 5 = PPA:44; 6 = PPA:45; 7 = PPA:46; 8 = PPA:47}; InputInterval=1000
+```
 
 ### SS118TEST1
 ```
@@ -74,6 +91,12 @@ Filename=C:\Program Files\openECA\Server\20170630_ShadowSys_LoadPattern_test1.cs
 ### SS118TEST2
 ```
 Filename=C:\Program Files\openECA\Server\20170630_ShadowSys_LoadPattern_test2.csv; AutoRepeat=True; SimulateTimestamp=True; TransverseMode=True; ColumnMappings={0 = Timestamp; 1 = PPA:62; 2 = PPA:41}; InputInterval=1000
+```
+
+
+### SS118TEST3
+```
+Filename=C:\Program Files\openECA\Server\20170630_ShadowSys_LoadPattern_test3.csv; AutoRepeat=True; SimulateTimestamp=True; TransverseMode=True; ColumnMappings={0 = Timestamp; 1 = PPA:62; 2 = PPA:41}; InputInterval=1000
 ```
 
 

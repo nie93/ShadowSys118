@@ -29,17 +29,18 @@ namespace ShadowSys118
             SystemSettings.OutputMapping = "SS118Data_OutputMapping";
             SystemSettings.ConnectionString = @"server=localhost:6190; interface=0.0.0.0";
             SystemSettings.FramesPerSecond = 1;
-            SystemSettings.LagTime = 3;
+            SystemSettings.LagTime = 1;
             SystemSettings.LeadTime = 1;
         }
 
         internal static Output Execute(Inputs inputData, _InputsMeta inputMeta)
         {
             Output output = Output.CreateNew();
+            DateTime runTime = DateTime.UtcNow;
 
             #region [ Environment Settings ]
             const bool EnableXmlFileLog = false;
-            const bool EnableMainWindowMessageDisplay = false;
+            const bool EnableMainWindowMessageDisplay = true;
 
             string MainFolderPath = (@"C:\Users\niezj\Documents\dom\ShadowSys118\");
             string ActionChannelFolderPath = Path.Combine(MainFolderPath, @"ActionChannel");
@@ -66,108 +67,58 @@ namespace ShadowSys118
 
             VoltVarController frame = new VoltVarController();
 
-            // Read System Configuration from XML file
-            if (inputData.ResetSignal == 1)
+            // Read System Initial Configuration from XML file            
+            if (inputData.ResetSignal != 0)
             {
+                MainWindow.WriteMessage($"Initialized Local Voltage Controller Test #{inputData.ResetSignal}");
+                InitSysConfigFrameFileName = $"init_SysConfigFrame_test{inputData.ResetSignal}.xml";
+                InitSysConfigFrameFilePath = Path.Combine(ConfigurationFolderPath, InitSysConfigFrameFileName);
                 File.Delete(PrevSysConfigFrameFilePath);
-            }
-
-            if (File.Exists(PrevSysConfigFrameFilePath))
-            {
-                frame = VoltVarController.DeserializeFromXml(PrevSysConfigFrameFilePath);
+                frame = VoltVarController.DeserializeFromXml(InitSysConfigFrameFilePath);
+                inputData.ActTxRaise = 0;
+                inputData.ActTxLower = 0;
+                inputData.ActSn1Close = 0;
+                inputData.ActSn1Trip = 0;
+                inputData.ActSn2Close = 0;
+                inputData.ActSn2Trip = 0;
+                ActionsAdapter initAction = new ActionsAdapter();
+                initAction.ReadFromEcaInputData(inputData);
+                frame.ExecuteControl(initAction);
             }
             else
             {
-                frame = VoltVarController.DeserializeFromXml(InitSysConfigFrameFilePath);
+                frame = VoltVarController.DeserializeFromXml(PrevSysConfigFrameFilePath);
             }
 
             #endregion
 
             #region [ PSEUDO: Update Configurations of Controlled Devices ]
 
+            frame.SubstationInformation.ConsecCap += 1;
+            frame.SubstationInformation.ConsecTap += 1;
+            frame.SubstationInformation.Ncdel += 1;
+            frame.SubstationInformation.Ntdel += 1;
+
+            StringBuilder devMessage = new StringBuilder();
+
             string ActionChannelFilePath = Path.Combine(ActionChannelFolderPath, "act.xml");
-            ActionsAdapter actChannel = new ActionsAdapter();
-            try
+            ActionsAdapter action = new ActionsAdapter();
+
+            // Read Action from XML file
+            if (File.Exists(ActionChannelFilePath))
             {
-                actChannel = ActionsAdapter.DeserializeFromXml(ActionChannelFilePath);
-                MainWindow.WriteWarning($"Action Signals Received");
+                action = ActionsAdapter.DeserializeFromXml(ActionChannelFilePath);
                 File.Delete(ActionChannelFilePath);
             }
-            catch (Exception)
-            {
-            }
+
+            action.ReadFromEcaInputData(inputData);
 
             #endregion
 
+
+            //frame.ExecuteControl(action);
+
             #region [ Pending: Avoid logic conflict before execute control ]
-
-            switch (actChannel.ActTxRaise)
-            {
-                case 1:
-                    MainWindow.WriteMessage($"  - ActTxRaise");
-                    if (frame.ControlTransformers[0].TapV < frame.SubstationAlarmDevice.ZHITAP)
-                    {
-                        frame.ControlTransformers[0].TapV += 1;
-                    }
-                    break;
-                default:
-                    break;
-            }
-
-            switch (actChannel.ActTxLower)
-            {
-                case 1:
-                    MainWindow.WriteMessage($"  - ActTxLower");
-                    if (frame.ControlTransformers[0].TapV > frame.SubstationAlarmDevice.ZLOTAP)
-                    {
-                        frame.ControlTransformers[0].TapV += -1;
-                    }
-                    break;
-                default:
-                    break;
-            }
-
-            switch (actChannel.ActSn1Close)
-            {
-                case 1:
-                    MainWindow.WriteMessage($"  - ActSn1Close");
-                    frame.ControlCapacitorBanks[0].CapBkrV = 1;
-                    break;
-                default:
-                    break;
-            }
-
-            switch (actChannel.ActSn1Trip)
-            {
-                case 1:
-                    MainWindow.WriteMessage($"  - ActSn1Trip");
-                    frame.ControlCapacitorBanks[0].CapBkrV = 0;
-                    break;
-                default:
-                    break;
-            }
-
-            switch (actChannel.ActSn2Close)
-            {
-                case 1:
-                    MainWindow.WriteMessage($"  - ActSn2Close");
-                    frame.ControlCapacitorBanks[1].CapBkrV = 1;
-                    break;
-                default:
-                    break;
-            }
-
-            switch (actChannel.ActSn2Trip)
-            {
-                case 1:
-                    MainWindow.WriteMessage($"  - ActSn2Trip");
-                    frame.ControlCapacitorBanks[1].CapBkrV = 0;
-                    break;
-                default:
-                    break;
-            }
-
-            
 
             #endregion
 
@@ -190,7 +141,7 @@ namespace ShadowSys118
 
             #endregion
 
-            #region [ Output Calculated Values to Metadata ]
+            #region [ Convert Calculated Values to OutputData ]
 
             // Read Measurement Values from python outputs
             output.OutputData.StateTxTapV = Convert.ToInt16(outputFrameList[0]);
@@ -229,8 +180,12 @@ namespace ShadowSys118
                 if (EnableMainWindowMessageDisplay)
                 {
                     StringBuilder _message = new StringBuilder();
-                    _message.AppendLine($" ================ ShadowSys Analytics ================");
-                    _message.AppendLine($"                 Run Time:  {DateTime.Now:yyyy-MM-dd HH:mm:ss.fff}");
+                    _message.AppendLine($" ================ ShadowSys Analytics ================"); 
+                    _message.AppendLine($"                 Run Time:  {runTime:yyyy-MM-dd HH:mm:ss.fff}");
+                    _message.AppendLine($"          Completion Time:  {DateTime.UtcNow:yyyy-MM-dd HH:mm:ss.fff}");
+                    _message.AppendLine($"      InputData Timestamp:  {inputMeta.LoadIncrementPercentage.Timestamp:yyyy-MM-dd HH:mm:ss.fff}");
+                    _message.AppendLine($"     OutputData Timestamp:  {output.OutputMeta.MeasGn1MvrV.Timestamp:yyyy-MM-dd HH:mm:ss.fff}");
+                    _message.AppendLine($" ------------------ CsvInputAdapter ------------------ ");
                     _message.AppendLine($"  LoadIncrementPercentage:  {inputData.LoadIncrementPercentage:0.0000} %");
                     _message.AppendLine($" ------------------- ActionChannel ------------------- ");
                     _message.AppendLine($"               ActTxRaise:  {inputData.ActTxRaise}");
@@ -249,18 +204,17 @@ namespace ShadowSys118
                     _message.AppendLine($"              MeasGn1MvrV:  {output.OutputData.MeasGn1MvrV:0.000} MVar");
                     _message.AppendLine($"               MeasGn2MwV:  {output.OutputData.MeasGn2MwV:0.000} MW");
                     _message.AppendLine($"              MeasGn2MvrV:  {output.OutputData.MeasGn2MvrV:0.000} MVar");
-                    _message.AppendLine($" ------------------- StateChannel -------------------- ");
-                    _message.AppendLine($"              StateTxTapV:  {output.OutputData.StateTxTapV}");
-                    _message.AppendLine($"          StateSn1CapBkrV:  {output.OutputData.StateSn1CapBkrV}");
-                    _message.AppendLine($"          StateSn2CapBkrV:  {output.OutputData.StateSn2CapBkrV}");
-                    _message.AppendLine($"          StateSn1BusBkrV:  {output.OutputData.StateSn1BusBkrV}");
-                    _message.AppendLine($"          StateSn2BusBkrV:  {output.OutputData.StateSn2BusBkrV}");
+                    //_message.AppendLine($" ------------------- StateChannel -------------------- ");
+                    //_message.AppendLine($"              StateTxTapV:  {output.OutputData.StateTxTapV}");
+                    //_message.AppendLine($"          StateSn1CapBkrV:  {output.OutputData.StateSn1CapBkrV}");
+                    //_message.AppendLine($"          StateSn2CapBkrV:  {output.OutputData.StateSn2CapBkrV}");
+                    //_message.AppendLine($"          StateSn1BusBkrV:  {output.OutputData.StateSn1BusBkrV}");
+                    //_message.AppendLine($"          StateSn2BusBkrV:  {output.OutputData.StateSn2BusBkrV}");
                     _message.AppendLine($" =====================================================");
                     MainWindow.WriteMessage(_message.ToString());
                 }
 
                 #endregion
-
 
             }
             catch (Exception ex)

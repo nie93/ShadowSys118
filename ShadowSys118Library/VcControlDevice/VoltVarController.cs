@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using System.IO;
 using System.Collections;
+using ECAClientFramework;
+using ShadowSys118.Adapters;
+using ShadowSys118.VcControlDevice;
+using ShadowSys118.VcSubRoutines;
 
 namespace ShadowSys118.VcControlDevice
 {
@@ -21,7 +25,7 @@ namespace ShadowSys118.VcControlDevice
         private VcLtcStatus m_ltcStatus;
         #endregion
 
-        #region [ Property]
+        #region [ Property ]
         [XmlIgnore()]
         public Dictionary<string, object> RawkeyValuePairs
         {
@@ -34,8 +38,6 @@ namespace ShadowSys118.VcControlDevice
                 m_rawKeyValuePairs = value;
             }
         }
-
-
 
         [XmlArray("ControlTransformers")]
         public List<VcTransformer> ControlTransformers
@@ -128,6 +130,11 @@ namespace ShadowSys118.VcControlDevice
         }
         #endregion
 
+        #region [ Private Methods ]
+        
+        #endregion
+
+
         #region[ Public Method ] 
         public void LinkNetworkComponents(int numberofTX,int numberofCP) // this is construction
         {
@@ -162,6 +169,116 @@ namespace ShadowSys118.VcControlDevice
 
             InsertPreviousRun(previousFrame);
         }
+
+        public void ExecuteControl(ActionsAdapter act)
+        {
+            if ((act.ActTxRaise == 1) | (act.ActTxLower == 1))
+            {
+                #region [ check if LTC Taps are too far apart to continue]
+                if (this.LtcStatus.DifTap > this.SubstationAlarmDevice.ZDIFTAP)
+                {
+                    //set clear alarm
+                    MainWindow.WriteMessage($"Control Aborted: LTCs are too far apart [{this.LtcStatus.DifTap}/{this.SubstationAlarmDevice.ZDIFTAP}]");
+
+                }
+                #endregion
+
+                #region [ Check for ZCONS consecutive delay steps ]
+
+                if (this.SubstationInformation.ConsecTap < this.SubstationAlarmDevice.ZTCONS)
+                {
+                    MainWindow.WriteMessage($"Control Delayed: Not enough delays for LTC - [{this.SubstationInformation.ConsecTap}<{this.SubstationAlarmDevice.ZTCONS}]");
+                }
+                else
+                {
+
+                    m_substationInformation.Ntdel = 0;
+                    m_substationInformation.ConsecTap = 0;
+
+                    switch (act.ActTxRaise)
+                    {
+                        case 1:
+                            if (this.ControlTransformers[0].TapV < this.SubstationAlarmDevice.ZHITAP)
+                            {
+                                this.ControlTransformers[0].TapV += 1;
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+
+                    switch (act.ActTxLower)
+                    {
+                        case 1:
+                            if (this.ControlTransformers[0].TapV > this.SubstationAlarmDevice.ZLOTAP)
+                            {
+                                this.ControlTransformers[0].TapV += -1;
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                    
+                }
+
+                #endregion
+
+            }
+
+            if ((act.ActSn1Close == 1) | (act.ActSn1Trip == 1) | (act.ActSn2Close == 1) | (act.ActSn2Trip == 1))
+            {
+                if (this.SubstationInformation.ConsecCap < this.SubstationInformation.Zccons || this.SubstationInformation.Ncdel < this.SubstationInformation.Zcdel || this.SubstationInformation.Ntdel < this.SubstationInformation.Zdel)
+                {
+                    MainWindow.WriteMessage($"Control Delayed: Not enough delays for CapBank - {this.SubstationInformation.ConsecCap} < {this.SubstationInformation.Zccons} {this.SubstationInformation.Ncdel} < {this.SubstationInformation.Zcdel}  {this.SubstationInformation.Ntdel} < {this.SubstationInformation.Zdel}");                    
+                }
+                else
+                {
+                    m_substationInformation.Ncdel = 0;
+                    m_substationInformation.ConsecCap = 0;
+
+                    switch (act.ActSn1Close)
+                    {
+                        case 1:
+                            this.ControlCapacitorBanks[0].CapBkrV = 1;
+                            break;
+                        default:
+                            break;
+                    }
+
+                    switch (act.ActSn1Trip)
+                    {
+                        case 1:
+                            this.ControlCapacitorBanks[0].CapBkrV = 0;
+                            break;
+                        default:
+                            break;
+                    }
+
+                    switch (act.ActSn2Close)
+                    {
+                        case 1:
+                            this.ControlCapacitorBanks[1].CapBkrV = 1;
+                            break;
+                        default:
+                            break;
+                    }
+
+                    switch (act.ActSn2Trip)
+                    {
+                        case 1:
+                            this.ControlCapacitorBanks[1].CapBkrV = 0;
+                            break;
+                        default:
+                            break;
+                    }
+
+                }
+
+            }
+
+
+        }
+
 
         #endregion
 
@@ -359,7 +476,7 @@ namespace ShadowSys118.VcControlDevice
             }
             catch (Exception exception)
             {
-                throw new Exception("Failed to Serialzie");
+                throw new Exception("Failed to Serialize");
             }
         }
 

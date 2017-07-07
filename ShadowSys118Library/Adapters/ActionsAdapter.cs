@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+using ShadowSys118.Model.SS118Data;
 
 namespace ShadowSys118.Adapters
 {
@@ -105,13 +106,16 @@ namespace ShadowSys118.Adapters
         #endregion
 
         #region [ Constructor ]
+
         public ActionsAdapter()
         {
             Initialize();
         }
+
         #endregion
 
         #region [ Private Methods ]
+
         private void Initialize()
         {
             m_actTxRaise = 0;
@@ -121,6 +125,21 @@ namespace ShadowSys118.Adapters
             m_actSn2Close = 0;
             m_actSn2Trip = 0;
         }
+
+        #endregion
+
+        #region [ Public Methods ]
+
+        public void ReadFromEcaInputData(Inputs inputData)
+        {
+            m_actTxRaise = inputData.ActTxRaise;
+            m_actTxLower = inputData.ActTxLower;
+            m_actSn1Close = inputData.ActSn1Close;
+            m_actSn1Trip = inputData.ActSn1Trip;
+            m_actSn2Close = inputData.ActSn2Close;
+            m_actSn2Trip = inputData.ActSn2Trip;
+        }
+
         #endregion
 
         #region [ Xml Serialization/Deserialization methods ]

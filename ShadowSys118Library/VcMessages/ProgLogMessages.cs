@@ -61,7 +61,7 @@ namespace ShadowSys118.VcMessages
             }
             catch (Exception exception)
             {
-                throw new Exception("Failed to Serialzie");
+                throw new Exception("Failed to Serialize");
             }
         }
 

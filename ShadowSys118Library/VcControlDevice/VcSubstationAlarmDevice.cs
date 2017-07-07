@@ -346,7 +346,7 @@ namespace ShadowSys118.VcControlDevice
             }
             catch (Exception exception)
             {
-                throw new Exception("Failed to Serialzie");
+                throw new Exception("Failed to Serialize");
             }
         }
 
