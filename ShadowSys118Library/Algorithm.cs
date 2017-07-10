@@ -30,7 +30,7 @@ namespace ShadowSys118
             SystemSettings.ConnectionString = @"server=localhost:6190; interface=0.0.0.0";
             SystemSettings.FramesPerSecond = 1;
             SystemSettings.LagTime = 1;
-            SystemSettings.LeadTime = 1;
+            SystemSettings.LeadTime = 4;
         }
 
         internal static Output Execute(Inputs inputData, _InputsMeta inputMeta)
@@ -38,9 +38,14 @@ namespace ShadowSys118
             Output output = Output.CreateNew();
             DateTime runTime = DateTime.UtcNow;
 
-            #region [ Environment Settings ]
+            #region [ Message Output ]
+
             const bool EnableXmlFileLog = false;
             const bool EnableMainWindowMessageDisplay = false;
+
+            #endregion
+
+            #region [ Environment Settings ]
 
             string MainFolderPath = (@"C:\Users\niezj\Documents\dom\ShadowSys118\");
             string ActionChannelFolderPath = Path.Combine(MainFolderPath, @"ActionChannel");
@@ -73,16 +78,10 @@ namespace ShadowSys118
                 MainWindow.WriteMessage($"Initialized Local Voltage Controller Test #{inputData.ResetSignal}");
                 InitSysConfigFrameFileName = $"init_SysConfigFrame_test{inputData.ResetSignal}.xml";
                 InitSysConfigFrameFilePath = Path.Combine(ConfigurationFolderPath, InitSysConfigFrameFileName);
-                File.Delete(PrevSysConfigFrameFilePath);
                 frame = VoltVarController.DeserializeFromXml(InitSysConfigFrameFilePath);
-                inputData.ActTxRaise = 0;
-                inputData.ActTxLower = 0;
-                inputData.ActSn1Close = 0;
-                inputData.ActSn1Trip = 0;
-                inputData.ActSn2Close = 0;
-                inputData.ActSn2Trip = 0;
+                File.Delete(PrevSysConfigFrameFilePath);
+
                 ActionsAdapter initAction = new ActionsAdapter();
-                initAction.ReadFromEcaInputData(inputData);
                 frame.ExecuteControl(initAction);
             }
             else
@@ -92,33 +91,21 @@ namespace ShadowSys118
 
             #endregion
 
-            #region [ PSEUDO: Update Configurations of Controlled Devices ]
+            ActionsAdapter action = new ActionsAdapter();
 
             frame.SubstationInformation.ConsecCap += 1;
             frame.SubstationInformation.ConsecTap += 1;
             frame.SubstationInformation.Ncdel += 1;
             frame.SubstationInformation.Ntdel += 1;
 
-            StringBuilder devMessage = new StringBuilder();
+            #region [ Receive Control Decision from LVC ]
 
-            string ActionChannelFilePath = Path.Combine(ActionChannelFolderPath, "act.xml");
-            ActionsAdapter action = new ActionsAdapter();
-
-            // Read Action from XML file
-            if (File.Exists(ActionChannelFilePath))
-            {
-                action = ActionsAdapter.DeserializeFromXml(ActionChannelFilePath);
-                File.Delete(ActionChannelFilePath);
-            }
-
-            
-            #endregion
-            
-            
-            //action.ReadFromEcaInputData(inputData);
+            action.ReadFromEcaInputData(inputData);
 
             frame.ExecuteControl(action);
 
+            #endregion
+            
             #region [ Pending: Avoid logic conflict before execute control ]
 
             #endregion
@@ -161,7 +148,6 @@ namespace ShadowSys118
             output.OutputData.MeasGn2MvrV = Convert.ToDouble(outputFrameList[13]);
             
             #endregion
-
 
             try
             {

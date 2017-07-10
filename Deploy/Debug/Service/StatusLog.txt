@@ -98037,3 +98037,355 @@ No data reconnect interval: 10.000 seconds
 [7/9/2017 11:40:11 PM] Initialized Local Voltage Controller Test #1
 
 
+[7/10/2017 09:14:58] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-07-10 13:14:58.593 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.4062 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[7/10/2017 09:15:00] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[7/10/2017 09:15:04] Attempting connection to tcp://localhost:6190...
+
+[7/10/2017 09:15:04] Attempting command channel connection to publisher...
+
+[7/10/2017 09:15:04] Connection established.
+
+[7/10/2017 09:15:04] Data subscriber command channel connection to publisher was established.
+
+[7/10/2017 09:15:04] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[7/10/2017 09:15:04] Received a total of 146 records spanning 5 tables of meta-data that was uncompressed and deserialized in 15.01 milliseconds...
+
+[7/10/2017 09:15:04] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 8 signals.
+
+[7/10/2017 09:15:26] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 26.2 seconds
+    Measurement wait delay: 3 seconds (lag time)
+     Local clock tolerance: 1 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 10-Jul-2017 13:15:26.577
+  Using clock as real-time: False
+      Local clock accuracy: -0.5143 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 44
+    Processed measurements: 44
+    Discarded measurements: 0
+ Down-sampled measurements: 0
+    Published measurements: 36
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 745.3076 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 0.0000%
+ User function utilization: 74.5308% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 18
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.78 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 4
+      Last published frame: 10-Jul-2017 13:15:22.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 22 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 44
+    Total adapter run time: 26.16 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[7/10/2017 09:15:34] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 33.95 seconds
+    Measurement wait delay: 3 seconds (lag time)
+     Local clock tolerance: 1 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 10-Jul-2017 13:15:34.332
+  Using clock as real-time: False
+      Local clock accuracy: -0.2001 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 60
+    Processed measurements: 60
+    Discarded measurements: 0
+ Down-sampled measurements: 0
+    Published measurements: 52
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 653.2651 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 0.0000%
+ User function utilization: 65.3265% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 26
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.84 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 4
+      Last published frame: 10-Jul-2017 13:15:30.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 30 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 60
+    Total adapter run time: 33.88 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[7/10/2017 09:15:43] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 42.99 seconds
+    Measurement wait delay: 3 seconds (lag time)
+     Local clock tolerance: 1 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 10-Jul-2017 13:15:43.364
+  Using clock as real-time: False
+      Local clock accuracy: -0.1601 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 78
+    Processed measurements: 78
+    Discarded measurements: 0
+ Down-sampled measurements: 0
+    Published measurements: 70
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 645.9368 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 0.0000%
+ User function utilization: 64.5937% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 35
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.88 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 4
+      Last published frame: 10-Jul-2017 13:15:39.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 39 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 78
+    Total adapter run time: 42.91 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[7/10/2017 09:15:58] Remote client disconnected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[7/10/2017 09:34:10] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-07-10 13:34:10.317 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.3906 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[7/10/2017 09:34:12] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[7/10/2017 09:34:16] Attempting connection to tcp://localhost:6190...
+
+[7/10/2017 09:34:16] Attempting command channel connection to publisher...
+
+[7/10/2017 09:34:16] Connection established.
+
+[7/10/2017 09:34:16] Data subscriber command channel connection to publisher was established.
+
+[7/10/2017 09:34:16] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[7/10/2017 09:34:16] Received a total of 146 records spanning 5 tables of meta-data that was uncompressed and deserialized in 11.01 milliseconds...
+
+[7/10/2017 09:34:16] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 8 signals.
+
+[7/10/2017 09:35:42] Initialized Local Voltage Controller Test #1
+
+
