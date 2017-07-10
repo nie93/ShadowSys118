@@ -111,6 +111,90 @@ namespace ShadowSys118.Model
                 obj.ActSn2Trip = (short)measurement.Value;
             }
 
+            {
+                // Assign short value to "ActSnB34Close" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB34Close"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB34Close = (short)measurement.Value;
+            }
+
+            {
+                // Assign short value to "ActSnB44Close" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB44Close"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB44Close = (short)measurement.Value;
+            }
+
+            {
+                // Assign short value to "ActSnB45Close" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB45Close"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB45Close = (short)measurement.Value;
+            }
+
+            {
+                // Assign short value to "ActSnB48Close" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB48Close"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB48Close = (short)measurement.Value;
+            }
+
+            {
+                // Assign short value to "ActSnB74Close" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB74Close"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB74Close = (short)measurement.Value;
+            }
+
+            {
+                // Assign short value to "ActSnB105Close" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB105Close"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB105Close = (short)measurement.Value;
+            }
+
+            {
+                // Assign short value to "ActSnB34Trip" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB34Trip"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB34Trip = (short)measurement.Value;
+            }
+
+            {
+                // Assign short value to "ActSnB44Trip" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB44Trip"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB44Trip = (short)measurement.Value;
+            }
+
+            {
+                // Assign short value to "ActSnB45Trip" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB45Trip"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB45Trip = (short)measurement.Value;
+            }
+
+            {
+                // Assign short value to "ActSnB48Trip" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB48Trip"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB48Trip = (short)measurement.Value;
+            }
+
+            {
+                // Assign short value to "ActSnB74Trip" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB74Trip"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB74Trip = (short)measurement.Value;
+            }
+
+            {
+                // Assign short value to "ActSnB105Trip" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB105Trip"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB105Trip = (short)measurement.Value;
+            }
+
             return obj;
         }
 
@@ -168,6 +252,90 @@ namespace ShadowSys118.Model
                 obj.ActSn2Trip = GetMetaValues(measurement);
             }
 
+            {
+                // Assign MetaValues value to "ActSnB34Close" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB34Close"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB34Close = GetMetaValues(measurement);
+            }
+
+            {
+                // Assign MetaValues value to "ActSnB44Close" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB44Close"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB44Close = GetMetaValues(measurement);
+            }
+
+            {
+                // Assign MetaValues value to "ActSnB45Close" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB45Close"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB45Close = GetMetaValues(measurement);
+            }
+
+            {
+                // Assign MetaValues value to "ActSnB48Close" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB48Close"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB48Close = GetMetaValues(measurement);
+            }
+
+            {
+                // Assign MetaValues value to "ActSnB74Close" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB74Close"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB74Close = GetMetaValues(measurement);
+            }
+
+            {
+                // Assign MetaValues value to "ActSnB105Close" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB105Close"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB105Close = GetMetaValues(measurement);
+            }
+
+            {
+                // Assign MetaValues value to "ActSnB34Trip" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB34Trip"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB34Trip = GetMetaValues(measurement);
+            }
+
+            {
+                // Assign MetaValues value to "ActSnB44Trip" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB44Trip"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB44Trip = GetMetaValues(measurement);
+            }
+
+            {
+                // Assign MetaValues value to "ActSnB45Trip" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB45Trip"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB45Trip = GetMetaValues(measurement);
+            }
+
+            {
+                // Assign MetaValues value to "ActSnB48Trip" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB48Trip"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB48Trip = GetMetaValues(measurement);
+            }
+
+            {
+                // Assign MetaValues value to "ActSnB74Trip" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB74Trip"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB74Trip = GetMetaValues(measurement);
+            }
+
+            {
+                // Assign MetaValues value to "ActSnB105Trip" field
+                FieldMapping fieldMapping = fieldLookup["ActSnB105Trip"];
+                IMeasurement measurement = GetMeasurement(fieldMapping);
+                obj.ActSnB105Trip = GetMetaValues(measurement);
+            }
+            
             return obj;
         }
 

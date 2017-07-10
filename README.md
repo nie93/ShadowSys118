@@ -3,7 +3,7 @@ This is the Analytic project of Shadow System using IEEE 118-bus system, generat
 Client v1.0.5.0.
 
 
-## I/Os
+## I/Os for LVC usage
 | I/O | Name | DataType | PointTag | SignalType | SignalReference | ID (Assigned) |
 | :-: | :--- | :------- | :------- | :--------: | :-------------- | :------------ |
 | I | ResetSignal     | short | SS_118:RESET | DIGI | SS118-RESET | PPA:62 |
@@ -28,6 +28,35 @@ Client v1.0.5.0.
 | O | MeasGn1MvrV     | double | SS_118:MEASGN1MVRV     | CALC | SS118-MEASGN1MVRV  | PPA:59 |
 | O | MeasGn2MwV      | double | SS_118:MEASGN2MWV      | CALC | SS118-MEASGN2MWV   | PPA:60 |
 | O | MeasGn2MvrV     | double | SS_118:MEASGN2MVRV     | CALC | SS118-MEASGN2MVRV  | PPA:61 |
+
+
+## I/Os for RVC usage
+| I/O | Name | DataType | PointTag | SignalType | SignalReference | ID (Assigned) |
+| :-: | :--- | :------- | :------- | :--------: | :-------------- | :------------ |
+| I | ResetSignal     | short | SS_118:RESET | DIGI | SS118-RESET | PPA:62 |
+| I | LoadIncrementPercentage | double | SS_118:LOADINCRE | DIGI | SS118-LOADINCRE | PPA:41 |
+| I | ActSnB34Close  | short | SS_118:ACTSNB34CLOSE  | DIGI | SS118-ACTSNB34CLOSE  | PPA:63 |
+| I | ActSnB44Close  | short | SS_118:ACTSNB44CLOSE  | DIGI | SS118-ACTSNB44CLOSE  | PPA:64 |
+| I | ActSnB45Close  | short | SS_118:ACTSNB45CLOSE  | DIGI | SS118-ACTSNB45CLOSE  | PPA:65 |
+| I | ActSnB48Close  | short | SS_118:ACTSNB48CLOSE  | DIGI | SS118-ACTSNB48CLOSE  | PPA:66 |
+| I | ActSnB74Close  | short | SS_118:ACTSNB74CLOSE  | DIGI | SS118-ACTSNB74CLOSE  | PPA:67 |
+| I | ActSnB105Close | short | SS_118:ACTSNB105CLOSE | DIGI | SS118-ACTSNB105CLOSE | PPA:68 |
+| I | ActSnB34Trip   | short | SS_118:ACTSNB34TRIP   | DIGI | SS118-ACTSNB34TRIP   | PPA:69 |
+| I | ActSnB44Trip   | short | SS_118:ACTSNB44TRIP   | DIGI | SS118-ACTSNB44TRIP   | PPA:70 |
+| I | ActSnB45Trip   | short | SS_118:ACTSNB45TRIP   | DIGI | SS118-ACTSNB45TRIP   | PPA:71 |
+| I | ActSnB48Trip   | short | SS_118:ACTSNB48TRIP   | DIGI | SS118-ACTSNB48TRIP   | PPA:72 |
+| I | ActSnB74Trip   | short | SS_118:ACTSNB74TRIP   | DIGI | SS118-ACTSNB74TRIP   | PPA:73 |
+| I | ActSnB105Trip  | short | SS_118:ACTSNB105TRIP  | DIGI | SS118-ACTSNB105TRIP  | PPA:74 |
+| O | StateSnB34CapBkrV  | short | SS_118:STATESNB34CAPBKRV  | DIGI | SS118-STATESNB34CAPBKRV  | PPA:75 |
+| O | StateSnB44CapBkrV  | short | SS_118:STATESNB44CAPBKRV  | DIGI | SS118-STATESNB44CAPBKRV  | PPA:76 |
+| O | StateSnB45CapBkrV  | short | SS_118:STATESNB45CAPBKRV  | DIGI | SS118-STATESNB45CAPBKRV  | PPA:77 |
+| O | StateSnB48CapBkrV  | short | SS_118:STATESNB48CAPBKRV  | DIGI | SS118-STATESNB48CAPBKRV  | PPA:78 |
+| O | StateSnB74CapBkrV  | short | SS_118:STATESNB74CAPBKRV  | DIGI | SS118-STATESNB74CAPBKRV  | PPA:79 |
+| O | StateSnB105CapBkrV | short | SS_118:STATESNB105CAPBKRV | DIGI | SS118-STATESNB105CAPBKRV | PPA:80 |
+| O | MeasB1VoltV   | double | SS_118:MEASB1VOLTV   | VPHM | SS118-MEASB1VOLTV   | PPA:81 |
+| . | ...           | ...    | ...                  | ...  | ...                 | ...  |
+| O | MeasB118VoltV | double | SS_118:MEASB118VOLTV | VPHM | SS118-MEASB118VOLTV | PPA:198 |
+
 
 
 ## System Requirements

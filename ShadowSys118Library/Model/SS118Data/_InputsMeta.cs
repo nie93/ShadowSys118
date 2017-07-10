@@ -18,5 +18,18 @@ namespace ShadowSys118.Model.SS118Data
         public MetaValues ActSn1Trip { get; set; }
         public MetaValues ActSn2Close { get; set; }
         public MetaValues ActSn2Trip { get; set; }
+        public MetaValues ActSnB34Close { get; set; }
+        public MetaValues ActSnB44Close { get; set; }
+        public MetaValues ActSnB45Close { get; set; }
+        public MetaValues ActSnB48Close { get; set; }
+        public MetaValues ActSnB74Close { get; set; }
+        public MetaValues ActSnB105Close { get; set; }
+        public MetaValues ActSnB34Trip { get; set; }
+        public MetaValues ActSnB44Trip { get; set; }
+        public MetaValues ActSnB45Trip { get; set; }
+        public MetaValues ActSnB48Trip { get; set; }
+        public MetaValues ActSnB74Trip { get; set; }
+        public MetaValues ActSnB105Trip { get; set; }
+
     }
 }
