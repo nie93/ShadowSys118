@@ -40,7 +40,7 @@ namespace ShadowSys118
 
             #region [ Environment Settings ]
             const bool EnableXmlFileLog = false;
-            const bool EnableMainWindowMessageDisplay = true;
+            const bool EnableMainWindowMessageDisplay = false;
 
             string MainFolderPath = (@"C:\Users\niezj\Documents\dom\ShadowSys118\");
             string ActionChannelFolderPath = Path.Combine(MainFolderPath, @"ActionChannel");
@@ -111,12 +111,13 @@ namespace ShadowSys118
                 File.Delete(ActionChannelFilePath);
             }
 
-            action.ReadFromEcaInputData(inputData);
-
+            
             #endregion
+            
+            
+            //action.ReadFromEcaInputData(inputData);
 
-
-            //frame.ExecuteControl(action);
+            frame.ExecuteControl(action);
 
             #region [ Pending: Avoid logic conflict before execute control ]
 
