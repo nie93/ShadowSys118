@@ -1,10 +1,10 @@
-[7/10/2017 09:58:48] 
+[7/11/2017 08:17:23] 
 
 *******************************************************************************
 
 ShadowSys118Service Initializing
 
-     System Time: 2017-07-10 13:58:48.869 UTC
+     System Time: 2017-07-11 12:17:23.220 UTC
 
     Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
 
@@ -14,7 +14,7 @@ ShadowSys118Service Initializing
 
     Product Name: Windows 8.1
 
-  Working Memory: 37.1836 MiB
+  Working Memory: 37.0117 MiB
 
   Execution Mode: 32-bit
 
@@ -28,49 +28,111 @@ ShadowSys118Service Initializing
 
 *******************************************************************************
 
-[7/10/2017 09:58:50] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+[7/11/2017 08:17:25] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
 
 
-[7/10/2017 09:58:54] Attempting connection to tcp://localhost:6190...
+[7/11/2017 08:17:25] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
 
-[7/10/2017 09:58:54] Attempting command channel connection to publisher...
 
-[7/10/2017 09:58:54] Connection established.
+[7/11/2017 08:17:25] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
 
-[7/10/2017 09:58:54] Data subscriber command channel connection to publisher was established.
 
-[7/10/2017 09:58:54] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+[7/11/2017 08:17:29] Attempting connection to tcp://localhost:6190...
 
-[7/10/2017 09:58:54] Received a total of 146 records spanning 5 tables of meta-data that was uncompressed and deserialized in 44.03 milliseconds...
+[7/11/2017 08:17:29] Attempting command channel connection to publisher...
 
-[7/10/2017 09:58:54] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 8 signals.
+[7/11/2017 08:17:29] Connection established.
 
-[7/10/2017 09:59:01] Concentrator Status:
+[7/11/2017 08:17:29] Data subscriber command channel connection to publisher was established.
+
+[7/11/2017 08:17:29] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[7/11/2017 08:17:29] Received a total of 282 records spanning 5 tables of meta-data that was uncompressed and deserialized in 20.01 milliseconds...
+
+[7/11/2017 08:17:29] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 26 signals.
+
+[7/11/2017 08:17:44] Initialized Local Voltage Controller Test #1
+
+
+[7/11/2017 08:17:45] Initialized Local Voltage Controller Test #1
+
+
+[7/11/2017 08:17:45] Initialized Local Voltage Controller Test #1
+
+
+[7/11/2017 09:33:55] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-07-11 13:33:55.181 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.2773 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[7/11/2017 09:33:56] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[7/11/2017 09:34:00] Attempting connection to tcp://localhost:6190...
+
+[7/11/2017 09:34:00] Attempting command channel connection to publisher...
+
+[7/11/2017 09:34:00] Connection established.
+
+[7/11/2017 09:34:00] Data subscriber command channel connection to publisher was established.
+
+[7/11/2017 09:34:00] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[7/11/2017 09:34:00] Received a total of 282 records spanning 5 tables of meta-data that was uncompressed and deserialized in 25.02 milliseconds...
+
+[7/11/2017 09:34:01] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 20 signals.
+
+[7/11/2017 09:34:16] Concentrator Status:
      Data concentration is: Enabled
-    Total process run time: 11.9 seconds
+    Total process run time: 20.07 seconds
     Measurement wait delay: 1 seconds (lag time)
      Local clock tolerance: 4 seconds (lead time)
    Maximum time resolution: 0 ticks
       Down-sampling method: LastReceived
-    Local clock time (UTC): 10-Jul-2017 13:59:01.953
+    Local clock time (UTC): 11-Jul-2017 13:34:16.676
   Using clock as real-time: False
-      Local clock accuracy: -0.2982 second deviation from latest time
+      Local clock accuracy: -0.9897 second deviation from latest time
      Ignore bad timestamps: False
     Allow sorts by arrival: True
  Use preemptive publishing: True
   Time reasonability check: Enabled
   Process by received time: False
-     Received measurements: 16
-    Processed measurements: 16
+     Received measurements: 30
+    Processed measurements: 30
     Discarded measurements: 0
  Down-sampled measurements: 0
-    Published measurements: 10
+    Published measurements: 26
      Expected measurements: 0 (0 / frame)
 Last discarded measurement: <none>
-  Average publication time: 455.9085 milliseconds
+  Average publication time: 724.5790 milliseconds
   Pre-lag-time publication: 0.0000%
  Down-sampling application: 0.0000%
- User function utilization: 45.5908% of available time used
+ User function utilization: 72.4579% of available time used
 Published measurement loss: 0.0000%
     Total sorts by arrival: 0
  Measurement time accuracy: 100.0000%
@@ -79,14 +141,14 @@ Published measurement loss: 0.0000%
      Using precision timer: True
        Wait handle timeout: 1200 milliseconds
    Wait handle expirations: 0
-    Total published frames: 5
+    Total published frames: 13
         Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
- Estimated mean frame rate: 0.46 frames/sec
+ Estimated mean frame rate: 0.68 frames/sec
        Processing interval: 1000.00 milliseconds
      Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
    Total frame rate timers: 1
-        Queued frame count: 3
-      Last published frame: 10-Jul-2017 13:58:59.000
+        Queued frame count: 2
+      Last published frame: 11-Jul-2017 13:34:14.000
    Last sorted measurement: PPA:41
 
 Subscriber Status:
@@ -103,7 +165,7 @@ No data reconnect interval: 10.000 seconds
               Command Channel Status              
               ----------------------              
               Client state: Connected
-           Connection time: 8 seconds
+           Connection time: 16 seconds
             Receive buffer: 32768
         Transport protocol: Tcp
         Text encoding used: US-ASCII
@@ -111,13 +173,199 @@ No data reconnect interval: 10.000 seconds
        Data source defined: False
     Initialization timeout: 15,000 milliseconds
        Adapter initialized: True
-       [7/10/2017 9:59:38 AM] 
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 32
+    Total adapter run time: 20.01 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[7/11/2017 09:34:24] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 28.3 seconds
+    Measurement wait delay: 1 seconds (lag time)
+     Local clock tolerance: 4 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 11-Jul-2017 13:34:24.906
+  Using clock as real-time: False
+      Local clock accuracy: -0.1851 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 48
+    Processed measurements: 48
+    Discarded measurements: 0
+ Down-sampled measurements: 0
+    Published measurements: 42
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 703.1563 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 0.0000%
+ User function utilization: 70.3156% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 21
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.77 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 3
+      Last published frame: 11-Jul-2017 13:34:22.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 24 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 48
+    Total adapter run time: 28.23 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[7/11/2017 09:34:41] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 44.78 seconds
+    Measurement wait delay: 1 seconds (lag time)
+     Local clock tolerance: 4 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 11-Jul-2017 13:34:41.384
+  Using clock as real-time: False
+      Local clock accuracy: -0.5524 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 80
+    Processed measurements: 80
+    Discarded measurements: 0
+ Down-sampled measurements: 0
+    Published measurements: 72
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 673.1619 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 0.0000%
+ User function utilization: 67.3162% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 36
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.82 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 4
+      Last published frame: 11-Jul-2017 13:34:37.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 41 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 80
+    Total adapter run time: 44.7 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[7/11/2017 09:35:48] 
 
 *******************************************************************************
 
 ShadowSys118Service Initializing
 
-     System Time: 2017-07-10 13:59:38.396 UTC
+     System Time: 2017-07-11 13:35:48.397 UTC
 
     Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
 
@@ -127,7 +375,7 @@ ShadowSys118Service Initializing
 
     Product Name: Windows 8.1
 
-  Working Memory: 32.1836 MiB
+  Working Memory: 37.4375 MiB
 
   Execution Mode: 32-bit
 
@@ -137,1826 +385,34 @@ ShadowSys118Service Initializing
 
  GC Latency Mode: Interactive
 
- Process Account: WORKGROUP\SYSTEM
+ Process Account: NIE-THINK-T450S\niezj
 
 *******************************************************************************
 
-[7/10/2017 9:59:38 AM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
+[7/11/2017 09:35:50] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
 
 
-[7/10/2017 9:59:42 AM] Attempting connection to tcp://localhost:6190...
+[7/11/2017 09:35:54] Attempting connection to tcp://localhost:6190...
 
-[7/10/2017 9:59:42 AM] Attempting command channel connection to publisher...
+[7/11/2017 09:35:54] Attempting command channel connection to publisher...
 
-[7/10/2017 9:59:42 AM] Connection established.
+[7/11/2017 09:35:54] Connection established.
 
-[7/10/2017 9:59:42 AM] Data subscriber command channel connection to publisher was established.
+[7/11/2017 09:35:54] Data subscriber command channel connection to publisher was established.
 
-[7/10/2017 9:59:42 AM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+[7/11/2017 09:35:54] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
 
-[7/10/2017 9:59:42 AM] Received a total of 146 records spanning 5 tables of meta-data that was uncompressed and deserialized in 14.01 milliseconds...
+[7/11/2017 09:35:54] Received a total of 282 records spanning 5 tables of meta-data that was uncompressed and deserialized in 15.01 milliseconds...
 
-[7/10/2017 9:59:42 AM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 8 signals.
+[7/11/2017 09:35:54] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 20 signals.
 
-[7/10/2017 9:59:49 AM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 10:00:04 AM] Control Delayed: Not enough delays for LTC - [2<3]
-
-
-[7/10/2017 10:00:08 AM] Control Delayed: Not enough delays for LTC - [2<3]
-
-
-[7/10/2017 10:00:12 AM] Control Delayed: Not enough delays for LTC - [2<3]
-
-
-[7/10/2017 10:01:31 AM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 10:03:16 AM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 10:04:18 AM] Control Delayed: Not enough delays for LTC - [2<3]
-
-
-[7/10/2017 10:04:22 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:04:27 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:04:32 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:04:37 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:04:42 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:04:47 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:04:52 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:04:58 AM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 10:05:11 AM] Received notification from publisher that configuration has changed.
-
-[7/10/2017 10:05:16 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:05:17 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:05:51 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:05:56 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:06:01 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:06:06 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:06:11 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:06:17 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  0 < 3
-
-
-[7/10/2017 10:06:30 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:07:00 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:07:01 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:07:03 AM] Control Delayed: Not enough delays for CapBank - 8 < 5 8 < 5  0 < 3
-
-
-[7/10/2017 10:07:37 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:07:42 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:07:47 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:07:55 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:08:00 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:08:05 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:08:05 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:08:43 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:08:44 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:08:46 AM] Control Delayed: Not enough delays for CapBank - 8 < 5 8 < 5  0 < 3
-
-
-[7/10/2017 10:09:15 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:09:16 AM] Control Delayed: Not enough delays for LTC - [2<3]
-
-
-[7/10/2017 10:10:29 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:10:45 AM] Received notification from publisher that configuration has changed.
-
-[7/10/2017 10:10:53 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:12:36 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:13:00 AM] Failed to Serialize
-
-
-[7/10/2017 10:13:22 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  48 < 3
-
-
-[7/10/2017 10:14:08 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  95 < 3
-
-
-[7/10/2017 10:14:19 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:15:03 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  48 < 3
-
-
-[7/10/2017 10:15:04 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  49 < 3
-
-
-[7/10/2017 10:15:25 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  70 < 3
-
-
-[7/10/2017 10:15:26 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  71 < 3
-
-
-[7/10/2017 10:15:44 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:16:02 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:16:03 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:17:46 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:17:47 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:17:48 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:18:31 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:18:31 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:18:53 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  23 < 3
-
-
-[7/10/2017 10:18:54 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  24 < 3
-
-
-[7/10/2017 10:19:31 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:19:32 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:19:33 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:20:14 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  46 < 3
-
-
-[7/10/2017 10:20:15 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  47 < 3
-
-
-[7/10/2017 10:20:36 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  68 < 3
-
-
-[7/10/2017 10:20:37 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  69 < 3
-
-
-[7/10/2017 10:21:14 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:21:14 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 10:21:15 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:21:16 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:21:20 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:21:25 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:21:25 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:21:53 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:21:58 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:21:58 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:22:20 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  23 < 3
-
-
-[7/10/2017 10:22:21 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  24 < 3
-
-
-[7/10/2017 10:22:57 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:22:58 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:22:59 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:23:40 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  46 < 3
-
-
-[7/10/2017 10:23:41 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  47 < 3
-
-
-[7/10/2017 10:24:05 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:24:05 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:24:39 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:24:40 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:24:41 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:24:42 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:24:42 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 10:25:22 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:25:27 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  5 < 3
-
-
-[7/10/2017 10:25:28 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 10:25:46 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  25 < 3
-
-
-[7/10/2017 10:25:47 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  26 < 3
-
-
-[7/10/2017 10:26:22 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:26:23 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:26:24 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:26:25 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:26:25 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 10:27:06 AM] Control Delayed: Not enough delays for LTC - [2<3]
-
-
-[7/10/2017 10:27:11 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  0 < 3
-
-
-[7/10/2017 10:27:17 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:27:31 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  15 < 3
-
-
-[7/10/2017 10:27:32 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  16 < 3
-
-
-[7/10/2017 10:28:07 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:28:08 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:28:09 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:28:10 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:28:10 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 10:28:48 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:28:49 AM] Control Delayed: Not enough delays for LTC - [2<3]
-
-
-[7/10/2017 10:28:53 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:28:53 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:29:14 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  22 < 3
-
-
-[7/10/2017 10:29:15 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  23 < 3
-
-
-[7/10/2017 10:29:50 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:29:51 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:29:52 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:29:53 AM] Control Delayed: Not enough delays for CapBank - 7 < 5 7 < 5  0 < 3
-
-
-[7/10/2017 10:29:54 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:30:32 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:30:37 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:30:37 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:30:58 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  22 < 3
-
-
-[7/10/2017 10:30:59 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  23 < 3
-
-
-[7/10/2017 10:31:34 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:31:35 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:31:36 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:31:37 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:31:37 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 10:32:14 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:32:34 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:32:35 AM] Control Delayed: Not enough delays for LTC - [2<3]
-
-
-[7/10/2017 10:32:41 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  9 < 3
-
-
-[7/10/2017 10:32:43 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  10 < 3
-
-
-[7/10/2017 10:33:18 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:33:18 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:33:19 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:33:20 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:33:22 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 10:33:24 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:33:29 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:33:29 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:33:56 AM] Received notification from publisher that configuration has changed.
-
-[7/10/2017 10:34:01 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:34:03 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:34:04 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:34:05 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 10:34:07 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:34:47 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:34:52 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:34:57 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:35:08 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  12 < 3
-
-
-[7/10/2017 10:35:09 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  13 < 3
-
-
-[7/10/2017 10:35:44 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:35:45 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:35:46 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:35:47 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:35:47 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 10:36:24 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:36:29 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:36:29 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:36:52 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  23 < 3
-
-
-[7/10/2017 10:36:53 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  24 < 3
-
-
-[7/10/2017 10:37:16 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:37:29 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:37:30 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:37:31 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:37:32 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:37:32 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 10:38:11 AM] Control Delayed: Not enough delays for LTC - [2<3]
-
-
-[7/10/2017 10:38:17 AM] Control Delayed: Not enough delays for LTC - [2<3]
-
-
-[7/10/2017 10:38:25 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  10 < 3
-
-
-[7/10/2017 10:38:37 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  23 < 3
-
-
-[7/10/2017 10:38:38 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  24 < 3
-
-
-[7/10/2017 10:39:12 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:39:13 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:39:14 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:39:15 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:39:15 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 10:39:31 AM] Received notification from publisher that configuration has changed.
-
-[7/10/2017 10:39:37 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:39:38 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:39:39 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:40:19 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:40:24 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:40:24 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:40:44 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  21 < 3
-
-
-[7/10/2017 10:40:45 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  22 < 3
-
-
-[7/10/2017 10:41:16 AM] Received notification from publisher that configuration has changed.
-
-[7/10/2017 10:41:20 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:41:21 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:41:22 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:41:22 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:41:53 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:41:57 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  5 < 3
-
-
-[7/10/2017 10:41:58 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 10:42:36 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:42:37 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:42:38 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:43:07 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:43:11 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  5 < 3
-
-
-[7/10/2017 10:43:12 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 10:43:31 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  25 < 3
-
-
-[7/10/2017 10:43:32 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  26 < 3
-
-
-[7/10/2017 10:43:49 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:43:50 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:43:51 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:43:52 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:44:04 AM] Received notification from publisher that configuration has changed.
-
-[7/10/2017 10:44:10 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:44:11 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:44:12 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:44:43 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  36 < 3
-
-
-[7/10/2017 10:44:44 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  37 < 3
-
-
-[7/10/2017 10:45:00 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:45:06 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  8 < 3
-
-
-[7/10/2017 10:45:07 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  9 < 3
-
-
-[7/10/2017 10:45:23 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:45:24 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:45:25 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:45:26 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:45:26 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 10:45:56 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:46:00 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  5 < 3
-
-
-[7/10/2017 10:46:01 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 10:46:20 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  25 < 3
-
-
-[7/10/2017 10:46:21 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  26 < 3
-
-
-[7/10/2017 10:46:37 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:46:38 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:46:39 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:46:40 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:46:40 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 10:47:10 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:47:14 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  5 < 3
-
-
-[7/10/2017 10:47:15 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 10:47:24 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:47:36 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  12 < 3
-
-
-[7/10/2017 10:47:37 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  13 < 3
-
-
-[7/10/2017 10:47:53 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:47:54 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:47:55 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:47:56 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:47:56 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 10:48:35 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  8 < 3
-
-
-[7/10/2017 10:49:07 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:49:08 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:49:09 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:49:10 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:49:42 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  36 < 3
-
-
-[7/10/2017 10:49:43 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  37 < 3
-
-
-[7/10/2017 10:50:05 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  59 < 3
-
-
-[7/10/2017 10:50:06 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  60 < 3
-
-
-[7/10/2017 10:50:22 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:50:24 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:50:25 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:50:57 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  36 < 3
-
-
-[7/10/2017 10:50:58 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  37 < 3
-
-
-[7/10/2017 10:51:20 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  60 < 3
-
-
-[7/10/2017 10:51:38 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:51:39 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:51:40 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 10:52:05 AM] Received notification from publisher that configuration has changed.
-
-[7/10/2017 10:52:14 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:52:15 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:52:16 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:52:38 AM] Control Delayed: Not enough delays for LTC - [2<3]
-
-
-[7/10/2017 10:52:42 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:52:47 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:52:52 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:52:57 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:53:02 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:53:09 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  8 < 3
-
-
-[7/10/2017 10:53:10 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  9 < 3
-
-
-[7/10/2017 10:53:27 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:53:34 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:53:41 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:53:49 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:53:57 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:53:58 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:53:59 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:54:20 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:54:25 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:54:30 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:54:35 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:54:40 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:54:46 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:54:53 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  8 < 3
-
-
-[7/10/2017 10:54:54 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  9 < 3
-
-
-[7/10/2017 10:55:11 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:55:16 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:55:16 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:55:21 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:55:26 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:55:26 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:55:32 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:55:36 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:55:40 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:55:41 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:55:42 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:55:45 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 10:55:47 AM] Control Delayed: Not enough delays for LTC - [2<3]
-
-
-[7/10/2017 10:55:50 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  5 < 3
-
-
-[7/10/2017 10:55:51 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 10:56:07 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:56:12 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:56:17 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:56:22 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:56:27 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:56:36 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  10 < 3
-
-
-[7/10/2017 10:56:37 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  11 < 3
-
-
-[7/10/2017 10:56:54 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:56:59 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:56:59 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:57:04 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:57:09 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:57:09 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 10:57:14 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:57:19 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:57:23 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:57:24 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:57:25 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:57:27 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 10:57:30 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 10:58:48 AM] 
-No data received in 10.0 seconds, restarting connect cycle...
-
-
-[7/10/2017 10:58:48 AM] Data subscriber command channel connection to publisher was terminated.
-
-[7/10/2017 10:58:52 AM] Attempting connection to tcp://localhost:6190...
-
-[7/10/2017 10:58:52 AM] Attempting command channel connection to publisher...
-
-[7/10/2017 10:58:52 AM] Connection established.
-
-[7/10/2017 10:58:52 AM] Data subscriber command channel connection to publisher was established.
-
-[7/10/2017 10:58:52 AM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
-
-[7/10/2017 10:58:52 AM] Received a total of 146 records spanning 5 tables of meta-data that was uncompressed and deserialized in 5 milliseconds...
-
-[7/10/2017 10:58:52 AM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 8 signals.
-
-[7/10/2017 10:59:09 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:59:10 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 10:59:11 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:00:26 AM] 
-No data received in 10.0 seconds, restarting connect cycle...
-
-
-[7/10/2017 11:00:26 AM] Data subscriber command channel connection to publisher was terminated.
-
-[7/10/2017 11:00:30 AM] Attempting connection to tcp://localhost:6190...
-
-[7/10/2017 11:00:30 AM] Attempting command channel connection to publisher...
-
-[7/10/2017 11:00:30 AM] Connection established.
-
-[7/10/2017 11:00:30 AM] Data subscriber command channel connection to publisher was established.
-
-[7/10/2017 11:00:31 AM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
-
-[7/10/2017 11:00:31 AM] Received a total of 146 records spanning 5 tables of meta-data that was uncompressed and deserialized in 5.02 milliseconds...
-
-[7/10/2017 11:00:31 AM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 8 signals.
-
-[7/10/2017 11:00:51 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:00:53 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:00:54 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:02:10 AM] 
-No data received in 10.0 seconds, restarting connect cycle...
-
-
-[7/10/2017 11:02:10 AM] Data subscriber command channel connection to publisher was terminated.
-
-[7/10/2017 11:02:14 AM] Attempting connection to tcp://localhost:6190...
-
-[7/10/2017 11:02:14 AM] Attempting command channel connection to publisher...
-
-[7/10/2017 11:02:14 AM] Connection established.
-
-[7/10/2017 11:02:14 AM] Data subscriber command channel connection to publisher was established.
-
-[7/10/2017 11:02:14 AM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
-
-[7/10/2017 11:02:14 AM] Received a total of 146 records spanning 5 tables of meta-data that was uncompressed and deserialized in 13.01 milliseconds...
-
-[7/10/2017 11:02:14 AM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 8 signals.
-
-[7/10/2017 11:02:35 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:02:36 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:02:37 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:02:59 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:03:04 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:03:09 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:03:14 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:03:19 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:03:24 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:03:31 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  8 < 3
-
-
-[7/10/2017 11:03:32 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  9 < 3
-
-
-[7/10/2017 11:03:49 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:03:54 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:03:54 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 11:03:59 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:04:04 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:04:04 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 11:04:09 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:04:14 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:04:19 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:04:20 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:04:21 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:04:23 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 11:04:25 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:04:29 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  5 < 3
-
-
-[7/10/2017 11:04:30 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 11:04:46 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:04:51 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:04:56 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:05:01 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:05:06 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:05:15 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  10 < 3
-
-
-[7/10/2017 11:05:16 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  11 < 3
-
-
-[7/10/2017 11:05:33 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:05:38 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:05:38 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 11:05:43 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:05:48 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:05:48 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 11:05:53 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:05:58 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:06:02 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:06:03 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:06:04 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:06:06 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 11:06:08 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:06:12 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  5 < 3
-
-
-[7/10/2017 11:06:13 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 11:06:29 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:06:34 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:06:39 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:06:44 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:06:49 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:06:58 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  10 < 3
-
-
-[7/10/2017 11:06:59 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  11 < 3
-
-
-[7/10/2017 11:07:19 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:07:19 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 11:07:24 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:07:29 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:07:29 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  1 < 3
-
-
-[7/10/2017 11:07:34 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:07:39 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:07:45 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:07:46 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:07:47 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:07:48 AM] Initialized Local Voltage Controller Test #2
-
-
-[7/10/2017 11:07:48 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 11:08:05 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:08:10 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:08:16 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:08:22 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:08:23 AM] Control Delayed: Not enough delays for LTC - [2<3]
-
-
-[7/10/2017 11:08:27 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:08:32 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:08:37 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:08:42 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  6 < 3
-
-
-[7/10/2017 11:08:43 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  7 < 3
-
-
-[7/10/2017 11:08:59 AM] Received notification from publisher that configuration has changed.
-
-[7/10/2017 11:09:07 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:09:08 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:09:09 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:09:40 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  36 < 3
-
-
-[7/10/2017 11:09:41 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  37 < 3
-
-
-[7/10/2017 11:10:01 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  58 < 3
-
-
-[7/10/2017 11:10:02 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  59 < 3
-
-
-[7/10/2017 11:10:20 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:10:21 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:10:22 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:10:53 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  36 < 3
-
-
-[7/10/2017 11:10:54 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  37 < 3
-
-
-[7/10/2017 11:11:08 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:11:16 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  9 < 3
-
-
-[7/10/2017 11:11:17 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  10 < 3
-
-
-[7/10/2017 11:11:33 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:11:34 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:11:35 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:11:36 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:11:36 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 11:12:06 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:12:10 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  5 < 3
-
-
-[7/10/2017 11:12:11 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 11:12:30 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  25 < 3
-
-
-[7/10/2017 11:12:31 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  26 < 3
-
-
-[7/10/2017 11:12:47 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:12:48 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:12:49 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:12:50 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:12:50 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 11:13:20 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:13:24 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  5 < 3
-
-
-[7/10/2017 11:13:25 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  6 < 3
-
-
-[7/10/2017 11:13:44 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  25 < 3
-
-
-[7/10/2017 11:13:45 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  26 < 3
-
-
-[7/10/2017 11:14:01 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:14:03 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:14:04 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:14:05 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:14:05 AM] Control Delayed: Not enough delays for CapBank - 6 < 5 6 < 5  0 < 3
-
-
-[7/10/2017 11:15:19 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:15:20 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:15:20 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:15:52 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  36 < 3
-
-
-[7/10/2017 11:15:53 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  37 < 3
-
-
-[7/10/2017 11:16:14 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  58 < 3
-
-
-[7/10/2017 11:16:15 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  59 < 3
-
-
-[7/10/2017 11:16:32 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:16:33 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:16:34 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:16:34 AM] The process cannot access the file 'C:\Users\niezj\Documents\dom\ShadowSys118\ShadowSysConfiguration\prev_SysConfigFrame.xml' because it is being used by another process.
-
-
-[7/10/2017 11:17:06 AM] Control Delayed: Not enough delays for CapBank - 1 < 5 1 < 5  36 < 3
-
-
-[7/10/2017 11:17:07 AM] Control Delayed: Not enough delays for CapBank - 2 < 5 2 < 5  37 < 3
-
-
-[7/10/2017 11:17:18 AM] Control Delayed: Not enough delays for LTC - [1<3]
-
-
-[7/10/2017 11:17:47 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:17:48 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:17:49 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:19:01 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:19:02 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:19:03 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:20:15 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:20:16 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:20:17 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:21:30 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:21:31 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:21:32 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:22:44 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:22:45 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:22:46 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:23:59 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:24:00 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:24:01 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:25:14 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:25:15 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:25:16 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:26:27 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:26:28 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:26:29 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:27:42 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:27:43 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:27:44 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:28:56 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:28:57 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:28:58 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:30:10 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:30:11 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:30:12 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:31:26 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:31:27 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:31:28 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:32:39 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:32:40 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:32:41 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:33:54 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:33:55 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:33:56 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:35:08 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:35:09 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:35:10 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:36:22 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:36:23 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:36:25 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:37:38 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:37:39 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:37:40 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:38:51 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:38:52 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:38:53 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:40:07 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:40:08 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:40:09 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:41:20 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:41:21 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:41:22 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:42:34 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:42:35 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:42:36 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:43:50 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:43:51 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:43:52 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:45:03 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:45:04 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:45:05 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:46:18 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:46:19 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:46:20 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:47:32 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:47:33 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:47:34 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:48:46 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:48:47 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:48:48 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:50:02 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:50:03 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:50:04 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:51:15 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:51:16 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:51:17 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:52:31 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:52:32 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:52:33 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:53:44 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:53:45 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:53:46 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:54:59 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:55:00 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:55:01 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:56:13 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:56:14 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:56:15 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:57:27 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:57:28 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:57:29 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:58:43 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:58:44 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:58:45 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:59:56 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:59:58 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 11:59:58 AM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 12:01:11 PM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 12:01:12 PM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 12:01:13 PM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 12:02:25 PM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 12:02:26 PM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 12:02:27 PM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 12:03:39 PM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 12:03:40 PM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 12:03:41 PM] Initialized Local Voltage Controller Test #3
-
-
-[7/10/2017 3:56:39 PM] 
+[7/11/2017 13:00:47] 
 
 *******************************************************************************
 
 ShadowSys118Service Initializing
 
-     System Time: 2017-07-10 19:56:39.977 UTC
+     System Time: 2017-07-11 17:00:47.618 UTC
 
     Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
 
@@ -1966,7 +422,7 @@ ShadowSys118Service Initializing
 
     Product Name: Windows 8.1
 
-  Working Memory: 32.2773 MiB
+  Working Memory: 37.5508 MiB
 
   Execution Mode: 32-bit
 
@@ -1976,420 +432,584 @@ ShadowSys118Service Initializing
 
  GC Latency Mode: Interactive
 
- Process Account: WORKGROUP\SYSTEM
+ Process Account: NIE-THINK-T450S\niezj
 
 *******************************************************************************
 
-[7/10/2017 3:56:40 PM] Remote client connected - NT AUTHORITY\SYSTEM from NIE-THINK-T450S.
-
-
-[7/10/2017 3:56:44 PM] Attempting connection to tcp://localhost:6190...
-
-[7/10/2017 3:56:44 PM] Attempting command channel connection to publisher...
-
-[7/10/2017 3:56:44 PM] Connection established.
-
-[7/10/2017 3:56:44 PM] Data subscriber command channel connection to publisher was established.
-
-[7/10/2017 3:56:44 PM] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
-
-[7/10/2017 3:56:44 PM] Received a total of 282 records spanning 5 tables of meta-data that was uncompressed and deserialized in 26.02 milliseconds...
-
-[7/10/2017 3:56:44 PM] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 8 signals.
-
-[7/10/2017 3:58:24 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 3:58:25 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 3:58:26 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:00:09 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:00:09 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:00:11 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:01:51 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:01:52 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:01:53 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:03:36 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:03:37 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:03:38 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:05:19 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:05:19 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:05:21 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:07:03 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:07:04 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:07:05 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:08:46 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:08:46 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:08:48 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:10:29 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:10:30 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:10:31 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:12:14 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:12:14 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:12:16 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:13:56 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:13:57 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:13:58 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:15:41 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:15:41 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:15:43 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:17:24 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:17:24 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:17:26 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:19:08 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:19:09 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:19:10 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:20:51 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:20:51 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:20:53 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:22:34 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:22:35 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:22:36 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:24:19 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:24:20 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:24:21 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:26:01 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:26:02 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:26:03 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:27:46 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:27:47 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:27:48 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:29:29 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:29:29 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:29:31 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:31:13 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:31:14 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:31:15 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:32:57 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:32:57 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:32:59 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:34:39 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:34:40 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:34:41 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:36:24 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:36:25 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:36:25 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:38:07 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:38:07 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:38:09 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:39:51 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:39:52 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:39:53 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:41:35 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:41:35 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:41:37 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:43:17 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:43:18 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:43:19 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:45:02 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:45:02 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:45:04 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:46:44 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:46:45 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:46:46 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:48:29 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:48:30 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:48:31 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:50:11 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:50:12 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:50:13 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:51:56 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:51:56 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:51:58 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:53:38 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:53:39 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:53:40 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:55:23 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:55:23 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:55:25 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:57:05 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:57:06 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:57:07 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:58:50 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:58:50 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 4:58:52 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:00:32 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:00:33 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:00:34 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:02:17 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:02:17 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:02:19 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:03:59 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:04:00 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:04:01 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:05:44 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:05:44 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:05:46 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:38:54 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:38:55 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:38:56 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:40:32 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:40:33 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:40:34 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:42:17 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:42:18 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:42:18 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:43:59 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:44:00 PM] Initialized Local Voltage Controller Test #1
-
-
-[7/10/2017 5:44:01 PM] Initialized Local Voltage Controller Test #1
+[7/11/2017 13:00:49] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[7/11/2017 13:00:53] Attempting connection to tcp://localhost:6190...
+
+[7/11/2017 13:00:53] Attempting command channel connection to publisher...
+
+[7/11/2017 13:00:53] Connection established.
+
+[7/11/2017 13:00:53] Data subscriber command channel connection to publisher was established.
+
+[7/11/2017 13:00:53] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[7/11/2017 13:00:53] Received a total of 282 records spanning 5 tables of meta-data that was uncompressed and deserialized in 17.01 milliseconds...
+
+[7/11/2017 13:00:53] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 20 signals.
+
+[7/11/2017 13:00:59] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 10.48 seconds
+    Measurement wait delay: 1 seconds (lag time)
+     Local clock tolerance: 4 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 11-Jul-2017 17:00:59.924
+  Using clock as real-time: False
+      Local clock accuracy: -0.7356 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 12
+    Processed measurements: 12
+    Discarded measurements: 0
+ Down-sampled measurements: 0
+    Published measurements: 10
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 717.1091 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 0.0000%
+ User function utilization: 71.7109% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 5
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.53 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 1
+      Last published frame: 11-Jul-2017 17:00:58.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 6 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 12
+    Total adapter run time: 10.44 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[7/11/2017 13:01:08] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 19.06 seconds
+    Measurement wait delay: 1 seconds (lag time)
+     Local clock tolerance: 4 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 11-Jul-2017 17:01:08.507
+  Using clock as real-time: False
+      Local clock accuracy: -0.3002 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 30
+    Processed measurements: 30
+    Discarded measurements: 0
+ Down-sampled measurements: 0
+    Published measurements: 26
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 595.3456 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 0.0000%
+ User function utilization: 59.5346% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 13
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.72 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 2
+      Last published frame: 11-Jul-2017 17:01:06.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 15 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 30
+    Total adapter run time: 19.01 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[7/11/2017 13:01:31] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 41.68 seconds
+    Measurement wait delay: 1 seconds (lag time)
+     Local clock tolerance: 4 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 11-Jul-2017 17:01:31.124
+  Using clock as real-time: False
+      Local clock accuracy: -0.8116 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 74
+    Processed measurements: 74
+    Discarded measurements: 0
+ Down-sampled measurements: 0
+    Published measurements: 72
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 641.7047 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 0.0000%
+ User function utilization: 64.1705% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 36
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.88 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 1
+      Last published frame: 11-Jul-2017 17:01:29.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 38 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 74
+    Total adapter run time: 41.63 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[7/11/2017 13:01:43] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 54.13 seconds
+    Measurement wait delay: 1 seconds (lag time)
+     Local clock tolerance: 4 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 11-Jul-2017 17:01:43.569
+  Using clock as real-time: False
+      Local clock accuracy: -0.2202 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 100
+    Processed measurements: 100
+    Discarded measurements: 0
+ Down-sampled measurements: 0
+    Published measurements: 96
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 660.4266 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 0.0000%
+ User function utilization: 66.0427% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 48
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.90 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 2
+      Last published frame: 11-Jul-2017 17:01:41.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 50 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 100
+    Total adapter run time: 54.07 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[7/11/2017 13:02:06] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 1 minute 17.42 seconds
+    Measurement wait delay: 1 seconds (lag time)
+     Local clock tolerance: 4 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 11-Jul-2017 17:02:06.862
+  Using clock as real-time: False
+      Local clock accuracy: -0.3923 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 146
+    Processed measurements: 146
+    Discarded measurements: 0
+ Down-sampled measurements: 0
+    Published measurements: 142
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 611.0813 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 0.0000%
+ User function utilization: 61.1081% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 71
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.93 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 2
+      Last published frame: 11-Jul-2017 17:02:04.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 1 minute 13 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 146
+    Total adapter run time: 1 minute 17.37 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[7/11/2017 13:03:08] 
+
+*******************************************************************************
+
+ShadowSys118Service Initializing
+
+     System Time: 2017-07-11 17:03:08.347 UTC
+
+    Current Path: C:\Users\niezj\Documents\dom\ShadowSys118\Deploy\D...\Service
+
+    Machine Name: NIE-THINK-T450S
+
+      OS Version: Microsoft Windows NT 6.2.9200.0
+
+    Product Name: Windows 8.1
+
+  Working Memory: 37.3555 MiB
+
+  Execution Mode: 32-bit
+
+      Processors: 4
+
+  GC Server Mode: False
+
+ GC Latency Mode: Interactive
+
+ Process Account: NIE-THINK-T450S\niezj
+
+*******************************************************************************
+
+[7/11/2017 13:03:09] Remote client connected - NIE-THINK-T450S\niezj from NIE-THINK-T450S.
+
+
+[7/11/2017 13:03:13] Attempting connection to tcp://localhost:6190...
+
+[7/11/2017 13:03:13] Attempting command channel connection to publisher...
+
+[7/11/2017 13:03:13] Connection established.
+
+[7/11/2017 13:03:13] Data subscriber command channel connection to publisher was established.
+
+[7/11/2017 13:03:13] Success code received in response to server command "MetaDataRefresh": latest meta-data received.
+
+[7/11/2017 13:03:13] Received a total of 282 records spanning 5 tables of meta-data that was uncompressed and deserialized in 10.01 milliseconds...
+
+[7/11/2017 13:03:13] Success code received in response to server command "Subscribe": Client subscribed as compact unsynchronized with 20 signals.
+
+[7/11/2017 13:03:23] Concentrator Status:
+     Data concentration is: Enabled
+    Total process run time: 13.42 seconds
+    Measurement wait delay: 1 seconds (lag time)
+     Local clock tolerance: 4 seconds (lead time)
+   Maximum time resolution: 0 ticks
+      Down-sampling method: LastReceived
+    Local clock time (UTC): 11-Jul-2017 17:03:23.087
+  Using clock as real-time: False
+      Local clock accuracy: -0.3514 second deviation from latest time
+     Ignore bad timestamps: False
+    Allow sorts by arrival: True
+ Use preemptive publishing: True
+  Time reasonability check: Enabled
+  Process by received time: False
+     Received measurements: 18
+    Processed measurements: 18
+    Discarded measurements: 0
+ Down-sampled measurements: 0
+    Published measurements: 12
+     Expected measurements: 0 (0 / frame)
+Last discarded measurement: <none>
+  Average publication time: 454.3172 milliseconds
+  Pre-lag-time publication: 0.0000%
+ Down-sampling application: 0.0000%
+ User function utilization: 45.4317% of available time used
+Published measurement loss: 0.0000%
+    Total sorts by arrival: 0
+ Measurement time accuracy: 100.0000%
+   Missed sorts by timeout: 0
+      Loss due to timeouts: 0.0000%
+     Using precision timer: True
+       Wait handle timeout: 1200 milliseconds
+   Wait handle expirations: 0
+    Total published frames: 6
+        Defined frame rate: 1 frames/sec, 10000000.00 ticks/frame
+ Estimated mean frame rate: 0.48 frames/sec
+       Processing interval: 1000.00 milliseconds
+     Timer reference count: 1 concentrator for the 1fps @ 1000.00ms timer
+   Total frame rate timers: 1
+        Queued frame count: 3
+      Last published frame: 11-Jul-2017 17:03:20.000
+   Last sorted measurement: PPA:41
+
+Subscriber Status:
+         Subscription mode: Unsynchronized
+             Authenticated: False
+                Subscribed: True
+             Security mode: None
+         Compression modes: None
+      Data monitor enabled: True
+              Logging path: C:\Users\niezj\Documents\dom\ShadowSys118\Deplo...\
+No data reconnect interval: 10.000 seconds
+    Data gap recovery mode: Disabled
+
+              Command Channel Status              
+              ----------------------              
+              Client state: Connected
+           Connection time: 9 seconds
+            Receive buffer: 32768
+        Transport protocol: Tcp
+        Text encoding used: US-ASCII
+           Queued payloads: 0
+       Data source defined: False
+    Initialization timeout: 15,000 milliseconds
+       Adapter initialized: True
+         Operational state: Running
+         Connect on demand: False
+    Processed measurements: 18
+    Total adapter run time: 13.38 seconds
+       Temporal processing: Unsupported
+   Item reporting interval: Every 100,000 items
+                Adapter ID: 0
+         Connection string: 2 key/value pairs
+
+                   Server = localhost:6190                                    
+                Interface = 0.0.0.0                                           
+
+    Connection established: True
+   Asynchronous connection: True
+
+
+
+
+[7/11/2017 13:04:17] Initialized Local Voltage Controller Test #1
+
+
+[7/11/2017 13:04:18] Initialized Local Voltage Controller Test #1
+
+
+[7/11/2017 13:04:19] Initialized Local Voltage Controller Test #1
 
 

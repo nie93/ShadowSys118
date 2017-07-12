@@ -978,7 +978,12 @@ namespace ShadowSys118.Model
                 obj.StateSnB74CapBkrV = CreateMetaValues(fieldMapping);
             }
 
-
+            {
+                // Initialize meta value structure to "StateSnB105CapBkrV" field
+                FieldMapping fieldMapping = fieldLookup["StateSnB105CapBkrV"];
+                obj.StateSnB105CapBkrV = CreateMetaValues(fieldMapping);
+            }
+     
             {
                 // Initialize meta value structure to "MeasB1VoltV" field
                 FieldMapping fieldMapping = fieldLookup["MeasB1VoltV"];

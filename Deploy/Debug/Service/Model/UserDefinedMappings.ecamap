@@ -19,12 +19,6 @@ SS118Data Inputs SS118Data_InputMapping {
 	ActSnB48Trip: PPA:72
 	ActSnB74Trip: PPA:73
 	ActSnB105Trip: PPA:74
-	StateSnB34CapBkrV: PPA:75
-	StateSnB44CapBkrV: PPA:76
-	StateSnB45CapBkrV: PPA:77
-	StateSnB48CapBkrV: PPA:78
-	StateSnB74CapBkrV: PPA:79
-	StateSnB105CapBkrV: PPA:80
 }
 
 SS118Data Outputs SS118Data_OutputMapping {
@@ -42,6 +36,12 @@ SS118Data Outputs SS118Data_OutputMapping {
     MeasGn1MvrV: PPA:59 
     MeasGn2MwV: PPA:60 
     MeasGn2MvrV: PPA:61 
+	StateSnB34CapBkrV: PPA:75
+	StateSnB44CapBkrV: PPA:76
+	StateSnB45CapBkrV: PPA:77
+	StateSnB48CapBkrV: PPA:78
+	StateSnB74CapBkrV: PPA:79
+	StateSnB105CapBkrV: PPA:80
 	MeasB1VoltV: PPA:81
 	MeasB2VoltV: PPA:82
 	MeasB3VoltV: PPA:83

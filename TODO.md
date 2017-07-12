@@ -1,9 +1,8 @@
 # TODO List for ShadowSys118 Solution
 
-Zhijie Nie, 2017-07-10
+Zhijie Nie, 2017-07-12
 
 ## Program Development
-* (C#/Python) Add 118 Voltage Magnitude measurements to Outputs
 * (C#) Verify Action's logic before execute it
 
 
@@ -15,9 +14,6 @@ Zhijie Nie, 2017-07-10
 | ShadowSys118 | 1 | 1 | 4 | | |
 | LVC118_test  | 1 | 2 | 1 | | |
 | LVC118       | 1 | 2 | 1 | | |
-
-
-## Coding Improvements
 
 
 ## Need to Knows
@@ -35,6 +31,8 @@ Zhijie Nie, 2017-07-10
 script
 * (openECA) Backup `ConnectionString` for Input Adapters
 * (C#) Include ResetSignal for test initialization
+* (C#/Python) Add 118 Voltage Magnitude measurements to Outputs
+* (C#) Test Pseudo-RVC action signals to execute control using `CsvInputAdapters`
 
 
 ## Backup - Input Adapters `ConnectionString` 
@@ -51,21 +49,34 @@ Filename=C:\Program Files\openECA\Server\20170630_ShadowSys_LoadPattern_test3.cs
 
 
 ### PSDLVC118CSV
+#### Fixed Load 1
 ```
 Filename=C:\Program Files\openECA\Server\20170627_PseudoLVCSignals.csv; AutoRepeat=True; SimulateTimestamp=True; TransverseMode=True; ColumnMappings={0 = Timestamp; 1 = PPA:42; 2 = PPA:43; 3 = PPA:44; 4 = PPA:45; 5 = PPA:46; 6 = PPA:47}; InputInterval=500
 ```
+#### Fixed Load 2
 ```
 Filename=C:\Program Files\openECA\Server\20170703_PseudoLVCSignals.csv; AutoRepeat=True; SimulateTimestamp=True; TransverseMode=True; ColumnMappings={0 = Timestamp; 1 = PPA:62; 2 = PPA:41; 3 = PPA:42; 4 = PPA:43; 5 = PPA:44; 6 = PPA:45; 7 = PPA:46; 8 = PPA:47}; InputInterval=1000
 ```
-
-
-### PSDRVC118CSV (pending)
+#### Variable Load (External Input for PPA:41)
 ```
+Filename=C:\Program Files\openECA\Server\20170703_PseudoLVCSignals.csv; AutoRepeat=True; SimulateTimestamp=True; TransverseMode=True; ColumnMappings={0 = Timestamp; 1 = PPA:62; 3 = PPA:42; 4 = PPA:43; 5 = PPA:44; 6 = PPA:45; 7 = PPA:46; 8 = PPA:47}; InputInterval=1000
 ```
 
 
-## Backup - SQL Script Supplement
+### PSDRVC118CSV
+#### Variable Load (External Input for PPA:41)
+```
+Filename=C:\Program Files\openECA\Server\20170711_PseudoRVCSignals.csv; AutoRepeat=True; SimulateTimestamp=True; TransverseMode=True; ColumnMappings={0 = Timestamp; 1 = PPA:63; 2 = PPA:64; 3 = PPA:65; 4 = PPA:66; 5 = PPA:67; 6 = PPA:68; 7 = PPA:69; 8 = PPA:70; 9 = PPA:71; 10 = PPA:72; 11 = PPA:73; 12 = PPA:74}; InputInterval=1000
+```
 
+
+#### Fixed Load (ResetSignal included)
+```
+Filename=C:\Program Files\openECA\Server\20170712_PseudoRVCSignals.csv; AutoRepeat=True; SimulateTimestamp=True; TransverseMode=True; ColumnMappings={0 = Timestamp; 1 = PPA:63; 2 = PPA:64; 3 = PPA:65; 4 = PPA:66; 5 = PPA:67; 6 = PPA:68; 7 = PPA:69; 8 = PPA:70; 9 = PPA:71; 10 = PPA:72; 11 = PPA:73; 12 = PPA:74; 13 = PPA:41; 14 = PPA:62}; InputInterval=1000
+```
+
+## Backups
+#### SQL Script Supplement
 ```sql
 -- Shadow System using 118 bus system (ShadowSys118) for LVC
 INSERT INTO Measurement(HistorianID, DeviceID, PointTag, SignalTypeID, PhasorSourceIndex, SignalReference, Description, Enabled) VALUES(1, 1, 'SS_118:LOADINCRE', 9, NULL, 'SS118-LOADINCRE', 'Shadow System for 118-bus system - Load Increment in percentage', 1);

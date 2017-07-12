@@ -20,12 +20,6 @@ Inputs {
 	Integer Int16 ActSnB48Trip
 	Integer Int16 ActSnB74Trip
 	Integer Int16 ActSnB105Trip
-	Integer Int16 StateSnB34CapBkrV
-	Integer Int16 StateSnB44CapBkrV
-	Integer Int16 StateSnB45CapBkrV
-	Integer Int16 StateSnB48CapBkrV
-	Integer Int16 StateSnB74CapBkrV
-	Integer Int16 StateSnB105CapBkrV
 }
 
 category SS118Data
@@ -44,6 +38,12 @@ Outputs {
     FloatingPoint Double MeasGn1MvrV
     FloatingPoint Double MeasGn2MwV
     FloatingPoint Double MeasGn2MvrV
+	Integer Int16 StateSnB34CapBkrV
+	Integer Int16 StateSnB44CapBkrV
+	Integer Int16 StateSnB45CapBkrV
+	Integer Int16 StateSnB48CapBkrV
+	Integer Int16 StateSnB74CapBkrV
+	Integer Int16 StateSnB105CapBkrV
 	FloatingPoint Double MeasB1VoltV
 	FloatingPoint Double MeasB2VoltV
 	FloatingPoint Double MeasB3VoltV
