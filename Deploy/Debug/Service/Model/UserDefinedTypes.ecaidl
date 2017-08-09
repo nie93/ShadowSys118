@@ -162,5 +162,6 @@ Outputs {
 	FloatingPoint Double MeasB116VoltV
 	FloatingPoint Double MeasB117VoltV
 	FloatingPoint Double MeasB118VoltV
+	FloatingPoint Double StateLoad	
 }
 

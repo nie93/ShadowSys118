@@ -160,5 +160,6 @@ SS118Data Outputs SS118Data_OutputMapping {
 	MeasB116VoltV: PPA:196
 	MeasB117VoltV: PPA:197
 	MeasB118VoltV: PPA:198
+	StateLoad: PPA:199
 }
 

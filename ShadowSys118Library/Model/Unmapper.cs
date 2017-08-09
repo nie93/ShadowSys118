@@ -855,6 +855,12 @@ namespace ShadowSys118.Model
                 BurnKeyIndex();
             }
 
+            {
+                // We don't need to do anything, but we burn a key index to keep our
+                // array index in sync with where we are in the data structure
+                BurnKeyIndex();
+            }
+
 
             return obj;
         }
@@ -1690,6 +1696,12 @@ namespace ShadowSys118.Model
                 // Initialize meta value structure to "MeasB118VoltV" field
                 FieldMapping fieldMapping = fieldLookup["MeasB118VoltV"];
                 obj.MeasB118VoltV = CreateMetaValues(fieldMapping);
+            }
+
+            {
+                // Initialize meta value structure to "StateLoad" field
+                FieldMapping fieldMapping = fieldLookup["StateLoad"];
+                obj.StateLoad = CreateMetaValues(fieldMapping);
             }
 
 
@@ -2664,6 +2676,13 @@ namespace ShadowSys118.Model
                 // Convert value from "MeasB118VoltV" field to measurement
                 FieldMapping fieldMapping = fieldLookup["MeasB118VoltV"];
                 IMeasurement measurement = MakeMeasurement(meta.MeasB118VoltV, (double)data.MeasB118VoltV);
+                measurements.Add(measurement);
+            }
+
+            {
+                // Convert value from "StateLoad" field to measurement
+                FieldMapping fieldMapping = fieldLookup["StateLoad"];
+                IMeasurement measurement = MakeMeasurement(meta.StateLoad, (double)data.StateLoad);
                 measurements.Add(measurement);
             }
 

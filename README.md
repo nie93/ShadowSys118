@@ -53,8 +53,8 @@ Client v1.0.5.0.
 | O | StateSnB48CapBkrV  | short | SS_118:STATESNB48CAPBKRV  | DIGI | SS118-STATESNB48CAPBKRV  | PPA:78 |
 | O | StateSnB74CapBkrV  | short | SS_118:STATESNB74CAPBKRV  | DIGI | SS118-STATESNB74CAPBKRV  | PPA:79 |
 | O | StateSnB105CapBkrV | short | SS_118:STATESNB105CAPBKRV | DIGI | SS118-STATESNB105CAPBKRV | PPA:80 |
-| O | MeasB1VoltV   | double | SS_118:MEASB1VOLTV   | VPHM | SS118-MEASB1VOLTV   | PPA:81 |
-| . | ...           | ...    | ...                  | ...  | ...                 | ...  |
+| O | MeasB1VoltV   | double | SS_118:MEASB1VOLTV   | VPHM | SS118-MEASB1VOLTV   | PPA:81  |
+| . | ...           | ...    | ...                  | ...  | ...                 | ...     |
 | O | MeasB118VoltV | double | SS_118:MEASB118VOLTV | VPHM | SS118-MEASB118VOLTV | PPA:198 |
 
 

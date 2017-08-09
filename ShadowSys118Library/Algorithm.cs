@@ -288,6 +288,8 @@ namespace ShadowSys118
             output.OutputData.MeasB117VoltV = Convert.ToDouble(outputFrameList[136]);
             output.OutputData.MeasB118VoltV = Convert.ToDouble(outputFrameList[137]);
 
+            output.OutputData.StateLoad = Convert.ToDouble(inputData.LoadIncrementPercentage);
+
 
             #endregion
 
@@ -313,7 +315,6 @@ namespace ShadowSys118
                     _message.AppendLine($"                 Run Time:  {runTime:yyyy-MM-dd HH:mm:ss.fff}");
                     _message.AppendLine($"          Completion Time:  {DateTime.UtcNow:yyyy-MM-dd HH:mm:ss.fff}");
                     _message.AppendLine($"      InputData Timestamp:  {inputMeta.LoadIncrementPercentage.Timestamp:yyyy-MM-dd HH:mm:ss.fff}");
-                    _message.AppendLine($"     OutputData Timestamp:  {output.OutputMeta.MeasGn1MvrV.Timestamp:yyyy-MM-dd HH:mm:ss.fff}");
                     //_message.AppendLine($" ------------------ CsvInputAdapter ------------------ ");
                     //_message.AppendLine($"  LoadIncrementPercentage:  {inputData.LoadIncrementPercentage:0.0000} %");
                     //_message.AppendLine($" ------------------- ActionChannel ------------------- ");
@@ -334,6 +335,7 @@ namespace ShadowSys118
                     //_message.AppendLine($"               MeasGn2MwV:  {output.OutputData.MeasGn2MwV:0.000} MW");
                     //_message.AppendLine($"              MeasGn2MvrV:  {output.OutputData.MeasGn2MvrV:0.000} MVar");
                     //_message.AppendLine($" ------------------- StateChannel -------------------- ");
+                    _message.AppendLine($"                  StateLoad:  {output.OutputData.StateLoad} ");
                     //_message.AppendLine($"              StateTxTapV:  {output.OutputData.StateTxTapV}");
                     //_message.AppendLine($"          StateSn1CapBkrV:  {output.OutputData.StateSn1CapBkrV}");
                     //_message.AppendLine($"          StateSn2CapBkrV:  {output.OutputData.StateSn2CapBkrV}");

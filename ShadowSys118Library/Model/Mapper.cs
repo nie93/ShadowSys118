@@ -35,7 +35,6 @@ namespace ShadowSys118.Model
         #endregion
 
         #region [ Methods ]
-
         public override void Map(IDictionary<MeasurementKey, IMeasurement> measurements)
         {
             SignalLookup.UpdateMeasurementLookup(measurements);

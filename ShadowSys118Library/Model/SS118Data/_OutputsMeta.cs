@@ -148,6 +148,7 @@ namespace ShadowSys118.Model.SS118Data
         public MetaValues MeasB116VoltV { get; set; }
         public MetaValues MeasB117VoltV { get; set; }
         public MetaValues MeasB118VoltV { get; set; }
+        public MetaValues StateLoad { get; set; }
 
     }
 }
